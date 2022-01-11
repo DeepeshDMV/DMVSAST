@@ -1,0 +1,42 @@
+{
+    "ContextId": null,
+    "ReviewConfirmAccuracy": {
+    },
+    "certifyandsubmit": {
+        "Checkbox1": null,
+        "Checkbox2": null,
+        "Checkbox3": null,
+        "Checkbox4": null,
+        "Checkbox5": null,
+        "Checkbox6": null,
+        "Checkbox7": null,
+        "Date1": null,
+        "Text1": null
+    },
+    "submissionconfirmation": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "ReviewConfirmAccuracy": null,
+        "SetErrors1": null,
+        "SetErrors2": null,
+        "SetErrors3": null,
+        "SetErrors4": null,
+        "SetErrors5": null,
+        "SetErrors6": null,
+        "SetErrors7": null,
+        "SetErrors8": null,
+        "SetErrors9": null,
+        "SetValues1": null,
+        "certifyandsubmit": null,
+        "getApplicationDetails": null,
+        "submissionconfirmation": null
+    }
+}

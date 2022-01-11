@@ -1,0 +1,33 @@
+{
+    "CompleteOwnerPropertyForm": "Complete",
+    "ContextId": "0f03S00000000BdQAI",
+    "DRId_BusinessLicenseApplication": "0f03S00000000BdQAI",
+    "PropertyAddressandStatus": {
+        "LeaseRentalEndDate": "2021-06-23",
+        "LeaseRentalStartDate": "2021-06-04",
+        "MeetsPropertyUseRequirements": "true",
+        "PropertyStatus": "Leased",
+        "SiteCity": "Union City",
+        "SitePostalCode": "07087",
+        "SiteState": "NJ",
+        "SiteStreet": "ABC"
+    },
+    "PropertyArea": {
+        "BuildingArea": 543,
+        "DisplayArea": 234,
+        "OfficeArea": 343
+    },
+    "PropertyOwnerNameandAddress": {
+        "FullName": "Manasa banglore",
+        "PropOwnerCity": "Atlanta",
+        "PropOwnerState": "GA",
+        "PropOwnerStreet": "477 Lindbergh Place Northeast",
+        "PropOwnerZip": "30324"
+    },
+    "timeStamp": "2021-06-11T05:33:58.658Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000J43OQAS",
+    "userName": "mshankarbangalore@deloitte.com.cadxp",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

@@ -1,0 +1,36 @@
+<aura:component
+  implements="forceCommunity:layout"
+  description="Business Dashboard Layout"
+  access="global"
+>
+  <aura:attribute
+    name="dmvBusinessFeeCard"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+
+  <div class="business-submission-page-layout">
+    <div>
+      <div>{!v.dmvBusinessFeeCard}</div>
+      <!-- <div>
+        <aura:if isTrue="{!v.isFlowActive}">
+          <aura:if isTrue="{!v.firstFlow}">
+            <div>{!v.dmvFlowOne}</div>
+          </aura:if>
+          <aura:if isTrue="{!v.secondFlow}">
+            <div>{!v.dmvFlowTwo}</div>
+          </aura:if>
+          <aura:if isTrue="{!v.thirdFlow}">
+            <div>{!v.dmvFlowThree}</div>
+          </aura:if>
+          <aura:set attribute="else">
+            <c:dmvBusinessFlows
+              onhandlebuttonchange="{!c.handleButtonChange}"
+            />
+          </aura:set>
+        </aura:if>
+      </div> -->
+      <!-- <c:dmvFlowEventHelper onhandlecloseflow="{!c.handleCloseFlow}" /> -->
+    </div>
+  </div>
+</aura:component>

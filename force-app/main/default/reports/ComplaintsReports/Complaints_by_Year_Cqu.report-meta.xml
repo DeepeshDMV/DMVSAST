@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PublicComplaint$Name</field>
+    </columns>
+    <columns>
+        <field>PublicComplaint$ComplaintType</field>
+    </columns>
+    <columns>
+        <field>PublicComplaint$BusinessName</field>
+    </columns>
+    <columns>
+        <field>PublicComplaint$IncidentDate</field>
+    </columns>
+    <columns>
+        <field>PublicComplaint$CreatedBy</field>
+    </columns>
+    <description>Complaints by Year</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Year</dateGranularity>
+        <field>PublicComplaint$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Complaints by Year</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Public_Complaints__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>PublicComplaint$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

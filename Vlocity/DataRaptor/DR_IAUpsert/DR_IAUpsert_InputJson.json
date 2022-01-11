@@ -1,0 +1,28 @@
+{
+    "ApplicationInformation": {
+        "ApplicationStatus": "Gathering Prerequisites",
+        "AssociatedAccount": "0013S000002eGv6QAE",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "Dealer - Wholesale",
+        "AutoBrokerEndorsement": "true",
+        "Category": "License",
+        "NumberofAutoPlates": 43,
+        "NumberofMotorcyclePlates": 34,
+        "PrimaryOwner": "Sumeet Kanjilal",
+        "SiteCity": "Atlanta",
+        "SiteCountry": "United States",
+        "SitePostalCode": "30324",
+        "SiteStreet": "477 Lindbergh Place NE #104"
+    },
+    "ContactId": "0033S000001mPVxQAM",
+    "ContactName": "Sumeet Kanjilal",
+    "RecordTypeId": "0123S0000004gdkQAA",
+    "RegulatoryAuthority": "19p3S000000000eQAA",
+    "isEditable": true,
+    "timeStamp": "2021-06-09T03:46:03.333Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000J43OQAS",
+    "userName": "mshankarbangalore@deloitte.com.cadxp",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

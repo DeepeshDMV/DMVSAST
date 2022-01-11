@@ -1,0 +1,36 @@
+{
+    "ApplicationInformation": {
+        "ApplicationStatus": null,
+        "AssociatedAccount": null,
+        "AuthorizationCategory": null,
+        "AuthorizationType": null,
+        "AutoBrokerEndorsement": null,
+        "Category": null,
+        "NumberofAutoPlates": null,
+        "NumberofMotorcyclePlates": null,
+        "PrimaryOwner": null,
+        "SiteCity": null,
+        "SiteCountry": null,
+        "SitePostalCode": null,
+        "SiteStreet": null,
+        "renderAccountAddress": null
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicationInformation": null,
+        "CANCEL": null,
+        "DRCaseCreate": null,
+        "DRContactForUser": null,
+        "DR_BLAUpsert": null,
+        "NavigateAction1": null,
+        "RecordTypeExtract": null,
+        "SetValues9": null
+    }
+}

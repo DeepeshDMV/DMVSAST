@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Start_Time__c</fullName>
+    <description>Formula field to display the start time of an appointment.</description>
+    <externalId>false</externalId>
+    <formula>TIMEVALUE(SchedStartTime)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Scheduled Start Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Time</type>
+</CustomField>

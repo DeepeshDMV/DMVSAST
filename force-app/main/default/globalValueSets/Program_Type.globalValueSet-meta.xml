@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Amateur Sanctioning Organization</fullName>
+        <default>false</default>
+        <label>Amateur Sanctioning Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>Amateur Training Facility</fullName>
+        <default>false</default>
+        <label>Amateur Training Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Announcer</fullName>
+        <default>false</default>
+        <label>Announcer</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraisal Controlling Person</fullName>
+        <default>false</default>
+        <label>Appraisal Controlling Person</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraisal Management Company</fullName>
+        <default>false</default>
+        <label>Appraisal Management Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraiser Course</fullName>
+        <default>false</default>
+        <label>Appraiser Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraiser Trainee</fullName>
+        <default>false</default>
+        <label>Appraiser Trainee</label>
+    </customValue>
+    <customValue>
+        <fullName>Architect</fullName>
+        <default>false</default>
+        <label>Architect</label>
+    </customValue>
+    <customValue>
+        <fullName>Architect Corporation</fullName>
+        <default>false</default>
+        <label>Architect Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>Architect Firm</fullName>
+        <default>false</default>
+        <label>Architect Firm</label>
+    </customValue>
+    <customValue>
+        <fullName>Artist Event</fullName>
+        <default>false</default>
+        <label>Artist Event</label>
+    </customValue>
+    <customValue>
+        <fullName>Artist Mobile Unit</fullName>
+        <default>false</default>
+        <label>Artist Mobile Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Artist Shop</fullName>
+        <default>false</default>
+        <label>Artist Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>Auction Company</fullName>
+        <default>false</default>
+        <label>Auction Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Auctioneer</fullName>
+        <default>false</default>
+        <label>Auctioneer</label>
+    </customValue>
+    <customValue>
+        <fullName>Bail Bond Agency</fullName>
+        <default>false</default>
+        <label>Bail Bond Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Bail Bond Agency Branch</fullName>
+        <default>false</default>
+        <label>Bail Bond Agency Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Bail Bond Agent</fullName>
+        <default>false</default>
+        <label>Bail Bond Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Bail Bond Recovery Agent</fullName>
+        <default>false</default>
+        <label>Bail Bond Recovery Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Barber</fullName>
+        <default>false</default>
+        <label>Barber</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Art (Branding/Scarification)</fullName>
+        <default>false</default>
+        <label>Body Art (Branding/Scarification)</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Piercing</fullName>
+        <default>false</default>
+        <label>Body Piercing</label>
+    </customValue>
+    <customValue>
+        <fullName>Boxing Participant</fullName>
+        <default>false</default>
+        <label>Boxing Participant</label>
+    </customValue>
+    <customValue>
+        <fullName>Camping Resort Company</fullName>
+        <default>false</default>
+        <label>Camping Resort Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Camping Resort Salesperson</fullName>
+        <default>false</default>
+        <label>Camping Resort Salesperson</label>
+    </customValue>
+    <customValue>
+        <fullName>CDL Skills Testing Examiner</fullName>
+        <default>false</default>
+        <label>CDL Skills Testing Examiner</label>
+    </customValue>
+    <customValue>
+        <fullName>CDL Skills Testing Organization</fullName>
+        <default>false</default>
+        <label>CDL Skills Testing Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>CDL Training Instructor</fullName>
+        <default>false</default>
+        <label>CDL Training Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>CDL Training Provider-Employer</fullName>
+        <default>false</default>
+        <label>CDL Training Provider-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>CDL Training Provider-School</fullName>
+        <default>false</default>
+        <label>CDL Training Provider-School</label>
+    </customValue>
+    <customValue>
+        <fullName>Cemetery</fullName>
+        <default>false</default>
+        <label>Cemetery</label>
+    </customValue>
+    <customValue>
+        <fullName>Certificate of Removal Registration</fullName>
+        <default>false</default>
+        <label>Certificate of Removal Registration</label>
+    </customValue>
+    <customValue>
+        <fullName>Certified General Appraiser</fullName>
+        <default>false</default>
+        <label>Certified General Appraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Certified Residential Appraiser</fullName>
+        <default>false</default>
+        <label>Certified Residential Appraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiropractor</fullName>
+        <default>false</default>
+        <label>Chiropractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Collection Agency</fullName>
+        <default>false</default>
+        <label>Collection Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Collection Agency Branch</fullName>
+        <default>false</default>
+        <label>Collection Agency Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Telephone Solicitors</fullName>
+        <default>false</default>
+        <label>Commercial Telephone Solicitors</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Cosmetology</fullName>
+        <default>false</default>
+        <label>Cosmetology</label>
+    </customValue>
+    <customValue>
+        <fullName>Court Reporter</fullName>
+        <default>false</default>
+        <label>Court Reporter</label>
+    </customValue>
+    <customValue>
+        <fullName>Cremated Remains Disposition Permit</fullName>
+        <default>false</default>
+        <label>Cremated Remains Disposition Permit</label>
+    </customValue>
+    <customValue>
+        <fullName>Crematory</fullName>
+        <default>false</default>
+        <label>Crematory</label>
+    </customValue>
+    <customValue>
+        <fullName>Delegated Municipality Agent</fullName>
+        <default>false</default>
+        <label>Delegated Municipality Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School</fullName>
+        <default>false</default>
+        <label>Driver Training School</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School Branch</fullName>
+        <default>false</default>
+        <label>Driver Training School Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School Instructor</fullName>
+        <default>false</default>
+        <label>Driver Training School Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School OSPI Instructor</fullName>
+        <default>false</default>
+        <label>Driver Training School OSPI Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School OSPI School Branch</fullName>
+        <default>false</default>
+        <label>Driver Training School OSPI School Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School OSPI School District</fullName>
+        <default>false</default>
+        <label>Driver Training School OSPI School District</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School OSPI Staff</fullName>
+        <default>false</default>
+        <label>Driver Training School OSPI Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver Training School Staff</fullName>
+        <default>false</default>
+        <label>Driver Training School Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Embalmer</fullName>
+        <default>false</default>
+        <label>Embalmer</label>
+    </customValue>
+    <customValue>
+        <fullName>Embalmer Intern</fullName>
+        <default>false</default>
+        <label>Embalmer Intern</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering/Land Surveying Company</fullName>
+        <default>false</default>
+        <label>Engineering/Land Surveying Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering Corporations</fullName>
+        <default>false</default>
+        <label>Engineering Corporations</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineer in Training</fullName>
+        <default>false</default>
+        <label>Engineer in Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Esthetician</fullName>
+        <default>false</default>
+        <label>Esthetician</label>
+    </customValue>
+    <customValue>
+        <fullName>Funeral Director</fullName>
+        <default>false</default>
+        <label>Funeral Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Funeral Director Intern</fullName>
+        <default>false</default>
+        <label>Funeral Director Intern</label>
+    </customValue>
+    <customValue>
+        <fullName>Funeral Establishment</fullName>
+        <default>false</default>
+        <label>Funeral Establishment</label>
+    </customValue>
+    <customValue>
+        <fullName>Funeral Establishment Branch</fullName>
+        <default>false</default>
+        <label>Funeral Establishment Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Geologist</fullName>
+        <default>false</default>
+        <label>Geologist</label>
+    </customValue>
+    <customValue>
+        <fullName>Geologist in Training</fullName>
+        <default>false</default>
+        <label>Geologist in Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Hair Designer</fullName>
+        <default>false</default>
+        <label>Hair Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Inspector</fullName>
+        <default>false</default>
+        <label>Home Inspector</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Inspector Courses</fullName>
+        <default>false</default>
+        <label>Home Inspector Courses</label>
+    </customValue>
+    <customValue>
+        <fullName>Inspector</fullName>
+        <default>false</default>
+        <label>Inspector</label>
+    </customValue>
+    <customValue>
+        <fullName>In State Collection Agency</fullName>
+        <default>false</default>
+        <label>In State Collection Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructor</fullName>
+        <default>false</default>
+        <label>Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Judge</fullName>
+        <default>false</default>
+        <label>Judge</label>
+    </customValue>
+    <customValue>
+        <fullName>Kickboxing Participant</fullName>
+        <default>false</default>
+        <label>Kickboxing Participant</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape Architect</fullName>
+        <default>false</default>
+        <label>Landscape Architect</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Surveying Corporations</fullName>
+        <default>false</default>
+        <label>Land Surveying Corporations</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Surveying LLC</fullName>
+        <default>false</default>
+        <label>Land Surveying LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Surveyor in Training</fullName>
+        <default>false</default>
+        <label>Land Surveyor in Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Manicurist</fullName>
+        <default>false</default>
+        <label>Manicurist</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufactured Homes Dealer</fullName>
+        <default>false</default>
+        <label>Manufactured Homes Dealer</label>
+    </customValue>
+    <customValue>
+        <fullName>Martial Arts Participant</fullName>
+        <default>false</default>
+        <label>Martial Arts Participant</label>
+    </customValue>
+    <customValue>
+        <fullName>Master Esthetician</fullName>
+        <default>false</default>
+        <label>Master Esthetician</label>
+    </customValue>
+    <customValue>
+        <fullName>Matchmaker</fullName>
+        <default>false</default>
+        <label>Matchmaker</label>
+    </customValue>
+    <customValue>
+        <fullName>Miscellaneous Fee</fullName>
+        <default>false</default>
+        <label>Miscellaneous Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile Unit</fullName>
+        <default>false</default>
+        <label>Mobile Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle Safety Examiner</fullName>
+        <default>false</default>
+        <label>Motorcycle Safety Examiner</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle Safety Instructor</fullName>
+        <default>false</default>
+        <label>Motorcycle Safety Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle Safety School</fullName>
+        <default>false</default>
+        <label>Motorcycle Safety School</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle Safety Site</fullName>
+        <default>false</default>
+        <label>Motorcycle Safety Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Notary Public</fullName>
+        <default>false</default>
+        <label>Notary Public</label>
+    </customValue>
+    <customValue>
+        <fullName>On-site Wastewater Designer</fullName>
+        <default>false</default>
+        <label>On-site Wastewater Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>On-site Wastewater Inspector</fullName>
+        <default>false</default>
+        <label>On-site Wastewater Inspector</label>
+    </customValue>
+    <customValue>
+        <fullName>Out Of State Collection Agency</fullName>
+        <default>false</default>
+        <label>Out Of State Collection Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Out Of State Collection Agency Branch</fullName>
+        <default>false</default>
+        <label>Out Of State Collection Agency Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of State Seller of Travel</fullName>
+        <default>false</default>
+        <label>Out of State Seller of Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of State Seller of Travel Branch</fullName>
+        <default>false</default>
+        <label>Out of State Seller of Travel Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Out State Collection Agency</fullName>
+        <default>false</default>
+        <label>Out State Collection Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Permanent Cosmetics</fullName>
+        <default>false</default>
+        <label>Permanent Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Service</fullName>
+        <default>false</default>
+        <label>Personal Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician</fullName>
+        <default>false</default>
+        <label>Physician</label>
+    </customValue>
+    <customValue>
+        <fullName>Postsecondary School</fullName>
+        <default>false</default>
+        <label>Postsecondary School</label>
+    </customValue>
+    <customValue>
+        <fullName>Prearrangement Funeral Services</fullName>
+        <default>false</default>
+        <label>Prearrangement Funeral Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Investigator</fullName>
+        <default>false</default>
+        <label>Private Investigator</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Investigator Agency</fullName>
+        <default>false</default>
+        <label>Private Investigator Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Engineer</fullName>
+        <default>false</default>
+        <label>Professional Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Land Surveyor</fullName>
+        <default>false</default>
+        <label>Professional Land Surveyor</label>
+    </customValue>
+    <customValue>
+        <fullName>Promoter</fullName>
+        <default>false</default>
+        <label>Promoter</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Branch</fullName>
+        <default>false</default>
+        <label>Real Estate Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Broker</fullName>
+        <default>false</default>
+        <label>Real Estate Broker</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Course</fullName>
+        <default>false</default>
+        <label>Real Estate Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Firm</fullName>
+        <default>false</default>
+        <label>Real Estate Firm</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Instructor</fullName>
+        <default>false</default>
+        <label>Real Estate Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Managing Broker</fullName>
+        <default>false</default>
+        <label>Real Estate Managing Broker</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate School</fullName>
+        <default>false</default>
+        <label>Real Estate School</label>
+    </customValue>
+    <customValue>
+        <fullName>Referee</fullName>
+        <default>false</default>
+        <label>Referee</label>
+    </customValue>
+    <customValue>
+        <fullName>Registered Appraiser Trainee</fullName>
+        <default>false</default>
+        <label>Registered Appraiser Trainee</label>
+    </customValue>
+    <customValue>
+        <fullName>Remove Owner</fullName>
+        <default>false</default>
+        <label>Remove Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Request for Enrollment</fullName>
+        <default>false</default>
+        <label>Request for Enrollment</label>
+    </customValue>
+    <customValue>
+        <fullName>Salon Shop</fullName>
+        <default>false</default>
+        <label>Salon Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>School</fullName>
+        <default>false</default>
+        <label>School</label>
+    </customValue>
+    <customValue>
+        <fullName>Second</fullName>
+        <default>false</default>
+        <label>Second</label>
+    </customValue>
+    <customValue>
+        <fullName>Security Guard</fullName>
+        <default>false</default>
+        <label>Security Guard</label>
+    </customValue>
+    <customValue>
+        <fullName>Security Guard Company</fullName>
+        <default>false</default>
+        <label>Security Guard Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Sellers of Travel</fullName>
+        <default>false</default>
+        <label>Sellers of Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sellers of Travel Branch</fullName>
+        <default>false</default>
+        <label>Sellers of Travel Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>State Licensed Appraiser</fullName>
+        <default>false</default>
+        <label>State Licensed Appraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Tattoo Artist</fullName>
+        <default>false</default>
+        <label>Tattoo Artist</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary Certified General</fullName>
+        <default>false</default>
+        <label>Temporary Certified General</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary Certified Residential</fullName>
+        <default>false</default>
+        <label>Temporary Certified Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary State Licensed</fullName>
+        <default>false</default>
+        <label>Temporary State Licensed</label>
+    </customValue>
+    <customValue>
+        <fullName>Theatrical Wrestling School</fullName>
+        <default>false</default>
+        <label>Theatrical Wrestling School</label>
+    </customValue>
+    <customValue>
+        <fullName>Timekeeper</fullName>
+        <default>false</default>
+        <label>Timekeeper</label>
+    </customValue>
+    <customValue>
+        <fullName>Timeshare Company</fullName>
+        <default>false</default>
+        <label>Timeshare Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Timeshare Salesperson</fullName>
+        <default>false</default>
+        <label>Timeshare Salesperson</label>
+    </customValue>
+    <customValue>
+        <fullName>Unlicensed</fullName>
+        <default>false</default>
+        <label>Unlicensed</label>
+    </customValue>
+    <customValue>
+        <fullName>Update Business Name</fullName>
+        <default>false</default>
+        <label>Update Business Name</label>
+    </customValue>
+    <customValue>
+        <fullName>Update Company Information</fullName>
+        <default>false</default>
+        <label>Update Company Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Update Legal Name</fullName>
+        <default>false</default>
+        <label>Update Legal Name</label>
+    </customValue>
+    <customValue>
+        <fullName>Whitewater River Outfitters</fullName>
+        <default>false</default>
+        <label>Whitewater River Outfitters</label>
+    </customValue>
+    <customValue>
+        <fullName>Wrestling Participant</fullName>
+        <default>false</default>
+        <label>Wrestling Participant</label>
+    </customValue>
+    <customValue>
+        <fullName>Dealer</fullName>
+        <default>false</default>
+        <label>Dealer</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesperson</fullName>
+        <default>false</default>
+        <label>Salesperson</label>
+    </customValue>
+    <masterLabel>Program Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

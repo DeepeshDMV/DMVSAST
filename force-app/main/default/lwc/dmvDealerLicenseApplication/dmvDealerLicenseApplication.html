@@ -1,0 +1,87 @@
+<template>
+  <div class="slds-m-vertical_small">
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="slds-var-p-horizontal_small dmv-businessLicenseApplication__Card"
+      >
+        <div
+          class="
+            dmv-businessLicenseApplication__CardPadding
+            slds-grid
+            slds-m-bottom_large
+          "
+        >
+          <div class="slds-size_10-of-12">
+            <!--div class="dmv-businessFlows__mainCardHeader">
+              Vehicle Dealer License Application
+            </div-->
+
+            <div class="dmv-businessFlows__mainCardHeader">
+              {licenseType}
+            </div>
+            <!--div class="dmv-businessFlows__mainCardTitle">{name}</div-->
+            <div class="dmv-businessFlows__mainCardTitle">
+              Application Reference: {BLAname}
+            </div>
+          
+            <div class="dmv-businessFlows__mainCardTitle" if:true={licenseReference}>
+              License Reference: {licenseReference}
+            </div>
+            <!-- TO BE REMOVED ONCE THE NAME COMES THROUGH APEX(START)  -->
+            <!-- <div
+              if:true={hideProgressBar}
+              class="dmv-businessFlows__mainCardTitle"
+            >
+              Millions of Miles Porsche
+            </div> -->
+            <!-- TO BE REMOVED ONCE THE NAME COMES THROUGH APEX(END)  -->
+          </div>
+          <div class="slds-size_2-of-12">
+            <div
+              if:false={hideProgressBar}
+              class="
+                dmv-businessFlows__pill
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+              "
+            >
+              In Progress
+            </div>
+           <!-- <div
+              if:true={hideProgressBar}
+              class="
+                dmv-submission__pill
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+              "
+            >
+              Ready for Payment
+            </div>-->
+          </div>
+        </div>
+        <div if:false={hideProgressBar}>
+          <div class="slds-grid slds-m-bottom_small">
+            <div class="dmv-businessFlows__mainCardHeader slds-size_10-of-12">
+              Progress
+            </div>
+            <div
+              class="
+                slds-text-align_right
+                dmv-businessFlows__mainCardHeader
+                slds-size_2-of-12
+              "
+            >
+              {progressValue}% Complete
+            </div>
+          </div>
+          <div>
+            <lightning-progress-bar
+              value={progressValue}
+              size="large"
+            ></lightning-progress-bar>
+          </div>
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+</template>

@@ -1,0 +1,110 @@
+{
+    "BusinessLicenseApplication": {
+        "AccountId": "0015e000009kxZlAAI",
+        "AccountName": "ALICIA AUTOS",
+        "Id": "0f05e000000KzGDAA0",
+        "Name": "BLA-0000000010",
+        "RequestedStartDateTime": "2021-06-16T21:20:00.000Z"
+    },
+    "ContextId": "0f05e000000KzGDAA0",
+    "InspectionType": [
+        {
+            "Id": "0fJ5e000000XdIKEA0",
+            "Name": "Safety Complaint Inspection"
+        },
+        {
+            "Id": "0fJ5e000000XdIHEA0",
+            "Name": "Business Reopening Inspection"
+        },
+        {
+            "Id": "0fJ5e000000XdIIEA0",
+            "Name": "Salon Establishment Inspection"
+        },
+        {
+            "Id": "0fJ5e000000XdUfEAK",
+            "Name": "DMV Business Inspection"
+        }
+    ],
+    "Inspector": [
+        {
+            "Id": "0055e000003H1kkAAC",
+            "Name": "Shannon Schupbach"
+        },
+        {
+            "Id": "0055e00000476KJAAY",
+            "Name": "Andy Cather"
+        },
+        {
+            "Id": "0055e00000476KKAAY",
+            "Name": "Elise Carpentier"
+        },
+        {
+            "Id": "0055e00000476KCAAY",
+            "Name": "Jeremie Adrien"
+        },
+        {
+            "Id": "0055e00000476KDAAY",
+            "Name": "Omar Ayoubi"
+        },
+        {
+            "Id": "0055e00000476KEAAY",
+            "Name": "Bryan Esmond"
+        },
+        {
+            "Id": "0055e00000476KFAAY",
+            "Name": "Maureen Uslick"
+        },
+        {
+            "Id": "0055e00000476KGAAY",
+            "Name": "Andy schmiechen"
+        },
+        {
+            "Id": "0055e00000476KHAAY",
+            "Name": "Keegan Virtue"
+        },
+        {
+            "Id": "0055e00000476JmAAI",
+            "Name": "David Albert"
+        },
+        {
+            "Id": "0055e00000476JnAAI",
+            "Name": "Integration User"
+        },
+        {
+            "Id": "0055e00000476JvAAI",
+            "Name": "Ian Price"
+        },
+        {
+            "Id": "0055e00000476JyAAI",
+            "Name": "Kaylee Kwan"
+        }
+    ],
+    "Location": [
+        {
+            "Id": "1315e000000tDSSAA2",
+            "Name": "ALICIA AUTOS - Sierra Nevada"
+        },
+        {
+            "Id": "1315e000000tIOhAAM",
+            "Name": "Alicia Autos #2"
+        }
+    ],
+    "Schedule": {
+        "PlannedStartTime": "2021-06-16T21:20:00.000Z",
+        "SelectedInspectionType-Block": {
+            "SelectedInspectionType": "DMV Business Inspection"
+        },
+        "SelectedInspector-Block": {
+            "SelectedInspector": "Shannon Schupbach"
+        },
+        "SelectedLocation-Block": {
+            "SelectedLocation": "ALICIA AUTOS - Sierra Nevada"
+        }
+    },
+    "timeStamp": "2021-06-16T21:20:42.038Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000003H1kkAAC",
+    "userName": "shannonschupbach@ca-dmv-20210609.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

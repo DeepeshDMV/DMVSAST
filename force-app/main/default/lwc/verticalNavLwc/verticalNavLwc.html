@@ -1,0 +1,43 @@
+<template>
+  <!-- Simulate a smartphone / tablet -->
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick={closeMenu}>×</a>
+    <a href="#" name="Home" onclick={navigate}>Home</a>
+    <a href="#" name="Business_Hub__c" onclick={navigate}>Business</a>
+    <a href="#" name="Licenses__c" onclick={navigate}>Licenses</a>
+    <a href="#" onclick={navigateUrl}>My Profile</a>
+  </div>
+  <button class="openbtn" onclick={openMenu}>☰</button>
+
+  <div class="main-menu">
+    <lightning-vertical-navigation selected-item={activeTab}>
+      <lightning-vertical-navigation-section>
+        <lightning-vertical-navigation-item-icon
+          label="Home"
+          name="Home"
+          onclick={navigate}
+          icon-name="utility:home"
+        ></lightning-vertical-navigation-item-icon>
+        <lightning-vertical-navigation-item-icon
+          label="Businesses"
+          name="Business_Hub__c"
+          onclick={navigate}
+          icon-name="utility:company"
+        ></lightning-vertical-navigation-item-icon>
+        <!-- Removing this for the Inspections & Complaints Release
+        <lightning-vertical-navigation-item-icon
+          label="Professional Licenses"
+          name="Licenses__c"
+          onclick={navigate}
+          icon-name="utility:copy"
+        ></lightning-vertical-navigation-item-icon>
+      -->
+        <lightning-vertical-navigation-item-icon
+          label="My Profile"
+          onclick={navigateUrl}
+          icon-name="utility:user"
+        ></lightning-vertical-navigation-item-icon>
+      </lightning-vertical-navigation-section>
+    </lightning-vertical-navigation>
+  </div>
+</template>

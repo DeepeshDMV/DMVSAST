@@ -1,0 +1,20 @@
+{
+    "AccountIdForUrl": "0013S000002kWOgQAM",
+    "ContextIdForUrl": "0f03S00000000KzQAI",
+    "FailedRedirectUrl": "https://cadxpdev-dmvpotdev.cs133.force.com/s/business-fee?c__ContextId=0f03S00000000KzQAI&c__aid=0013S000002kWOgQAM&isSucess=false",
+    "ParentRecordName": "0f03S00000000KzQAI",
+    "RegulatoryFeeStatus": "DUE",
+    "RegulatoryTransFeeItem": "0kx3S00000000CHQAY",
+    "SuccessRedirectUrl": "https://cadxpdev-dmvpotdev.cs133.force.com/s/business-fee?c__ContextId=0f03S00000000KzQAI&c__aid=0013S000002kWOgQAM&isSucess=true",
+    "TotalFeeAmount": 200,
+    "UserContactIdFromDRreturned": "",
+    "UserEmailFromDR": "mantss@deloitte.com",
+    "UserNameFromDR": "Manthan SS",
+    "timeStamp": "2021-06-23T13:09:16.600Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000IwYvQAK",
+    "userId1": "0053S000000JA6iQAG",
+    "userName": "mantss@deloitte.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

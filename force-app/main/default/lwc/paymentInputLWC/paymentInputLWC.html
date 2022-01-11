@@ -1,0 +1,57 @@
+<template>
+    <div class="slds-form-element__row slds-wrap">
+        <div class="slds-grid slds-wrap slds-col slds-small-size--1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 ">
+            <div class="slds-form-element__group slds-form-element_compound  slds-size_12-of-12">
+                <div class="slds-form-element__row slds-wrap">
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="First Name" type="text" value={firstName} ></lightning-input>
+                    </div>
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="Last Name" type="text" value={lastName} ></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br/>
+    <div class="slds-form-element__row slds-wrap">
+        <div class="slds-grid slds-wrap slds-col slds-small-size--1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 ">
+            <div class="slds-form-element__group slds-form-element_compound  slds-size_12-of-12">
+                <div class="slds-form-element__row slds-wrap">
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="Phone" type="text" value={phoneValue} ></lightning-input>
+                    </div>
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="Email" type="text" value={emailValue} ></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br/>
+    <div class="slds-form-element__row slds-wrap">
+        <div class="slds-grid slds-wrap slds-col slds-small-size--1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 ">
+            <div class="slds-form-element__group slds-form-element_compound  slds-size_12-of-12">
+                <div class="slds-form-element__row slds-wrap">
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="Amount" type="text" value={amountValue} ></lightning-input>
+                    </div>
+                    <div class="slds-large-size_6-of-12 slds-small-size--1-of-1 slds-medium-size_6-of-12  ">
+                        <lightning-input  label="Invoice" type="text" value={invoiceValue} ></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="slds-form-element__row slds-wrap">
+        <div class="slds-grid slds-wrap slds-col slds-small-size--1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 ">
+            <div class="slds-form-element__group slds-form-element_compound  slds-size_12-of-12">
+                <div style="float:right" class="slds-align_absolute-center slds-large-size_3-of-12 slds-small-size--1-of-1 slds-medium-size_3-of-12  ">
+                    
+                    <lightning-button                          
+                        variant="brand" label="BUY NOW" class="slds-m-right_x-small slds-align_absolute-center" 
+                        onclick={handleClickBuy}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

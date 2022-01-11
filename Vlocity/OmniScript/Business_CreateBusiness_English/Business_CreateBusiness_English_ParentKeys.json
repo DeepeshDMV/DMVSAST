@@ -1,0 +1,14 @@
+[
+    "DataRaptor/CreateAccount",
+    "DataRaptor/DRGetLocationDetailsForBusiness",
+    "DataRaptor/DRSaveAccountBusinessProfileDetails",
+    "DataRaptor/DRSaveAssociatedLocationLocationAddress",
+    "DataRaptor/DRSaveLocationAddressWhenContextIdPresent",
+    "DataRaptor/DRUpdateLocationWithAddressId",
+    "Document/CACBAGAIA419f3f90bff24ed6bd401e567e7af3f6",
+    "Document/CACBAGAIAefccc523d6304390b7dbd8c010c3d4b0",
+    "IntegrationProcedure/BusinessIp_CreateBusinessIp",
+    "IntegrationProcedure/BusinessIp_LoadBusinessIp",
+    "IntegrationProcedure/Licensing_And_Permitting_DS_GetAccount",
+    "IntegrationProcedure/Licensing_And_Permitting_DS_SaveAccount"
+]

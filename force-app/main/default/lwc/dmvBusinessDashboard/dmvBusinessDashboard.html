@@ -1,0 +1,34 @@
+<template>
+  <div class="dmv-businessDashboard">
+    <div class="slds-m-top_xx-large">
+      <c-dmv-business-profile-dashboard></c-dmv-business-profile-dashboard>
+    </div>
+    <!-- <div class="dmv-businessDashboard_checklist">
+      <lightning-icon
+        icon-name="utility:task"
+        alternative-text="account"
+        size="small"
+      ></lightning-icon>
+      Checklist
+    </div>
+    <div class="slds-grid">
+      <div class="slds-size_1-of-2 slds-m-right_small">
+        <c-dmv-business-checklist-dashboard></c-dmv-business-checklist-dashboard>
+      </div>
+      <div class="slds-size_1-of-2">
+        <c-dmv-business-checklist-dashboard></c-dmv-business-checklist-dashboard>
+      </div>
+    </div> -->
+    <div class="dmv-businessDashboard_license">
+      <c-dmv-business-license-dashboard
+        onhandlebuttonchange={handleChange}
+        uploaded-doc-status={uploadedDocStatus}
+      ></c-dmv-business-license-dashboard>
+    </div>
+    <!-- <div class="dmv-businessDashboard_checklist">Employees</div>
+    <div>
+      <lightning-datatable key-field="id" data={data} columns={columns}>
+      </lightning-datatable>
+    </div> -->
+  </div>
+</template>

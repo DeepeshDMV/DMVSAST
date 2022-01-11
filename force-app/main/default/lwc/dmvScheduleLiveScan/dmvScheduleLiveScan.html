@@ -1,0 +1,64 @@
+<template>
+  <div class="slds-m-vertical_small">
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-size_10-of-12">
+            <span class="slds-p-bottom_small dmv-business__accountIcon">
+              <lightning-icon
+                icon-name="standard:employee_contact"
+                alternative-text="account"
+                size="medium"
+                class="slds-current-color slds-m-right_medium"
+              ></lightning-icon>
+            </span>
+            <span class="dmv-businessFlows__CardHeader">
+              Find Your Live Scan Fingerprint Location
+            </span>
+          </div>
+          <div class="slds-size_2-of-12">
+            <lightning-button
+              variant="neutral"
+              label="Start"
+              class="slds-m-left_large"
+              data-sequence="2"
+              onclick={startFlow}
+            ></lightning-button>
+          </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <div class="slds-grid">
+            <div class="slds-size_10-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Find Your Live Scan Fingerprint Location </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                Live scan is digital fingerprint submission transmitted
+                electronically to the California Department of Justice (DOJ) to
+                verify your identity and background. Find a location here. When
+                completed, you’ll need to upload your receipt below with the
+                other documents.
+              </div>
+            </div>
+            <div class="slds-size_2-of-12">
+              <div
+                class="
+                  Live_Scan_Status__c
+                  slds-p-horizontal_small
+                  slds-p-vertical_xx-small
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </lightning-card>
+    <c-dmv-start-flow flow-name="liveScan"></c-dmv-start-flow>
+  </div>
+</template>

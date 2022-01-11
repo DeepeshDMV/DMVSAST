@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage">
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
+        </targetConfig>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="recordId" type="String" label="Record ID" description="The value should be the parentId of the file ." />
+            <property name="fieldname" type="String" label="File Custom field Name" description="Default the value to CADMV_Section_Name_fileupload__c." />
+            <property name="fieldvalue" type="String" label="Section Name" description="Provide Section name and should be unique." />
+            <property name="disableupload" type="String" label="Disable Upload Button" description="To disable the upload button pass Yes as value else keep blank" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,93 @@
+<template>
+  <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+    <div class="
+        slds-var-p-horizontal_small
+        dmv-business_cardHeight
+        business-tile-body
+      ">
+      <div class="slds-grid slds-m-bottom_large">
+        <div class="slds-size_9-of-12">
+          <span class="slds-p-bottom_small dmv-business__accountIcon">
+            <lightning-icon icon-name="standard:employee_contact" alternative-text="account" size="medium"
+              class="slds-current-color slds-m-right_medium"></lightning-icon>
+          </span>
+          <span class="dmv-businessFlows__CardHeader">
+            Schedule Your Inspection
+          </span>
+        </div>
+        <div class="slds-size_3-of-12 dmv-text-center">
+          <div if:false={buttonDisabled}>
+            <lightning-button variant="neutral" label="Schedule Your Inspection" class="slds-m-left_large"
+              data-sequence="2" onclick={startFlow}></lightning-button>
+          </div>
+          <div if:true={buttonDisabled}>
+            <lightning-button variant="brand" label="Schedule Your Inspection" class="slds-m-left_large" disabled>
+            </lightning-button>
+            <!-- <lightning-button variant="brand" label="Pay Your License Fees" title="Pay Your License Fees" disabled class="slds-m-left_x-small">
+            </lightning-button> -->
+          </div>
+        </div>
+      </div>
+      <div class="dmv-business_bodyPadding">
+        <div class="slds-grid">
+          <div class="slds-size_9-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Schedule Your Inspection </b>
+            </div>
+            <div class="slds-p-bottom_medium">
+              You received an email notification that we have completed our review and you are ready for an inspection.  As a reminder it is recommended you review the checklist of requirements you must meet during the inspection before you schedule.  You may select a date and time that is convenient for you.
+              <!--Your application requires an inspection. Please click schedule to begin the process for scheduling your
+              inspection and we'll walk you through.-->
+            </div>
+          </div>
+          <div class="slds-size_3-of-12" if:true={progressStatus}>
+            <div class="
+              Inspection_Scheduled_Status__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+                dmv-center
+              "></div>
+          </div>
+        </div>
+        <div class="slds-grid">
+          <div class="slds-size_9-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Receive Inspection Results </b>
+            </div>
+            <div class="slds-p-bottom_medium">
+              Once you have scheduled your inspection, wait for the inspector to come out and complete the inspection.
+              We will provide the results once this is done.
+            </div>
+            <div class={className} >
+              {informationMessage}
+            </div>
+          </div>
+          <div class="slds-size_3-of-12" if:true={progressStatus}>
+            <div class="
+              Receive_Inspection_Result__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+                dmv-center
+              "></div>
+          </div>
+        </div>
+        <!-- Hint Text -->
+        <div class="slds-m-vertical_small dmv-business_hintCard" if:true={showTime}>
+          <div class="slds-grid">
+            <div class="slds-m-right_small">
+              <div><b>Location:</b> {inspectionLocation}</div>
+                <div><b>Start Date and Time:</b> {plannedStartDate}, {inspectionTime}</div>
+                  <div><b>End Date and Time:</b> {plannedEndDate}, {inspectionEndTime}</div>
+              <!-- <lightning-helptext size="large"></lightning-helptext> -->
+            </div>
+            <!-- <div>
+              Your Inspection is scheduled for {plannedStartDate}, {inspectionTime} &nbsp;
+              <a>View Appointment</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+  <c-dmv-start-flow flow-name="scheduleInspection"></c-dmv-start-flow>
+</template>

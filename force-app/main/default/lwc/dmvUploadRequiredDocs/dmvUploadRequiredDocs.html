@@ -1,0 +1,54 @@
+<template>
+  <div class="slds-m-vertical_small">
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-size_10-of-12">
+          <span class="slds-p-bottom_small dmv-business__accountIcon">
+            <lightning-icon
+              icon-name="standard:drafts"
+              alternative-text="account"
+              size="medium"
+              class="slds-current-color slds-m-right_medium"
+            ></lightning-icon>
+          </span>
+          <span class="dmv-businessFlows__CardHeader">
+            Upload Your Required Documents
+          </span>
+          </div>
+          <div class="slds-size_2-of-12">
+          <lightning-button
+            variant="neutral"
+            label="Start"
+            class="slds-m-left_large"
+            onclick={launchFlow}
+            data-sequence="3"
+          ></lightning-button>
+          </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <template for:each={requiredDocs} for:item="doc">
+            <div class="slds-grid" key={doc.title}>
+              <div class="slds-size_10-of-12">
+                <div class="slds-p-bottom_xx-small">
+                  <b> {doc.title} </b>
+                </div>
+                <div class="slds-p-bottom_medium">{doc.description}</div>
+              </div>
+              <div class="slds-size_2-of-12">
+                <div class={doc.className}></div>
+                <!-- UPLOAD FILES -->
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+</template>

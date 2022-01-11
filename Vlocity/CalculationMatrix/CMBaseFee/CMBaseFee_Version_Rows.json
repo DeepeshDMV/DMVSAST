@@ -1,0 +1,363 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8bdae4",
+            "dataType": "Currency",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0u3S0000004DW5QAM",
+            "listValues": null,
+            "name": "BaseFee"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bb3cb0",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0u3S0000004DW6QAM",
+            "listValues": null,
+            "name": "AuthorizationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "cb809",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0u3S0000004DWAQA2",
+            "listValues": null,
+            "name": "AuthorizationCategory"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ee496a",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ApplicationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Barber's License"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-10-12T14:50:51.000Z",
+        "Name": "ebc525b7b92f3b6f8a4cecd7faabf0a3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 175
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "4c9f876ffe3f0475440a4092eaaf6e26",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salesperson"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 175
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "8d14a4bf9325cb0ff16ee46d83f2b279",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salon Establishment License"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 150
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-10-12T14:50:51.000Z",
+        "Name": "b9eea0093749d1e929bcec2a36246b99",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "Permit",
+            "AuthorizationType": "Temporary Promo Event Permit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 50
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-10-12T14:50:51.000Z",
+        "Name": "a9729aa48bb335fc7a3d134f20075062",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Reinstatement",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salesperson"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 50
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "adf3ac4e74e68e30b0eb9c19a167cf50",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 125
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "b004f8b0661b536a31efe13f17d3235e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salesperson"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 50
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "258904c4b83afbd882d39834f2d60797",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Request Add Branch",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 70
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "da7254479796ae1efc2af2a7c40b2474",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Request Change Address",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 70
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "71c8a1c4bf68839678b7319f949f8194",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Request Change Name",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 70
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "fa4ba8d2647d8f1ed9a236a9af208d7a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Request Change Officer",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 70
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "ee68507dddc81f90f6234472c4f9a4f4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMBaseFee",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/CMBaseFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Request Duplicate or Transfer License",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Salesperson"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "BaseFee": 15
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-09-30T18:30:00.000Z",
+        "Name": "8b348c1c758e4a4ce03829faec883342",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PublicComplaint",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Complaints/PublicComplaint/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "PublicComplaint",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Complaints/PublicComplaint/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ComplaintSubmitted",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Complaints/PublicComplaint/English/ComplaintSubmitted",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ComplaintSubmitted",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Thank you Text",
+        "sanitize": false,
+        "show": null,
+        "text": "<div class=\"slds-illustration slds-illustration_small pc-message-container\">\n<div class=\"slds-text-longform\"><span class=\"success-icon\">&nbsp;</span>\n<h3 class=\"slds-text-heading_medium\">Your complaint against %Complaint:AccountName% was submitted.</h3>\n<p class=\"slds-text-body_regular\">The complaint number is <strong>%publicComplaintName%</strong>.</p>\n<p></p>\n<!-- <p><button class=\"slds-button slds-button_neutral\"> <a href=\"../s/file-a-complaint\" target=\"_top\" style=\"display: block; text-decoration: none;\">File Another Complaint</a> </button></p> --></div>\n</div>\n<div class=\"slds-size--1-of-1 slds-medium-size--12-of-12 button-container\">\n<div class=\"slds-grid slds-wrap slds-grid--pull-padded vlc-slds-small--size-column\" style=\"justify-content: space-between;\">\n<div class=\"slds-size--1-of-1 slds-medium-size--2-of-12 vlc-slds-remote-action--button\">\n<p><button class=\"slds-button slds-button_neutral\"> <a href=\"../s\" target=\"_top\" style=\"display: block; text-decoration: none;\">Go To Home</a> </button></p>\n</div>\n<div class=\"slds-size--1-of-1 slds-medium-size--3-of-12 vlc-slds-remote-action--button button-right\">\n<p><button class=\"slds-button slds-button_neutral\"> <a href=\"../s/file-a-complaint\" target=\"_top\" style=\"display: block; text-decoration: none;\">File Another Complaint</a> </button></p>\n</div>\n</div>\n</div>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Thank",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Complaints/PublicComplaint/English/Thank"
+}

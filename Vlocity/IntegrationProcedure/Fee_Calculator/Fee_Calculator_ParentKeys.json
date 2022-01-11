@@ -1,0 +1,14 @@
+[
+    "CalculationProcedure/CPAutobrokerEndorsementFee",
+    "CalculationProcedure/CPBaseFee",
+    "CalculationProcedure/CPBusinessDiscount",
+    "CalculationProcedure/CPDealerPlateFee",
+    "CalculationProcedure/CPExaminationFee",
+    "CalculationProcedure/CPFamilySupportProgramFee",
+    "CalculationProcedure/CPMotorcyclePlateFee",
+    "CalculationProcedure/CPNewMotorVehicleBoardFee",
+    "CalculationProcedure/CPNoOfChairs",
+    "CalculationProcedure/CPPremiumFee",
+    "CalculationProcedure/CPResidenceFee",
+    "CalculationProcedure/CPadm1316FingerprintCardFee"
+]

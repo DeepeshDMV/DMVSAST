@@ -1,0 +1,51 @@
+<apex:page standardStylesheets="false" showHeader="false" sidebar="false" docType="html-5.0">
+    <div class="vlocity via-slds" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ng-app="Prescreening">
+    
+        <vlocity_ins:BusinessProcessComponent strOmniScriptType="Licensing And Permitting"
+            strOmniScriptSubType="Prescreening"
+            strOmniScriptLang="English"
+            verticalMode="true"
+            previewMode="false"
+            scriptLayout="lightning"
+            scriptState="saveAndResume"
+            strInstanceId="{!$CurrentPage.parameters.id}"
+        />
+        <script type="text/javascript">
+            var modules = ['vlocity-business-process'];
+            var myModule = angular.module('Prescreening', modules);
+        </script>
+        <script type="text/javascript">
+setTimeout(setText, 2000);
+
+function setText() {
+
+jQuery('.vlc-slds-step-chart--title').after("<span class='step-sibling'>Application steps may change based on your response.</span>");
+
+}
+        </script>
+<style>
+.via-slds.via-omni .step-step section.slds-page-header.vlc-slds-page--header,
+.via-slds.via-omni .step-step form.slds-grid {
+   padding-left: 0;
+}
+
+.via-slds .slds-col--padded.slds-cleafix {
+    display: none !important;
+}
+
+.step-sibling {
+    padding-left: 1.3rem;
+    position: relative;
+    bottom: 30px;
+    font-style: italic;
+}
+@media only screen and (min-width: 48em) {
+#Confirmation .vlc-slds-button--footer .slds-grid.slds-wrap {
+    position: relative;
+    transform: translate(100%);
+}
+}
+</style>
+    </div>
+    <vlocity_ins:VFActionFunction /> 
+</apex:page>

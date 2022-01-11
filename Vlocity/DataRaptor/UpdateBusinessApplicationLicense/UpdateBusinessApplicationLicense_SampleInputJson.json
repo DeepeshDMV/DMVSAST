@@ -1,0 +1,32 @@
+{
+    "ApplicationId": "0f03S000000000aQAA",
+    "ST_AgentServiceProcess": {
+        "AgentServiceProcess": "No",
+        "FML_Today": "2021-06-08T18:30:00.000Z"
+    },
+    "ST_CDTFA": {
+        "CDTFAPermit": "Yes",
+        "Msg_CDFTA": null
+    },
+    "ST_FicticiousName": {
+        "FictiousName": "Yes",
+        "Msg_FictiousName": true
+    },
+    "ST_Franchise": {
+        "Franchise": "Yes"
+    },
+    "ST_SecurityBond": {
+        "Msg_SuretyBond": true,
+        "SecurityBond": "Yes"
+    },
+    "ST_SellertPermit": {
+        "Msg_SellerPermit": true,
+        "SellerPermit": "Yes"
+    },
+    "timeStamp": "2021-06-09T15:25:39.953Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000J89fQAC",
+    "userName": "achandrashekarnai@deloitte.com.cadxpdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

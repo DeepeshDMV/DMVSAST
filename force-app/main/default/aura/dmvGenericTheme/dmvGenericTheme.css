@@ -1,0 +1,104 @@
+.THIS .dmv-navigation__backgroundColor {
+  background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 16.5%,
+    #f7f8fc 16.5%,
+    #f7f8fc 100%
+  );
+}
+
+.THIS .notifications {
+  position: absolute;
+  right: 25%;
+  top: 1.25rem;
+}
+
+.THIS .notifications .slds-icon-utility-notification {
+  color: #fff;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.THIS .slds-icon-standard-account {
+  background-color: rgb(19, 127, 198);
+}
+
+.THIS .slds-button_brand,
+.THIS .slds-button--brand {
+  background-color: rgb(19, 127, 198);
+}
+
+.THIS .slds-button--brand:disabled, .THIS .slds-button--brand[disabled], .THIS .slds-button_brand:disabled, .THIS .slds-button_brand[disabled] {
+  background-color:#c9c7c5;
+  border-color: #c9c7c5;
+  color: #fff;
+}
+
+.THIS .dmv-mainContentArea {
+  min-height: 200vh;
+}
+
+@media only screen and (max-width: 768px){
+  .THIS .dmv-navigation__backgroundColor {
+    background: #f7f8fc;
+  }
+}
+
+.THIS .dmv-not-started {
+  /* background: rgb(255, 183, 93); */
+  background: #fff;
+  color: #000;
+  border: 1px solid #dddbda;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+}
+
+.THIS .dmv-in-progress {
+  background: rgb(255, 183, 93);
+  color: rgb(8, 7, 7);
+  border: none;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+}
+
+.THIS .dmv-complete {
+  background:#04844b;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+}
+
+.THIS .dmv-cancelled {
+  background:#d13f38;
+  color: rgb(8, 7, 7);
+  border: none;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+}
+.THIS .dmv-not-started:before {
+  content:"Not Started";
+
+}.THIS .dmv-in-progress:before {
+  content: "In Progress";
+  
+}.THIS .dmv-complete:before {
+  content: "Completed";
+  
+}.THIS .dmv-cancelled:before {
+  content: "Cancelled";
+  
+}

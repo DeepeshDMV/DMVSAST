@@ -1,0 +1,27 @@
+{
+    "StepAccount": {
+        "BusinessAccountDetails": {
+            "DealershipName": "kishore sabbu",
+            "DealershipPhone": "6142644445"
+        },
+        "CompanyProfileInformation": {
+            "BusinessOperatingName": "w",
+            "BusinessStructure": "Sole Proprietorship",
+            "YourrelationshiptothedealershipPicklist": "Dealer Administrator"
+        },
+        "DealershipMainOfficeAddress": {
+            "AccountCity": "delaware",
+            "AccountState": "Ohio",
+            "AccountStreet": "227 caboose lane",
+            "AccountZipCode": "43015"
+        }
+    },
+    "UserEmail": "kisabbu@deloitte.com",
+    "UserId": "0053S000000JBgwQAG",
+    "timeStamp": "2021-06-13T20:49:14.272Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000JBgwQAG",
+    "userName": "kisabbu@deloitte.com.vlocity",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

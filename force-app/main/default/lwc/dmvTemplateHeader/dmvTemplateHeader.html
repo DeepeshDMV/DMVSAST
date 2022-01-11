@@ -1,0 +1,37 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 06-14-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   06-14-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+<template>
+  <div class="dmv-header__container slds-grid">
+    <div class="slds-large-size_9-of-12">
+      <img src={dmvLogo} alt="DMV Logo" width="168px" />
+    </div>
+    <div class="dmv-header_iconColor slds-large-size_3-of-12">
+      <div class="slds-grid">
+        <div class="slds-p-right_large">Notifications</div>
+        <div class="slds-p-right_large dmv-header_signOut" onclick={logOut}>
+          <lightning-icon
+            icon-name="utility:logout"
+            alternative-text="logout"
+            size="small"
+            class="slds-current-color slds-p-right_x-small"
+          ></lightning-icon>
+          Sign Out
+        </div>
+        <lightning-icon
+          icon-name="utility:user"
+          alternative-text="user"
+          size="small"
+          class="slds-current-color slds-p-right_x-small"
+        ></lightning-icon>
+      </div>
+    </div>
+  </div>
+</template>

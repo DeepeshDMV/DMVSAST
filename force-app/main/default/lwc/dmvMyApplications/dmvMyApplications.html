@@ -1,0 +1,272 @@
+<template>
+  <div class="slds-grid slds-wrap slds-is-relative">
+    <div
+      if:false={cardLoaded}
+      class="slds-is-absolute vloc-loader_override"
+      style="
+        height: 100%;
+        width: 100%;
+        min-height: 50px;
+        background: white;
+        z-index: 99;
+      "
+    >
+      <div>
+        <vlocity_ins-spinner
+          variant="brand"
+          alternative-text="Loading content..."
+          size="medium"
+          theme="slds"
+        ></vlocity_ins-spinner>
+      </div>
+    </div>
+    <template if:false={hasPermission}>
+      You don't have required permissions to view this card.
+    </template>
+    <template if:true={hasPermission}>
+      <template if:true={hasRecords}>
+        <vlocity_ins-flex-card-state
+          data-statue="true"
+          data-index="0"
+          data-rindex={rindex}
+          class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"
+          tracking-obj={_childCardTrackingObj}
+        >
+          <div
+            if:true={cardLoaded}
+            class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small"
+            style=""
+          >
+            <div
+              class="slds-col slds-p-around_x-small slds-size_12-of-12"
+              style=""
+            >
+              <vlocity_ins-block
+                label="Block"
+                collapsible="false"
+                record={record}
+                collapsed-by-default="false"
+                card={card}
+                theme="slds"
+                ><div class="slds-grid slds-wrap">
+                  <div class="slds-col slds-size_12-of-12" style="">
+                    <vlocity_ins-output-field
+                      record={record}
+                      merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2024pt;%22%3EMy%20Applications%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3ELicensing%20Applications%3C/span%3E%3C/strong%3E%3C/div%3E"
+                      card={card}
+                      theme="slds"
+                    ></vlocity_ins-output-field>
+                  </div>
+                  <div class="slds-col slds-size_12-of-12" style="">
+                    <vlocity_ins-data-table
+                      issearchavailable="true"
+                      issortavailable="true"
+                      cell-level-edit="true"
+                      pagelimit="3"
+                      group-order="asc"
+                      hide-table-header="false"
+                      row-delete="false"
+                      row-level-edit="false"
+                      user-selectable-row="true"
+                      user-selectable-column="true"
+                      pagesize="5"
+                      columns='\[{"fieldName":"Name","label":"Application Name","searchable":false,"sortable":true,"type":"text"},{"fieldName":"AccountId","label":"Company","searchable":false,"sortable":true,"type":"text"},{"fieldName":"PrimaryOwnerId","label":"Point of Contact","searchable":false,"sortable":true,"type":"text"},{"fieldName":"Status","label":"Status","searchable":false,"sortable":true,"type":"text"},{"fieldName":"Id","label":"Id","searchable":false,"sortable":true,"type":"text","visible":"false"},{"fieldName":"LicensePermitNameId","label":"LicensePermitNameId","searchable":false,"sortable":true,"type":"text","visible":"false"}]'
+                      records={records}
+                      theme="slds"
+                    ></vlocity_ins-data-table>
+                  </div>
+                  <div
+                    class="slds-col slds-p-around_x-small slds-size_12-of-12"
+                    style="background-color: #f3f2f2"
+                  >
+                    <vlocity_ins-block
+                      label="Block"
+                      collapsible="false"
+                      record={record}
+                      collapsed-by-default="false"
+                      card={card}
+                      theme="slds"
+                      ><div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_10-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620308973869","type":"Custom","displayName":"Pay","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="brand"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620309060983","type":"Custom","displayName":"Print","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="neutral"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620309128955","type":"Custom","displayName":"Delete","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="neutral"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div></div
+                    ></vlocity_ins-block>
+                  </div></div
+              ></vlocity_ins-block>
+            </div>
+          </div>
+        </vlocity_ins-flex-card-state>
+      </template>
+      <template if:false={hasRecords}>
+        <vlocity_ins-flex-card-state
+          data-statue="false"
+          data-index="0"
+          data-rindex={rindex}
+          class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"
+          tracking-obj={_childCardTrackingObj}
+        >
+          <div
+            if:true={cardLoaded}
+            class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small"
+            style=""
+          >
+            <div
+              class="slds-col slds-p-around_x-small slds-size_12-of-12"
+              style=""
+            >
+              <vlocity_ins-block
+                label="Block"
+                collapsible="false"
+                record={record}
+                collapsed-by-default="false"
+                card={card}
+                theme="slds"
+                ><div class="slds-grid slds-wrap">
+                  <div class="slds-col slds-size_12-of-12" style="">
+                    <vlocity_ins-output-field
+                      record={record}
+                      merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2024pt;%22%3EMy%20Applications%3C/span%3E%3C/div%3E%0A%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3ELicensing%20Applications%3C/span%3E%3C/strong%3E%3C/div%3E"
+                      card={card}
+                      theme="slds"
+                    ></vlocity_ins-output-field>
+                  </div>
+                  <div class="slds-col slds-size_12-of-12" style="">
+                    <vlocity_ins-data-table
+                      issearchavailable="true"
+                      issortavailable="true"
+                      cell-level-edit="true"
+                      pagelimit="3"
+                      group-order="asc"
+                      hide-table-header="false"
+                      row-delete="false"
+                      row-level-edit="false"
+                      user-selectable-row="true"
+                      user-selectable-column="true"
+                      pagesize="5"
+                      columns='\[{"fieldName":"Name","label":"Application Name","searchable":false,"sortable":true,"type":"text"},{"fieldName":"AccountId","label":"Company","searchable":false,"sortable":true,"type":"text"},{"fieldName":"PrimaryOwnerId","label":"Point of Contact","searchable":false,"sortable":true,"type":"text"},{"fieldName":"Status","label":"Status","searchable":false,"sortable":true,"type":"text"},{"fieldName":"Id","label":"Id","searchable":false,"sortable":true,"type":"text","visible":"false"},{"fieldName":"LicensePermitNameId","label":"LicensePermitNameId","searchable":false,"sortable":true,"type":"text","visible":"false"}]'
+                      records={records}
+                      theme="slds"
+                    ></vlocity_ins-data-table>
+                  </div>
+                  <div
+                    class="slds-col slds-p-around_x-small slds-size_12-of-12"
+                    style="background-color: #f3f2f2"
+                  >
+                    <vlocity_ins-block
+                      label="Block"
+                      collapsible="false"
+                      record={record}
+                      collapsed-by-default="false"
+                      card={card}
+                      theme="slds"
+                      ><div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_10-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620308973869","type":"Custom","displayName":"Pay","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="brand"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620309060983","type":"Custom","displayName":"Print","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="neutral"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12" style="">
+                          <vlocity_ins-action
+                            tracking-obj={_childCardTrackingObj}
+                            state-obj={record}
+                            card={card}
+                            record={record}
+                            state-action='\{"id":"flex-action-1620309128955","type":"Custom","displayName":"Delete","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'
+                            hide-action-icon="true"
+                            display-as-button="true"
+                            button-variant="neutral"
+                            icon-size="small"
+                            theme="slds"
+                          ></vlocity_ins-action>
+                        </div></div
+                    ></vlocity_ins-block>
+                  </div></div
+              ></vlocity_ins-block>
+            </div>
+          </div>
+        </vlocity_ins-flex-card-state>
+      </template>
+    </template>
+    <template if:true={hasError}> {error} </template>
+
+    <vlocity_ins-action
+      action-wrapperclass="slds-hide"
+      re-render-flyout
+      class="action-trigger slds-col"
+      onupdateos={updateOmniscript}
+      onsetvalue={updateAction}
+    >
+    </vlocity_ins-action>
+
+    <vlocity_ins-action
+      class="execute-action"
+      re-render-flyout
+      action-wrapperclass="slds-hide"
+      onupdateos={updateOmniscript}
+      onsetvalue={updateAction}
+    >
+    </vlocity_ins-action>
+  </div>
+</template>

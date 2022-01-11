@@ -1,0 +1,57 @@
+{
+    "ContextId": "",
+    "InsuranceInformation": {
+        "ProfessionalLiabilityInsurance": {
+            "ProfessionalLiabilityInsuranceInformation": {
+                "NameInsuranceCo": "ABC Insurance",
+                "NameOfInsuranceAgent": "John Doe",
+                "ProLiabilityPolicyNo": "ABC10324"
+            }
+        },
+        "WorkersCompensationInsurance": {
+            "QQSalonHasEmployees": "Y",
+            "WorkersCompensationBlock": {
+                "WCInsAgentPhone": null,
+                "WCNameOfInsAgent": null,
+                "WCompNameOfInsCo": null,
+                "WCompPolicyNo": null
+            }
+        }
+    },
+    "Intro": {
+        "ApplicationFeesBlock": {
+            "ApplicationFees": "350"
+        }
+    },
+    "ReasonForNewLicenseApplication": {
+        "PreviousExpirationDate": null,
+        "SalonPrevLic": "S0129012",
+        "SalonPrevOwner": null,
+        "SalonRelocPrevAddr": "JP Nagar, Bangalore",
+        "SelectReasonforNewLicenseApplication": "relocation"
+    },
+    "SalonInformation": {
+        "Block2": {
+            "CityStateZipCode": "Hyderabad",
+            "MNTaxIDNumber": "E912390123",
+            "SalonDBAName": "Cuttings",
+            "SalonLegalName": "Hyd cutting co",
+            "SalonStreetAddress": "Gachibowli"
+        },
+        "PhoneNumber": "0990258364",
+        "QQSalonInAResidence": "Y"
+    },
+    "id": "a292v000003Zw4NAAS",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://bsudarsan--vlocity-cmt.visualforce.com",
+    "timeStamp": "2019-06-13T09:59:31.359Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052v00000Uqh9dAAB",
+    "userName": "bsudarsan@salesforce.com.vusrvo-003173",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

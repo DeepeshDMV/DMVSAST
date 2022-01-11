@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Add Branch</fullName>
+        <default>false</default>
+        <label>Add Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Address</fullName>
+        <default>false</default>
+        <label>Change Address</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Name</fullName>
+        <default>false</default>
+        <label>Change Name</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Officer</fullName>
+        <default>false</default>
+        <label>Change Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate or Transfer License</fullName>
+        <default>false</default>
+        <label>Duplicate or Transfer License</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>Maintenance Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

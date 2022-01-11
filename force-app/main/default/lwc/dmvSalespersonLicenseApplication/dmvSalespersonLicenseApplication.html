@@ -1,0 +1,307 @@
+<template>
+  <div class="dmv-business_mainBodyPadding">
+    <!-- Dealer License Application -->
+    <div class="slds-m-vertical_small">
+      <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            slds-var-p-horizontal_small
+            dmv-businessLicenseApplication__Card
+          "
+        >
+          <div
+            class="
+              dmv-businessLicenseApplication__CardPadding
+              slds-grid
+              slds-m-bottom_large
+            "
+          >
+            <div class="slds-size_10-of-12">
+              <div class="dmv-businessFlows__mainCardHeader">
+                Salesperson License Application
+              </div>
+              <div class="dmv-businessFlows__mainCardTitle">{accountName}</div>
+
+              <!-- TO BE REMOVED ONCE THE NAME COMES THROUGH APEX(START)  -->
+              <!-- <div
+                  if:true={hideProgressBar}
+                  class="dmv-businessFlows__mainCardTitle"
+                >
+                  Millions of Miles Porsche
+                </div> -->
+              <!-- TO BE REMOVED ONCE THE NAME COMES THROUGH APEX(END)  -->
+            </div>
+            <div class="slds-size_2-of-12">
+              <div
+                if:false={hideProgressBar}
+                class="
+                  dmv-businessFlows__pill
+                  slds-p-horizontal_small
+                  slds-p-vertical_xx-small
+                "
+              >
+                In Progress
+              </div>
+              <!--<div
+                if:true={hideProgressBar}
+                class="
+                  dmv-submission__pill
+                  slds-p-horizontal_small
+                  slds-p-vertical_xx-small
+                "
+              >
+                Ready for Payment
+              </div>-->
+            </div>
+          </div>
+          <div if:false={hideProgressBar}>
+            <div class="slds-grid slds-m-bottom_small">
+              <div class="dmv-businessFlows__mainCardHeader slds-size_10-of-12">
+                Progress
+              </div>
+              <div
+                class="
+                  slds-text-align_right
+                  dmv-businessFlows__mainCardHeader
+                  slds-size_2-of-12
+                "
+              >
+                {progressValue}% Complete
+              </div>
+            </div>
+            <div>
+              <lightning-progress-bar
+                value={progressValue}
+                size="large"
+              ></lightning-progress-bar>
+            </div>
+          </div>
+        </div>
+      </lightning-card>
+    </div>
+
+    <!-- Application Checklist -->
+    <div class="slds-m-vertical_small">
+      <div class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            dmv-business_applicationChecklistTitle
+            slds-align_absolute-center
+            slds-p-bottom_small
+          "
+        >
+          <lightning-icon
+            icon-name="utility:task"
+            alternative-text="task"
+            size="large"
+            class="slds-m-right_medium"
+          ></lightning-icon>
+          Your Application Checklist
+        </div>
+        <div
+          class="
+            dmv-business_applicationChecklistBody
+            slds-align_absolute-center
+          "
+        >
+          Make sure you have all the required documents listed here before you
+          start your application, then complete all the sections below, or let
+          us guide you through how to get them and you can upload when prompted
+          during the application.
+        </div>
+      </div>
+    </div>
+    <!-- Schedule you live scan -->
+    <div class="slds-m-vertical_small">
+      <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            slds-var-p-horizontal_small
+            dmv-business_cardHeight
+            business-tile-body
+          "
+        >
+          <div class="slds-grid slds-m-bottom_large">
+            <div class="slds-size_10-of-12">
+              <span class="slds-p-bottom_small dmv-business__accountIcon">
+                <lightning-icon
+                  icon-name="standard:employee_contact"
+                  alternative-text="account"
+                  size="medium"
+                  class="slds-current-color slds-m-right_medium"
+                ></lightning-icon>
+              </span>
+              <span class="dmv-businessFlows__CardHeader">
+                Schedule your Live Scan
+              </span>
+            </div>
+            <div class="slds-size_2-of-12">
+              <lightning-button
+                variant="neutral"
+                label="Start"
+                class="slds-m-left_large"
+                data-sequence="2"
+                onclick={startScheduleScan}
+              ></lightning-button>
+            </div>
+          </div>
+          <div class="dmv-business_bodyPadding">
+            <div class="slds-grid">
+              <div class="slds-size_10-of-12">
+                <div class="slds-p-bottom_xx-small">
+                  <b> Schedule Your Live Scan </b>
+                </div>
+                <div class="slds-p-bottom_medium">
+                  Live scan is digital fingerprint submission transmitted
+                  electronically to the California Department of Justice (DOJ)
+                  to verify your identity and background. Find a location here.
+                  When completed, you’ll need to upload your receipt below with
+                  the other documents.
+                </div>
+              </div>
+              <div class="slds-size_2-of-12">
+                <div
+                  class="
+                    dmv-not-started
+                    Schedule_your_Live_Scan__c
+                    slds-p-horizontal_small
+                    slds-p-vertical_xx-small
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </lightning-card>
+    </div>
+    <!-- Complete your Salesperson Application Form -->
+    <div class="slds-m-vertical_small">
+      <div class="slds-m-vertical_small">
+        <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+          <div
+            class="
+              slds-var-p-horizontal_small
+              dmv-business_cardHeight
+              business-tile-body
+            "
+          >
+            <div class="slds-grid slds-m-bottom_large">
+              <div class="slds-size_10-of-12">
+                <span class="slds-p-bottom_small dmv-business__accountIcon">
+                  <lightning-icon
+                    icon-name="standard:employee_contact"
+                    alternative-text="account"
+                    size="medium"
+                    class="slds-current-color slds-m-right_medium"
+                  ></lightning-icon>
+                </span>
+                <span class="dmv-businessFlows__CardHeader">
+                  Complete Your Salesperson Application Form
+                </span>
+              </div>
+              <div class="slds-size_2-of-12">
+                <lightning-button
+                  variant="neutral"
+                  label="Start"
+                  class="slds-m-left_large"
+                  data-sequence="1"
+                  onclick={launchFlow}
+                ></lightning-button>
+              </div>
+            </div>
+            <div class="dmv-business_bodyPadding">
+              <div class="slds-grid">
+                <div class="slds-size_10-of-12">
+                  <div class="slds-p-bottom_xx-small">
+                    <b> Personal Background Infromation </b>
+                  </div>
+                  <div class="slds-p-bottom_medium">
+                    Please complete your background information form.
+                  </div>
+                </div>
+                <div class="slds-size_2-of-12">
+                  <div
+                    class="
+                      dmv-not-started
+                      Complete_Your_Salesperson_Application_Fo__c
+                      slds-p-horizontal_small
+                      slds-p-vertical_xx-small
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </lightning-card>
+      </div>
+    </div>
+    <!-- Owner and Business Application -->
+
+    <div class="slds-m-vertical_small">
+      <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            slds-var-p-horizontal_small
+            dmv-business_cardHeight
+            business-tile-body
+          "
+        >
+          <div class="slds-grid slds-m-bottom_large">
+            <div class="slds-p-bottom_small dmv-business__accountIcon">
+              <lightning-icon
+                icon-name="standard:goals"
+                alternative-text="account"
+                size="medium"
+                class="slds-current-color slds-m-right_medium"
+              ></lightning-icon>
+            </div>
+            <div class="dmv-businessFlows__CardHeader">Review and Submit</div>
+          </div>
+          <div class="dmv-business_bodyPadding">
+            <div class="slds-grid">
+              <div class="slds-size_9-of-12">
+                <div class="slds-p-bottom_xx-small">
+                  <b>Review and Certify Your Application</b>
+                </div>
+                <div class="slds-p-bottom_medium">
+                  Carefully reveiew your application before certifying and
+                  submitting your application. Fees due are revealed after you
+                  submit your application. We will send you a link to pay the
+                  fees after we review and approve your application. The amount
+                  is based on the selections you made.
+                </div>
+              </div>
+              <div class="slds-size_3-of-12">
+                <div class="slds-p-horizontal_small slds-p-vertical_xx-small">
+                  <lightning-button
+                    variant="brand"
+                    label="Review and Submit"
+                    class="slds-align_absolute-center"
+                    data-sequence="2"
+                    onclick={launchFlow}
+                  ></lightning-button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </lightning-card>
+    </div>
+    <!-- Hint Text -->
+    <div class="slds-m-vertical_small dmv-business_hintCard">
+      <div class="slds-grid">
+        <div class="slds-m-right_small">
+          <lightning-helptext size="large"></lightning-helptext>
+        </div>
+        <div>
+          The DMV takes 4 weeks on average to review each application.
+          Additional verification may increase your wait time to 8 weeks, so be
+          sure you have all the required documents! Once reviewed, You will need
+          to have your business premises inspected. You can schedule that
+          yourself after you receive notification of approval or the DMV
+          inspector will contact you to schedule it.
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

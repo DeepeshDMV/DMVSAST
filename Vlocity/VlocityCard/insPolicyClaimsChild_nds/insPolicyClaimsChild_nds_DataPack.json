@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "02i5w00000fEVuVAAW"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "InsGetPolicyClaimList",
+            "inputMap": {
+                "Id": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "insPolicyClaimsChild_nds.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "insPolicyClaimsChild_nds/Vlocity/1/1605669225991",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "insPolicyClaimsChild/Vlocity/1/1605247296250",
+    "%vlocity_namespace%__SampleData__c": "[{\"Policy\":{\"Account\":{\"Name\":\"Roger M Moore\"},\"Name\":\"ABC Corp - 1 Asset\",\"AccountId\":\"0015w00002Cs9n6AAB\"},\"TotalPaid\":123,\"TotalAmount\":385,\"StatusImage\":\"open\",\"StatusDate\":\"2020-11-04\",\"ReportedDate\":\"2020-11-01\",\"PrimaryPolicyAssetId\":\"02i5w00000fEVuVAAW\",\"OwnerId\":\"0055w00000DjXmaAAF\",\"Name\":\"Claim001\",\"LossType\":\"Auto\",\"LossDate\":\"2020-11-03\",\"LossCause\":\"Glass Claim\",\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a4r5w000000Ml9eAAC\",\"DaysSinceStatusUpdated\":39,\"ClaimStatus\":\"Open\",\"ClaimName\":\"Claim001\",\"ClaimId\":\"a4r5w000000Ml9eAAC\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "insPolicyClaimsChild_nds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/insPolicyClaimsChild_nds"
+}

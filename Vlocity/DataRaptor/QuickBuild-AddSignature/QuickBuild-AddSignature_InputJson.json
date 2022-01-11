@@ -1,0 +1,16 @@
+{
+    "SignatureTasks": {
+        "Signatures": [
+            {
+                "Order": 1,
+                "SignatureName": "Inspector",
+                "SignatureRequired": true
+            },
+            {
+                "Order": 2,
+                "SignatureName": "Customer",
+                "SignatureRequired": true
+            }
+        ]
+    }
+}

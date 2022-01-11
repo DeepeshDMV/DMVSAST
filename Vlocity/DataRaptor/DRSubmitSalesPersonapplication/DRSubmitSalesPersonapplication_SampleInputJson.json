@@ -1,0 +1,61 @@
+{
+    "CertifyAndSubmitApplication": {
+        "Block1": {
+            "Disclosure1": true,
+            "Disclosure2": true,
+            "Disclosure3": null,
+            "Disclosure4": true,
+            "Disclosure5": true,
+            "Disclosure6": true,
+            "Disclosure7": true
+        },
+        "Block2": {
+            "Date1": "2021-06-16",
+            "Text1": "mantss1 12"
+        }
+    },
+    "LicenseTypeName": "Dealer - Retail New",
+    "ReviewConfirmAccuracy": {
+        "Checkbox1": false,
+        "Messaging3": false,
+        "Messaging4": false,
+        "accountName": "Test Business Account Saturday 4 50 PM1",
+        "appName": "BLA-0000000170",
+        "applicantName": "mantss1 12",
+        "autoBrkrEndrsmntPrvd": false,
+        "isAutoBrkrEndrsmnt": true,
+        "isSuretyBond": true,
+        "licenseType": "Dealer - Retail New",
+        "lseRentEndDt": "2021-09-01",
+        "lseRentStDt": "2021-06-01",
+        "prprtyOwnerAddrs": "5700 South Cicero Avenue<br>Avon, CT 0",
+        "prprtyOwnerState": "CT",
+        "status": "Gathering Prerequisites"
+    },
+    "busAccntInfo": "Complete",
+    "busLicAppId": "0iT3S00000000ApUAI",
+    "error": false,
+    "fictNameStmnt": "Complete",
+    "ownerBackInfo": "Complete",
+    "prmryOwner": "mantss1 12",
+    "prprtyStatus": "Leased",
+    "prprtyUseForm": "Complete",
+    "result": {
+        "error": "OK",
+        "success": "06A3S0000000yoJUAQ"
+    },
+    "schdUrDlrExam": "Start",
+    "schdUrLiveScan": "Complete",
+    "selrsPermit": "Complete",
+    "stBoardResalePrmt": false,
+    "suretyBond": "Complete",
+    "timeStamp": "2021-06-16T05:46:27.777Z",
+    "transactionFeeItemName": "Application Fee",
+    "transactionFeeName": "Auto Generated",
+    "transactionFeeStatus": "Due",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000IwYvQAK",
+    "userName": "mantss@deloitte.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

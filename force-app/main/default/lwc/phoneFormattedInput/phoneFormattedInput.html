@@ -1,0 +1,58 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 06-25-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   06-25-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+<template>
+
+    <div class="slds-size_12-of-12 slds-small-size_12-of-12 slds-large-size_12-of-12"
+    onkeydown={handleKeyPress}>
+        <form autocomplete="off">
+            <lightning-input             
+           
+            onkeydown={handleKeyPress}
+            onchange={onchangeHandler}
+            access-key={accessKey}
+            checked={checked}
+            class={conditionalClass}
+            disabled={disabled}
+            formatter={formatter}
+            is-loading={isLoading}
+            label={label}
+            max={max}
+            max-length={maxLength}
+            message-toggle-active={messageToggleActive}
+            message-toggle-inactive={messageToggleInactive}
+            message-when-bad-input={messageWhenBadInput}
+            message-when-pattern-mismatch={messageWhenPatternMismatch}
+            message-when-range-overflow={messageWhenRangeOverflow}
+            message-when-range-underflow={messageWhenRangeUnderflow}
+            message-when-step-mismatch={messageWhenStepMismatch}
+            message-when-too-long={messageWhenTooLong}
+            message-when-too-short={messageWhenTooShort}
+            message-when-type-mismatch={messageWhenTypeMismatch}
+            message-when-value-missing={messageWhenValueMissing}
+            min={min}
+            min-length={minlength}
+            multiple={multiple}
+            name={name}
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="###-###-####"
+            read-only={readonly}
+            required
+            step={step}
+            title={title}
+            type="text"
+            value={value}                         
+            variant={variant}>
+            <!-- <span class="error-icon"><img class="bannerImage" src={inputErrorIcon} alt="banner-image" /></span> -->
+        </lightning-input>
+        </form>
+    </div>
+
+</template>

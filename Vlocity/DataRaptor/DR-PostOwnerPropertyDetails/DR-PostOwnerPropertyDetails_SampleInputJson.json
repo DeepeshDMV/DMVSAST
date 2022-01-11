@@ -1,0 +1,40 @@
+{
+    "ContextId": null,
+    "PropertyAddressandStatus": {
+        "LeaseRentalEndDate": null,
+        "LeaseRentalStartDate": null,
+        "MeetsPropertyUseRequirements": null,
+        "PropertyStatus": null,
+        "SiteCity": null,
+        "SitePostalCode": null,
+        "SiteState": null,
+        "SiteStreet": null
+    },
+    "PropertyArea": {
+        "BuildingArea": null,
+        "DisplayArea": null,
+        "Number1": null
+    },
+    "PropertyOwnerNameandAddress": {
+        "PropOwnerCity": null,
+        "PropOwnerState": null,
+        "PropOwnerStree": null,
+        "PropOwnerZip": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-PostOwnerPropertyDetails": null,
+        "DataRaptorExtractAction1": null,
+        "DataRaptorPostAction2": null,
+        "DataRaptorPostAction3": null,
+        "PropertyAddressandStatus": null,
+        "PropertyArea": null,
+        "PropertyOwnerNameandAddress": null
+    }
+}

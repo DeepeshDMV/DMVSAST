@@ -1,0 +1,39 @@
+{
+    "CompleteYourSalespersonApplication": "Completed",
+    "Salesperson License": {
+        "Block1": {
+            "dob": "1986-06-11",
+            "expirationsDate": "06-2021",
+            "eyeColor": "Black",
+            "hairColor": "Black",
+            "height": 150,
+            "socialSecurityNumber": "098765432",
+            "weight": 167
+        },
+        "applyingForBlock": {
+            "applyingFor": "Reinstatement"
+        }
+    },
+    "Step1": {
+        "Block3": {
+            "Block4": {
+            },
+            "Block5": {
+                "amountFined": 150,
+                "convictedOf": "test",
+                "convictionDate": "2021-06-02",
+                "courtOfJurisdiction": "test",
+                "dateReleased": "2021-06-25",
+                "jailorPrisonTerm": 10,
+                "termofProbation": 10
+            },
+            "backgroundInfo1": "Yes",
+            "backgroundInfo2": "Yes",
+            "backgroundInfo3": "Yes",
+            "backgroundInfo3_1": "Yes",
+            "backgroundInfo4": "Yes",
+            "backgroundInfo5": "Yes",
+            "backgroundInfo6": "Yes"
+        }
+    }
+}

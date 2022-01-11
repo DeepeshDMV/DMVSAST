@@ -1,0 +1,92 @@
+<template>
+            <div class="nds-grid nds-wrap nds-is-relative">
+            <div if:false={cardLoaded} class="nds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="small"
+      theme="nds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state key={record.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state nds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="nds-grid nds-wrap nds-card nds-p-around_x-small nds-m-bottom_x-small" style="">
+          <div class="nds-col   nds-size_12-of-12  " style="             "><vlocity_ins-output-field     card={card}  record={record}  placeholder=""  type="text"  label="Get Started"  styles='\{"label":{"fontFamily":"SalesforceSans-Semibold","fontSize":"24px","textAlign":"left","color":"#080707"}}'  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3ECreate%20your%20Business%20Profile%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EIt%20looks%20like%20your%20account%20isn&rsquo;t%20linked%20to%20a%20business%20yet.%20Add%20your%20business%20profile%20now.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EAdd%20your%20employees%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EOrganic%20VHS%20hammock,%20seitan%20gochujang%20shaman%20vegan%20normcore.%20Cray%20umami%20flexitarian%20anim%20yuccie%20tattooed%20gastropub.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EChoose%20your%20license%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E200%20characters%20tousled%20chartreuse%20asymmetrical%20godard%20tattooed%208-bit%20typewriter%20blue%20bottle%20church-key.&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622305829076","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Account Servicing/NewBusinessAccount/English","Id":"a3r3S000000047HQAQ","isLwcOs":false},"isLwcOS":false,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div><div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622307567066","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Business/CreateBusiness/English","Id":"a3r3S000000034BQAQ","isLwcOs":true},"isLwcOS":true,"tabLabel":""}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div><div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367928165","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Licensing And Permitting/Salon/English","Id":"a3YM0000000AHL3MAO","isLwcOs":false},"isLwcOS":false,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state nds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="nds-grid nds-wrap nds-card nds-p-around_x-small nds-m-bottom_x-small" style="">
+          <div class="nds-col   nds-size_12-of-12  " style="             "><vlocity_ins-output-field     card={card}  record={record}  placeholder=""  type="text"  label="Get Started"  styles='\{"label":{"fontFamily":"SalesforceSans-Semibold","fontSize":"24px","textAlign":"left","color":"#080707"}}'  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3ECreate%20your%20Business%20Profile%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EIt%20looks%20like%20your%20account%20isn&rsquo;t%20linked%20to%20a%20business%20yet.%20Add%20your%20business%20profile%20now.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EAdd%20your%20employees%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3EOrganic%20VHS%20hammock,%20seitan%20gochujang%20shaman%20vegan%20normcore.%20Cray%20umami%20flexitarian%20anim%20yuccie%20tattooed%20gastropub.%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_4-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_12-of-12 " style=""><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EChoose%20your%20license%3C/span%3E%3C/strong%3E%3C/div%3E%0A%3Cdiv%3E200%20characters%20tousled%20chartreuse%20asymmetrical%20godard%20tattooed%208-bit%20typewriter%20blue%20bottle%20church-key.&nbsp;%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622305829076","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Account Servicing/NewBusinessAccount/English","Id":"a3r3S000000047HQAQ","isLwcOs":false},"isLwcOS":false,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div><div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1622307567066","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Business/CreateBusiness/English","Id":"a3r3S000000034BQAQ","isLwcOs":true},"isLwcOS":true,"tabLabel":""}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div><div class="nds-col   nds-size_4-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367928165","type":"OmniScript","displayName":"Start","vlocityIcon":"standard-default","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"Licensing And Permitting/Salon/English","Id":"a3YM0000000AHL3MAO","isLwcOs":false},"isLwcOS":false,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  hide-action-icon="true"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>

@@ -1,0 +1,31 @@
+<!--
+  @description       : 
+  @author            : Abhishek Keshri
+  @group             : 
+  @last modified on  : 6-8-2021
+  @last modified by  : 
+  Modifications Log 
+  Ver   Date         Author            Modification
+  1.0   6-8-2021     Abhishek Keshri   Initial Version
+-->
+<template>
+    <template if:false={isLoaded}>
+        <div class="slds-theme_default slds-m-bottom--medium">
+            <div style="text-align: center; ">
+                <p class="slds-m-bottom_small">
+                    <canvas name="canvasItem" style="border:2px solid rgb(136, 135, 135);
+                background: transparent;" tabindex="0"></canvas>
+                </p>
+                <p class="slds-m-bottom_small">
+
+                    <lightning-button variant="brand" label="Clear" title="Clear"
+                                      onclick={handleClearClick} class="slds-m-left_x-small"></lightning-button>
+                </p>
+            </div>
+        </div>
+        <button class="slds-button slds-button_brand slds-float_right" onclick={handleSaveClick}>Submit your Application</button>
+    </template>
+    <template if:true={isLoaded}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+</template>

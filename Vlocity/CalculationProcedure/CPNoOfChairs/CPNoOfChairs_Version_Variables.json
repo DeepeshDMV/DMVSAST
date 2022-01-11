@@ -1,0 +1,122 @@
+[
+    {
+        "%vlocity_namespace%__Alias__c": "CMNoOfChairs__UnitFee",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPNoOfChairs",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPNoOfChairs",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Currency",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": 0,
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "CMNoOfChairs",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "UnitFee ( CMNoOfChairs )",
+        "%vlocity_namespace%__UserDefined__c": false,
+        "Name": "UnitFee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated277588718"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "NumberOfChairs",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPNoOfChairs",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPNoOfChairs",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Number Range",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": 0,
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "CMNoOfChairs",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "NumberOfChairs",
+        "%vlocity_namespace%__UserDefined__c": false,
+        "Name": "NumberOfChairs",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated1777151692"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "amount",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPNoOfChairs",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPNoOfChairs",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Currency",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": "",
+        "%vlocity_namespace%__IsEditable__c": true,
+        "%vlocity_namespace%__IsSelected__c": true,
+        "%vlocity_namespace%__MatrixName__c": "",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "",
+        "%vlocity_namespace%__UserDefined__c": true,
+        "Name": "amount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated471116560"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "calculationInfo",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPNoOfChairs",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPNoOfChairs",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Text",
+        "%vlocity_namespace%__DefaultValue__c": "\"Fee for Seating Capacity\"",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": "",
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "",
+        "%vlocity_namespace%__UserDefined__c": true,
+        "Name": "calculationInfo",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated57990212"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "name",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPNoOfChairs",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPNoOfChairs",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Text",
+        "%vlocity_namespace%__DefaultValue__c": "\"Additional Fee\"",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": "",
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "",
+        "%vlocity_namespace%__UserDefined__c": true,
+        "Name": "name",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated506002795"
+    }
+]

@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Application For Salesperson License",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Application/SalespersonLicense/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Application For Salesperson License",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Application/SalespersonLicense/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Block4",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Application/SalespersonLicense/English/Block4",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Block4",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<p><strong>TO EXPEDITE A REVIEW OF YOUR APPLICATION, YOU MAY SUBMIT A COPY OF THE ARRESTING AGENCY REPORT AND A CERTIFIED COPY OF THE COURT DOCUMENTS.</strong></p>\n<p>Even if you were pardoned, pled nolo contendere, or if the conviction was later expunged from the record of the court or set aside under California Penal Code (CPC) 1203.4, or any other federal or state law equivalent, you must disclose the conviction for licensing purposes. If you are awaiting judgment and sentencing following entry of a plea or jury verdict, you must still disclose the conviction. Failure to disclose all convictions, including those out-of-state or out-of-country may result in the cancellation of the temporary permit and may result in the refusal of the occupational license. Listing all conviction information may not necessarily preclude you from receiving a license. Applicants need NOT disclose a conviction for violation of California Health and Safety Code (CHSC) 11357(b), (c), (d) and (e); or 11360(b), if the conviction is more than two years old.</p>\n<p style=\"text-align: center;\"><strong>FAILURE TO INITIAL WILL DELAY PROCESSING OF THIS APPLICATION</strong></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlock1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Application/SalespersonLicense/English/TextBlock1"
+}

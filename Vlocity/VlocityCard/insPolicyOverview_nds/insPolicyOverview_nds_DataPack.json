@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "02i5w00000fEWqnAAG"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "InsGetPolicyDetails",
+            "inputMap": {
+                "Id": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "insPolicyOverview_nds.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "insPolicyOverview_nds/Vlocity/4/1605754222892",
+    "%vlocity_namespace%__IsChildCard__c": false,
+    "%vlocity_namespace%__ParentID__c": "insPolicyOverview/Vlocity/1/1604495445888",
+    "%vlocity_namespace%__SampleData__c": "[{\"CalculatedAddress\":\"500 Maple Dr, Grand Rapids MI 49503\",\"TotalPremiumForTerm\":222,\"TotalAmount\":0,\"Term\":\"Annual\",\"RootAssetId\":\"02i5w00000fEWqnAAG\",\"RecordTypeId\":\"0125w000001FVCjAAO\",\"Product2Id\":\"01t5w00000EZUtMAAX\",\"PolicyName\":\"HMO 500\",\"PolicyId\":\"02i5w00000fEWqnAAG\",\"Name\":\"HMO 500\",\"LineOfBusiness\":\"CommercialLines\",\"LastModifiedDate\":\"2020-12-02T16:01:00.000Z\",\"Id\":\"02i5w00000fEWqnAAG\",\"ExpirationDate\":\"2021-05-31\",\"EffectiveTerm\":\"06/01/2020\",\"DaysToExpire\":175,\"BenefitPlanId\":\"a2S5w0000034B33EAE\",\"AnnualPremium\":\"$0.22\",\"Policy\":{\"Street\":\"500 Maple Dr\",\"State\":\"MI\",\"PostalCode\":\"49503\",\"City\":\"Grand Rapids\"},\"Account\":{\"Id\":\"0015w00002Cs9n6AAB\",\"AccountId\":\"0015w00002Cs9n6AAB\",\"Policyholder\":\"Roger M Moore\",\"Phone\":\"05555555555\",\"Name\":\"Roger M Moore\",\"AccountNumber\":\"324324324324324\"},\"Policyholder\":\"Roger M Moore\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"@media only screen and (min-width: 30rem)\\n{\\n    .nds-community-field-hide-desktop{\\n    display:none;\\n    }\\n}\\n@media only screen and (max-width: 30rem)\\n{\\n    .nds-community-field-hide-mobile{\\n    display:none;\\n    }\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 4,
+    "Name": "insPolicyOverview_nds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/insPolicyOverview_nds"
+}

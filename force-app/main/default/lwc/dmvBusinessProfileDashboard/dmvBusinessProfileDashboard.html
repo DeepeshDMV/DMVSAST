@@ -1,0 +1,35 @@
+<template>
+  <lightning-card>
+    <div class="slds-p-horizontal_large">
+      <div if:false={showCheckout} class="dmv-businessProfile__cardPadding slds-grid">
+        <div class="dmv-businessProfile__cardHeader slds-size_10-of-12">
+          <!-- <img src={businessLogo} alt="DMV Logo" width="168px" /> -->
+          {businessName}
+        </div>
+        <div class="slds-align_right slds-size_2-of-12">
+          <lightning-button label="Edit Profile" onclick={launchFlow}></lightning-button>
+        </div>
+      </div>
+      <div if:true={showCheckout} class="dmv-businessProfile__cardPadding slds-grid">
+        <div class="dmv-businessProfile__cardHeader slds-size_8-of-12">
+          <!-- <img src={businessLogo} alt="DMV Logo" width="168px" /> -->
+          {businessName}
+        </div>
+        <div class="slds-align_right slds-size_2-of-12">
+          <lightning-button label="View Checkouts" onclick={navigateTo}></lightning-button>
+        </div>
+        <div class="slds-align_right slds-size_2-of-12">
+          <lightning-button label="Edit Profile" onclick={launchFlow}></lightning-button>
+        </div>
+      </div>
+      <div class="slds-grid">
+        <template for:each={profileData} for:item="item">
+          <div class="slds-size_3-of-12" key={item.title}>
+            <div class="dmv-businessProfile__columnTitle">{item.title}</div>
+            <div class="dmv-businessProfile__columnBody">{item.body}</div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </lightning-card>
+</template>

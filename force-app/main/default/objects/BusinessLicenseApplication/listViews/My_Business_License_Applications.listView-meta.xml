@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Business_License_Applications</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>AppliedDate</columns>
+    <columns>LicenseType</columns>
+    <columns>Status</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>WasReturned</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Business License Applications</label>
+    <sharedTo>
+        <allCustomerPortalUsers></allCustomerPortalUsers>
+    </sharedTo>
+</ListView>

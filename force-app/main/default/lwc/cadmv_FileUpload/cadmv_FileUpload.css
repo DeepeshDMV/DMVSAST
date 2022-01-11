@@ -1,0 +1,10 @@
+.THIS.exampleHolder{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+:host {
+    --sds-c-button-icon-brand-color-background:red;
+    --sds-c-button-icon-brand-color-border:red;  
+  }

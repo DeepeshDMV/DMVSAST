@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Used_Vehicle_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Used Vehicle Types</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automobile/Commercial</fullName>
+                <default>false</default>
+                <label>Automobile/Commercial</label>
+            </value>
+            <value>
+                <fullName>Motorcycle</fullName>
+                <default>false</default>
+                <label>Motorcycle</label>
+            </value>
+            <value>
+                <fullName>All-Terrain Vehicle</fullName>
+                <default>false</default>
+                <label>All-Terrain Vehicle</label>
+            </value>
+            <value>
+                <fullName>Motorhome</fullName>
+                <default>false</default>
+                <label>Motorhome</label>
+            </value>
+            <value>
+                <fullName>Recreational Trailer</fullName>
+                <default>false</default>
+                <label>Recreational Trailer</label>
+            </value>
+            <value>
+                <fullName>Trailer</fullName>
+                <default>false</default>
+                <label>Trailer</label>
+            </value>
+            <value>
+                <fullName>Snowmobile</fullName>
+                <default>false</default>
+                <label>Snowmobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

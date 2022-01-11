@@ -1,0 +1,17 @@
+.THIS .dmv-header__container {
+  background-color: #0077c8;
+  padding-left: 32px;
+}
+
+.THIS .dmv-header_iconColor {
+  color: #fff;
+  padding-top: 20px;
+}
+ 
+.THIS .dmv-header_signOut {
+  cursor: pointer;
+}
+
+/*.THIS .logo {
+  background-image: url(token(brandLogoImage));
+}*/

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Failure to disclose mandatory information</fullName>
+        <default>false</default>
+        <label>Failure to disclose mandatory information</label>
+    </customValue>
+    <customValue>
+        <fullName>Convictions (type and age of)</fullName>
+        <default>false</default>
+        <label>Convictions (type and age of)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ineligible based on prior departmental action(s)</fullName>
+        <default>false</default>
+        <label>Ineligible based on prior departmental action(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>see OL Disciplinary Guidelines</fullName>
+        <default>false</default>
+        <label>see OL Disciplinary Guidelines</label>
+    </customValue>
+    <description>Denied Reason</description>
+    <masterLabel>Application Denied Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

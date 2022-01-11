@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "QuickBuild_InspectionTemplateImport_English_Element_UploadFile.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_UploadJSON.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_RemoteActionImportGetFileContents.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRDeserializeImport.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRGetMigrationJunctionObjectsToCreate.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRMigrateInspectionTemplate.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRAddAssessmentTaskIndJunction.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRAddRegAssementIndJunction.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRMigrateInspectionTemplate-AddSignatures.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_DRMigrateInspectionTemplate-Activate.json",
+        "QuickBuild_InspectionTemplateImport_English_Element_NavigateAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "QuickBuild_InspectionTemplateImport_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "InspectionTemplateImport",
+    "%vlocity_namespace%__Type__c": "QuickBuild",
+    "Name": "QuickBuild Inspection Template Import",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/QuickBuild/InspectionTemplateImport/English"
+}

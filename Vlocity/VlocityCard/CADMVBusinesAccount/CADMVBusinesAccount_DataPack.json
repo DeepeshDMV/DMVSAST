@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__Author__c": "StateofCaliforniaDMV",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "ApexRemote",
+        "value": {
+            "dsDelay": 0,
+            "remoteClass": "CADMVBusAppController",
+            "remoteMethod": "getAccounts",
+            "resultVar": "[\"records\"]",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "CADMVBusinesAccount.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "CADMVBusinesAccount/StateofCaliforniaDMV/3/1634869983003",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"records\":[{\"Name\":\"Aman Testing\",\"AccountId\":\"0013S0000037vWcQAI\"},{\"Name\":\"Galpin Mike\",\"AccountId\":\"0013S0000037yJhQAI\"},{\"Name\":\"Galpin Motors - KR\",\"AccountId\":\"0013S0000037yOIQAY\"},{\"Name\":\"Aman Portal User\",\"AccountId\":\"0013S0000037vRPQAY\"},{\"Name\":\"Elsa Bella\",\"AccountId\":\"0013S0000037ybWQAQ\"},{\"Name\":\"Testing Flex\",\"AccountId\":\"0013S0000038axOQAQ\"},{\"Name\":\"Aman Portal User\",\"AccountId\":\"0013S0000037vTiQAI\"},{\"Name\":\"Jobes Chevrolet\",\"AccountId\":\"0013S0000037o04QAA\"},{\"Name\":\"Hanson BMW Dealership\",\"AccountId\":\"0013S0000038TgyQAE\"},{\"Name\":\"Livermont James\",\"AccountId\":\"0013S0000038YwkQAE\"},{\"Name\":\"Honda Hopkins\",\"AccountId\":\"0013S0000037maZQAQ\"},{\"Name\":\"Jobes Volvo\",\"AccountId\":\"0013S0000037oMZQAY\"},{\"Name\":\"JTest1 Jobes\",\"AccountId\":\"0013S0000037spzQAA\"},{\"Name\":\"Sunny Autos\",\"AccountId\":\"0013S0000037oMeQAI\"},{\"Name\":\"Jeanne JPersonAccount\",\"AccountId\":\"0013S0000037o6MQAQ\"},{\"Name\":\"Kearny Mesa Hundai - KR\",\"AccountId\":\"0013S0000037qfcQAA\"},{\"Name\":\"Rob Gil\",\"AccountId\":\"0013S0000037szVQAQ\"},{\"Name\":\"Paula Dealer\",\"AccountId\":\"0013S0000037ma5QAA\"}],\"errorCode\":\"INVOKE-200\",\"error\":\"OK\"}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 3,
+    "Name": "CADMVBusinesAccount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/CADMVBusinesAccount"
+}

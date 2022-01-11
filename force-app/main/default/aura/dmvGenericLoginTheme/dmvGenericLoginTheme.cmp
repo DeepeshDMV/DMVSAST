@@ -1,0 +1,76 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 06-14-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   06-14-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+
+<aura:component
+  implements="forceCommunity:themeLayout"
+  access="global"
+  description="Layout Theme State: authenticated User"
+>
+  <aura:attribute name="dmvHeader" type="Aura.Component[]" required="false" />
+  <aura:attribute name="dmvPageName" type="Aura.Component[]" required="false" />
+  <aura:attribute name="firstFlow" type="Boolean" default="true" />
+  
+  <div>
+    <div class="header">{!v.dmvHeader}</div>
+    
+    <div class="site-header__main">
+      <div class="container container--full">
+        <div class="site-header__main-nav" id="js-site-header__main-nav">
+          <nav id="js-nav-primary" class="nav-primary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" aria-label="Primary Navigation">
+            <div class="menu-primary-menu-container">
+              <ul id="js-utility-nav__nav-menu" class="nav-primary__menu">
+                <li id="14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14" style="height: 45px;">
+                  <a href="/../portal/">
+                    
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>    
+    </div>
+    <div class="mainContentArea dmv-navigation__backgroundColor" role="main">
+    <div class="hero hero--tab">
+      <div class="container container--full">
+        <div class="hero__content">
+          <h1 class="hero__title">Login</h1>
+        </div>
+      </div>
+    </div>
+  
+    <div class="page-wrapper">
+  
+      <div class="container container--full">
+  
+        <div class="content-wrapper content-wrapper--pad content-wrapper--offset">
+  
+
+
+
+                <!-- <aura:if isTrue="{!v.firstFlow}">
+                  <c:dmvApplicationHub onfilterchange="{!c.handleFilterChange}" />
+                </aura:if> -->
+                {!v.body}
+
+  
+
+
+        </div>
+  
+      </div>
+</div>
+    <aura:if isTrue="{!v.showFooter}">
+      <div class="footer"></div>
+    </aura:if>
+  </div>
+</aura:component>

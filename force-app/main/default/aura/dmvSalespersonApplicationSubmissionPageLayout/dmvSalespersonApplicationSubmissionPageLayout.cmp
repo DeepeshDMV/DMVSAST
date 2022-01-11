@@ -1,0 +1,51 @@
+<aura:component
+  implements="forceCommunity:layout"
+  description="Business Dashboard Layout"
+  access="global"
+>
+  <aura:attribute
+    name="dmvFlowOne"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute
+    name="dmvFlowTwo"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute name="firstFlow" type="Boolean" default="false" />
+  <aura:attribute name="secondFlow" type="Boolean" default="false" />
+  <aura:attribute name="isFlowActive" type="Boolean" default="false" />
+
+  <div class="business-submission-page-layout">
+    <div>
+      <div class="slds-m-top_x-large" style="padding: 0px 58px">
+        <div class="slds-card__body">
+          <lightning:flow aura:id="flowId" onstatuschange="{!c.statusChange}" />
+        </div>
+        <!-- <aura:attribute name="firstFlow" type="Boolean" default="true" /> -->
+      </div>
+      <aura:if isTrue="{!v.isFlowActive}">
+        <aura:if isTrue="{!v.firstFlow}">
+          <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+            {!v.dmvFlowOne}
+          </div>
+        </aura:if>
+        <aura:if isTrue="{!v.secondFlow}">
+          <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+            {!v.dmvFlowTwo}
+          </div>
+        </aura:if>
+        <aura:set attribute="else">
+          <div>
+            <c:dmvSalespersonSubmissionHub
+              onhandlebuttonchange="{!c.handleButtonChange}"
+              onstartinspectionflow="{!c.handleInspectionFlow}"
+            />
+          </div>
+        </aura:set>
+      </aura:if>
+      <c:dmvFlowEventHelper onhandlecloseflow="{!c.handleCloseFlow}" />
+    </div>
+  </div>
+</aura:component>

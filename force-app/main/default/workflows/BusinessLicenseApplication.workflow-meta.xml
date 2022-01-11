@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CADMV_SetStatustoApproved</fullName>
+        <field>Status</field>
+        <literalValue>Approved</literalValue>
+        <name>Set status to approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status</fullName>
+        <field>Status</field>
+        <literalValue>Inspection Phase</literalValue>
+        <name>Status to Inspection Phase</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_to_In_Review</fullName>
+        <field>Status</field>
+        <literalValue>In Review</literalValue>
+        <name>Status to In Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Application_Submission_Payment_De</fullName>
+        <field>Submission_Payment_Deadline_Missed__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Application Submission Payment De</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Payment_Submission_Deadline</fullName>
+        <field>Application_Submission_Payment_Deadline__c</field>
+        <formula>IF(
+AND(
+MONTH(Application_Start_Date__c) = 2,
+DAY(Application_Start_Date__c) = 29
+),
+DATE(
+YEAR(Application_Start_Date__c)+1,
+3,
+1),
+DATE(
+YEAR(Application_Start_Date__c)+1,
+MONTH(Application_Start_Date__c),
+DAY(Application_Start_Date__c)
+)
+)</formula>
+        <name>Update Payment Submission Deadline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Submission_Deadline</fullName>
+        <field>Submission_Deadline__c</field>
+        <formula>IF(
+AND(
+MONTH(Application_Start_Date__c) = 2,
+DAY(Application_Start_Date__c) = 29
+),
+DATE(
+YEAR(Application_Start_Date__c)+1,
+3,
+1),
+DATE(
+YEAR(Application_Start_Date__c)+1,
+MONTH(Application_Start_Date__c),
+DAY(Application_Start_Date__c)
+)
+)</formula>
+        <name>Update Submission Deadline</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

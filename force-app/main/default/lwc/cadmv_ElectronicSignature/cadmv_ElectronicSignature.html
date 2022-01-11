@@ -1,0 +1,74 @@
+<!--
+  @description       : 
+  @author            : Abhishek Keshri
+  @group             : 
+  @last modified on  : 6-8-2021
+  @last modified by  : 
+  Modifications Log 
+  Ver   Date         Author            Modification
+  1.0   6-8-2021     Abhishek Keshri   Initial Version
+-->
+<template>
+    <template if:false={isLoaded}>
+        <div class="slds-theme_default slds-m-bottom--medium">
+            <!-- <div
+                 class="slds-large-size_12-of-12 slds-size_1-of-1 slds-small-size--1-of-1 slds-medium-size_12-of-12 pk-rg-h4 slds-p-horizontal_medium slds-p-top_medium">
+                <c-kreator-output-text value=" By signing below, you attest that the information provided in this registration is accurate to the best of your knowledge."
+                                       type="text" class-name="">
+                </c-kreator-output-text>
+            </div> -->
+            <div style="text-align: center; ">
+                <p class="slds-m-bottom_small">
+                    <canvas name="canvasItem" style="border:2px solid rgb(136, 135, 135);
+                background: transparent;"></canvas>
+                </p>
+                <p class="slds-m-bottom_small">
+                    <!-- <lightning-button variant="brand" label="Save" title="Save"
+                                  onclick={handleSaveClick} class="slds-m-left_x-small"></lightning-button> -->
+
+                    <lightning-button variant="brand" label="Clear" title="Clear"
+                                      onclick={handleClearClick} class="slds-m-left_x-small"></lightning-button>
+                </p>
+            </div>
+        </div>
+        <!-- </lightning-card> -->
+        <template if:false={ceocmosign}>
+            <div class="slds-form-element__row slds-wrap">
+
+                <div class="slds-grid slds-wrap slds-col slds-size_12-of-12 ">
+                    <div class="slds-form-element__group slds-form-element_compound  slds-size_12-of-12">
+                        <div class="slds-form-element__row slds-wrap">
+
+                            <div
+                                 class="slds-large-size_6-of-12 slds-size_2-of-12 slds-small-size--2-of-12 slds-medium-size_6-of-12 slds-p-around_medium">
+                                <div class="pk-secondary-button">
+                                    <button class="slds-button slds-button_outline-brand" name="Back" title="Back" onclick={handleNav}>
+                                        Back
+                                    </button>
+                                </div>
+                            </div>
+                            <div
+                                 class="slds-large-size_6-of-12 slds-size_10-of-12 slds-small-size--10-of-12 slds-medium-size_6-of-12 slds-p-around_medium alignEnd">
+                                <!--span class="pk-secondary-button">
+                            <button class="slds-button slds-button_outline-brand" name="Save as Draft" title="Save as Draft" data-btn-ctx="Draft" onclick={handleSave}>
+                                <div class="slds-col slds-form-element">
+                                    Save as Draft
+                                </div>
+                            </button>
+                        </span-->
+                                <span class="pk-primary-button">
+                                    <button class="slds-button slds-button_outline-brand" name="Submit" title="Submit" onclick={handleSaveClick}>
+                                        Submit
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </template>
+    <template if:true={isLoaded}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+</template>

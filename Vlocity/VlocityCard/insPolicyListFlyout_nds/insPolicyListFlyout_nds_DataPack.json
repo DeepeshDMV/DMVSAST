@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "insPolicyListFlyout_nds.json",
+    "%vlocity_namespace%__Description__c": "Newport Policy List Child Flyout in a Community",
+    "%vlocity_namespace%__GlobalKey__c": "insPolicyListFlyout_nds/Vlocity/1/1605525816693",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "insPolicyListFlyout/Vlocity/1/1605089091433",
+    "%vlocity_namespace%__SampleData__c": "[{\"Product\":{\"Name\":\"Multi Auto\"},\"PrimaryProducerId\":{\"Name\":\"Larry Sullivan\"},\"Type\":\"Auto\",\"TotalPremiumForTerm\":1133.12,\"Term\":\"Annual\",\"Status\":\"Expiring\",\"Product2Id\":\"01t4W00000CQW8ZQAX\",\"PolicyNumber\":\"autoMulti-000503-2021-\",\"Name\":\"Multi Auto\",\"LineofBusiness\":\"CommercialLines\",\"LastModifiedDate\":\"2020-10-22T06:04:50.000Z\",\"Id\":\"02i4W00000G0tn7QAB\",\"ExpirationDate\":\"2021-09-30\",\"EffectiveTerm\":\"2020-10-01 - 2021-09-30\",\"EffectiveDate\":\"2020-10-01\",\"DaysToExpire\":343,\"BillingMethod\":\"Direct Bill\",\"BillDeliveryMethod\":\"Mail\",\"AutomaticPaymentAmount\":0,\"AnnualPremium\":1133.12,\"AccountId\":\"0014W000027MDznQAG\",\"Account\":{\"Name\":\"Ernie Newton\",\"LastName\":\"Newton\",\"FirstName\":\"Ernie\"},\"PolicyholderName\":\"Ernie Newton\",\"BillingCity\":\"San Francisco\"},{\"Product\":{\"Name\":\"Marine\"},\"PrimaryProducerId\":{\"Name\":\"Larry Sullivan\"},\"Type\":\"Watercraft\",\"TotalPremiumForTerm\":9339,\"Term\":\"Annual\",\"Status\":\"Inactive\",\"Product2Id\":\"01t4W00000CQW7wQAH\",\"PolicyNumber\":\"miMarine-000504-2021-\",\"Name\":\"Marine\",\"LineofBusiness\":\"CommercialLines\",\"LastModifiedDate\":\"2020-10-22T06:04:50.000Z\",\"Id\":\"02i4W00000G0tn9QAB\",\"ExpirationDate\":\"2021-09-13\",\"EffectiveTerm\":\"2020-09-14 - 2021-09-13\",\"EffectiveDate\":\"2020-09-14\",\"DaysToExpire\":326,\"BillingMethod\":\"Direct Bill\",\"BillDeliveryMethod\":\"Mail\",\"AutomaticPaymentAmount\":0,\"AnnualPremium\":9339,\"AccountId\":\"0014W000027MDznQAG\",\"Account\":{\"Name\":\"Ernie Newton\",\"LastName\":\"Newton\",\"FirstName\":\"Ernie\"},\"PolicyholderName\":\"Ernie Newton\",\"BillingCity\":\"San Francisco\"},{\"Product\":{\"Name\":\"Homeowners (HO3)\"},\"PrimaryProducerId\":{\"Name\":\"Larry Sullivan\"},\"Type\":\"Property\",\"TotalPremiumForTerm\":13265.98,\"Term\":\"Annual\",\"Status\":\"Active\",\"Product2Id\":\"01t4W00000CQW8NQAX\",\"PolicyNumber\":\"propHO3-000506-2021-\",\"Name\":\"Homeowners (HO3)\",\"LineofBusiness\":\"CommercialLines\",\"LastModifiedDate\":\"2020-10-22T06:04:50.000Z\",\"Id\":\"02i4W00000G0tnAQAR\",\"ExpirationDate\":\"2021-09-13\",\"EffectiveTerm\":\"2020-09-14 - 2021-09-13\",\"EffectiveDate\":\"2020-09-14\",\"DaysToExpire\":326,\"BillingMethod\":\"Direct Bill\",\"BillDeliveryMethod\":\"Mail\",\"AutomaticPaymentAmount\":0,\"AnnualPremium\":13265.98,\"AccountId\":\"0014W000027MDznQAG\",\"Account\":{\"Name\":\"Ernie Newton\",\"LastName\":\"Newton\",\"FirstName\":\"Ernie\"},\"PolicyholderName\":\"Ernie Newton\",\"BillingCity\":\"San Francisco\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"@media screen and (max-width: 30rem) {\\n\\n    .nds-communities-policy-list_flyout {\\n        .nds-text-heading_medium {\\n            font-size: .875rem !important;\\n            padding-top: .25rem;\\n        }\\n    }\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "insPolicyListFlyout_nds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/insPolicyListFlyout_nds"
+}

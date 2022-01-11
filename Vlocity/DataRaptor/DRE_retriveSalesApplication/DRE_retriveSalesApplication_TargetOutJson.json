@@ -1,0 +1,62 @@
+{
+    "ContextId": "0013S000002l2WVQAY",
+    "Email": "kashshah43+1@gmail.com",
+    "Salesperson License": {
+        "Block1": {
+            "Name": null,
+            "city": "Edison",
+            "dob": "1986-06-11",
+            "driversLicenseNumber": "S1234567890",
+            "expirationsDate": "06-2021",
+            "eyeColor": "Black",
+            "firstName": "Kashish",
+            "hairColor": "Black",
+            "height": 150,
+            "lastName": "Shah",
+            "phone": "9083427136",
+            "socialSecurityNumber": "098765432",
+            "state": "NJ",
+            "streetAddress": "25 Cinder Road",
+            "weight": 167,
+            "zip": "08820"
+        },
+        "applyingForBlock": {
+            "applyingFor": "Reinstatement"
+        }
+    },
+    "Step1": {
+        "Block3": {
+            "Block4": {
+            },
+            "Block5": {
+                "amountFined": 150,
+                "convictedOf": "test",
+                "convictionDate": "2021-06-02",
+                "courtOfJurisdiction": "test",
+                "dateReleased": "2021-06-25",
+                "jailorPrisonTerm": 10,
+                "termofProbation": 10
+            },
+            "Text2": "876545678",
+            "Text4": "876545678",
+            "Text5": "8765678",
+            "Text6": "876789",
+            "Text7": "876567890",
+            "Text8": "87656789098",
+            "backgroundInfo1": "Yes",
+            "backgroundInfo2": "Yes",
+            "backgroundInfo3": "Yes",
+            "backgroundInfo3_1": "Yes",
+            "backgroundInfo4": "Yes",
+            "backgroundInfo5": "Yes",
+            "backgroundInfo6": "Yes"
+        }
+    },
+    "indiVidualAppId": "0iT3S000000008PUAQ",
+    "timeStamp": "2021-06-23T19:19:48.798Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000JEzuQAG",
+    "userName": "kashish.shah@salesforce.com.cadxp",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

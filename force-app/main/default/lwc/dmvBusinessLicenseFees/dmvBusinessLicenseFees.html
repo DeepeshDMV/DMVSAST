@@ -1,0 +1,103 @@
+<template>
+    <div class="dmv-title slds-align_absolute-center">
+        <h1>Business License Fees</h1>
+    </div>
+    <div class="dmv-fee-container slds-grid slds-wrap slds-m-horizontal_xx-large">
+        <a href="javascript:void(0)" class="slds-col slds-size_5-of-6 slds-float_left slds-p-bottom_medium"
+           onclick={navigateTo}>Back to Business Submission</a>
+        <h2 class="slds-col slds-size_5-of-6 dmv-subheading">Your Checkouts</h2>
+        <div class="slds-col slds-size_5-of-6 dmv-fee-table">
+            <lightning-tabset>
+                <lightning-tab label="Your Checkout History">
+                    <div>
+                        <lightning-datatable key-field="id" data={data} columns={columns} onrowaction={handleRowAction}>
+                        </lightning-datatable>
+                    </div>
+                    <div if:true={openModal}>
+
+                        <!--###### MODAL BOX Start######-->
+                        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                                 aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                            <div class="slds-modal__container">
+                                <!-- ###### MODAL BOX HEADER Start ######-->
+                                <header class="slds-modal__header">
+                                    <lightning-button-icon icon-name="utility:close" onclick={closeModal}
+                                                           alternative-text="close" variant="bare-inverse" class="slds-modal__close">
+                                    </lightning-button-icon>
+                                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Payment
+                                        Details</h2>
+                                </header>
+                                <!--###### MODAL BOX BODY Part Start######-->
+                                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                                    <div>
+                                        <h4>Payment Details</h4>
+                                        <div class="slds-p-bottom_medium slds-p-top_medium">
+                                            <lightning-datatable key-field="id" data={data} columns={columns1}>
+                                            </lightning-datatable>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>Fees</h4>
+                                        <div class="slds-p-bottom_medium slds-p-top_medium">
+                                            <lightning-datatable key-field="id" data={data} columns={columns2}>
+                                            </lightning-datatable>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4>Payments</h4>
+                                        <div class="slds-p-bottom_medium slds-p-top_medium">
+                                            <lightning-datatable key-field="id" data={data} columns={columns3}>
+                                            </lightning-datatable>
+                                        </div>
+                                    </div>
+                                    <!-- <article class="slds-tile">
+                                        <h3 class="slds-tile__title slds-truncate" title="Record details"><a href="javascript:void(0);">Record details</a></h3>
+                                        <div class="slds-tile__detail">
+                                            <dl class="slds-list_horizontal slds-wrap">
+                                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Name">Name:</dt>
+                                                <dd class="slds-item_detail slds-truncate">{record.name}</dd>
+                                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Balance">Balance:</dt>
+                                                <dd class="slds-item_detail slds-truncate">
+                                                    <lightning-formatted-number value={record.amount} format-style="currency"></lightning-formatted-number>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </article> -->
+                                </div>
+                                <!--###### MODAL BOX FOOTER Part Start ######-->
+                                <footer class="slds-modal__footer">
+                                    <!-- <lightning-button 
+                                        variant="neutral" 
+                                        label="Dismiss"
+                                        title="Dismiss"
+                                        onclick={closeModal}>
+                                    </lightning-button> -->
+                                    <lightning-button variant="brand" label="Dismiss" title="Dismiss"
+                                                      onclick={closeModal}>
+                                    </lightning-button>
+                                </footer>
+                            </div>
+                        </section>
+                        <div class="slds-backdrop slds-backdrop_open"></div>
+                        <!--###### MODAL BOX Part END Here ######-->
+                    </div>
+                    <!-- <div class="slds-m-around--medium" style="width: 30rem;">
+                        <article class="slds-tile">
+                            <h3 class="slds-tile__title slds-truncate" title="Record details"><a href="javascript:void(0);">Record details</a></h3>
+                            <div class="slds-tile__detail">
+                                <dl class="slds-list_horizontal slds-wrap">
+                                    <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Name">Name:</dt>
+                                    <dd class="slds-item_detail slds-truncate">{record.name}</dd>
+                                    <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Balance">Balance:</dt>
+                                    <dd class="slds-item_detail slds-truncate">
+                                        <lightning-formatted-number value={record.amount} format-style="currency"></lightning-formatted-number>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </article>
+                    </div> -->
+                </lightning-tab>
+            </lightning-tabset>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForEmailAlert__c</fullName>
+    <description>&quot;While workflow email alerts for Person Accounts isn&apos;t a feature currently available, there is a workaround available that allows you to replicate the process.&quot;</description>
+    <externalId>false</externalId>
+    <label>ForEmailAlert</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

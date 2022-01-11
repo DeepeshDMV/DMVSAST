@@ -1,0 +1,17 @@
+{
+    "inputData": {
+        "ApplicationCategory": "Special",
+        "ApplicationType": "Original",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "Dealership - New",
+        "BusinessLocation": "",
+        "County": "Alameda",
+        "EmployeeSize": 1,
+        "NumberOfChairs": 4,
+        "NumberOfDealerPlates": 15,
+        "NumberOfFingerprintCards": 50,
+        "NumberOfMotorcylePlates": 20,
+        "NumberOfNewMotorVehicleBoardLocations": 5,
+        "SalonInAResidence": "Yes"
+    }
+}

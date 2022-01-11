@@ -1,0 +1,37 @@
+<!--
+  @description       : 
+  @author            : Abhishek Keshri
+  @group             : 
+  @last modified on  : 6-8-2021
+  @last modified by  : 
+  Modifications Log 
+  Ver   Date         Author            Modification
+  1.0   6-8-2021     Abhishek Keshri   Initial Version
+-->
+<template>
+    <template if:true={showUploadFile}>
+        <lightning-file-upload label={label}
+                               name={name}
+                               accept={acceptedformats}
+                               record-id={recordId}
+                               file-field-name={fieldname}
+                               file-field-value={fieldvalue}
+                               onuploadfinished={handleUploadFinished}
+                               multiple>
+        </lightning-file-upload>
+    </template>
+    <div if:true={fileNames}
+         class="slds-large-size_12-of-12 slds-small-size--1-of-1 slds-medium-size_12-of-12  slds-p-around_medium pk-input-radio">
+        <template for:each={fileNames} for:item="file">
+            <div key={file.Id} class="slds-p-around_xx-small">
+                <a onclick={fileDownlaod} data-name={file.ContentDocumentId}><span>{file.Title}.{file.FileExtension}</span></a>&nbsp;
+                <lightning-button-icon icon-name="utility:delete" alternative-text="Delete" variant="brand" class="slds-m-left_xx-small" title="Delete"
+                                       name={file.Id} onclick={deleteFile}>
+                </lightning-button-icon>
+            </div>
+        </template>
+        <template if:true={isSpinner}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+    </div>
+</template>

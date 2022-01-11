@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Automobile/Commercial</fullName>
+        <default>false</default>
+        <label>Automobile/Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorcycle (including Off-Highway)</fullName>
+        <default>false</default>
+        <label>Motorcycle (including Off-Highway)</label>
+    </customValue>
+    <customValue>
+        <fullName>All-Terrain Vehicle</fullName>
+        <default>false</default>
+        <label>All-Terrain Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorhome</fullName>
+        <default>false</default>
+        <label>Motorhome</label>
+    </customValue>
+    <customValue>
+        <fullName>Recreational Trailer</fullName>
+        <default>false</default>
+        <label>Recreational Trailer</label>
+    </customValue>
+    <customValue>
+        <fullName>Trailer</fullName>
+        <default>false</default>
+        <label>Trailer</label>
+    </customValue>
+    <customValue>
+        <fullName>Snowmobile</fullName>
+        <default>false</default>
+        <label>Snowmobile</label>
+    </customValue>
+    <masterLabel>Vehicle Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

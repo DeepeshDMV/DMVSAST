@@ -1,0 +1,53 @@
+{
+    "ContextId": null,
+    "Step2": {
+    },
+    "StepAccount": {
+        "BusinessAccountDetails": {
+            "DealershipName": null,
+            "DealershipPhone": null,
+            "DealershipWebsite": null
+        },
+        "CompanyProfileInformation": {
+            "AcknowledmentChkBx": null,
+            "BusinessOperatingName": null,
+            "BusinessStructure": null,
+            "BusinessTaxIdentifier": null,
+            "CheckingLegalName": null,
+            "CreatedDate": null,
+            "UserName": null,
+            "YourrelationshiptothedealershipPicklist": null
+        },
+        "DealershipMainOfficeAddress": {
+            "AccountCity": null,
+            "AccountState": null,
+            "AccountStreet": null,
+            "AccountZipCode": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRSaveLocationAndAddressDetails": null,
+        "DRSaveLocationWhileEditApplication": null,
+        "DataRaptorExtractAction2": null,
+        "IntegrationProcedureAction3": null,
+        "IntegrationProcedureAction4": null,
+        "SetErrors1": null,
+        "SetErrors2": null,
+        "SetValues2": null,
+        "SetValues3": null,
+        "SetValues4": null,
+        "SetValues5": null,
+        "SetValues6": null,
+        "SetValues7": null,
+        "Step2": null,
+        "StepAccount": null,
+        "UpdateAddressIdInLocationObj": null
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>axsy_emr__ActualVisitEndLocation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Geolocation when the User ends a Visit</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <label>Actual Visit End Location</label>
+    <required>false</required>
+    <scale>7</scale>
+    <trackHistory>false</trackHistory>
+    <type>Location</type>
+</CustomField>

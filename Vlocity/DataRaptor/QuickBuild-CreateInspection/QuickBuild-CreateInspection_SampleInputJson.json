@@ -1,0 +1,106 @@
+{
+    "ContextId": "",
+    "Details": {
+        "Description": "Test 27b Inspection",
+        "Name": "Test 27b Inspection",
+        "RequireSignatures": false
+    },
+    "Items": {
+        "FileCount": 1,
+        "InspectionComponents": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA222",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "BBB",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "BBB",
+                "RegulatoryCodeName": "BBB",
+                "RegulatoryCodeSubject": "BBB",
+                "TaskDefinition": "BBB"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "CCC",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "CCC",
+                "RegulatoryCodeName": "CCC",
+                "RegulatoryCodeSubject": "CCC",
+                "TaskDefinition": "CCC"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "DDD",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "DDD",
+                "RegulatoryCodeName": "DDD",
+                "RegulatoryCodeSubject": "DDD",
+                "TaskDefinition": "DDD"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "DDD111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "DDD",
+                "RegulatoryCodeName": "DDD",
+                "RegulatoryCodeSubject": "DDD",
+                "TaskDefinition": "DDD"
+            }
+        ],
+        "InspectionFile": [
+            {
+                "$$hashKey": "object:163",
+                "contentDocumentId": "0694x000000e5fHAAQ",
+                "data": "a309b2c9-8fb7-4d67-ab86-7abcf83d35f3",
+                "filename": "Test26Inspection.csv",
+                "size": 355,
+                "vId": "0684x000000eBI0AAM"
+            }
+        ]
+    },
+    "id": "a5y4x0000004PyrAAE",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-03-25T14:02:37.858Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

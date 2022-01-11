@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__ApplicableObject__c": "",
+    "%vlocity_namespace%__CalculationProcedureId__c": {
+        "Name": "CPAutobrokerEndorsementFee",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPAutobrokerEndorsementFee",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+    },
+    "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPAutobrokerEndorsementFee",
+    "%vlocity_namespace%__CalculationProcedureStep__c": "CPAutobrokerEndorsementFee_Version_Steps.json",
+    "%vlocity_namespace%__CalculationProcedureVariable__c": "CPAutobrokerEndorsementFee_Version_Variables.json",
+    "%vlocity_namespace%__Constants__c": [
+    ],
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EnableLooping__c": false,
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "CPAutobrokerEndorsementFee v2",
+    "%vlocity_namespace%__InputBundleId__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"AuthorizationCategory\":\"License\",\"AuthorizationType\":\"Dealership - New\",\"ApplicationType\":\"Original\"}",
+    "%vlocity_namespace%__LoopingSpecification__c": "",
+    "%vlocity_namespace%__OutputBundleId__c": "",
+    "%vlocity_namespace%__PostProcessorClass__c": "",
+    "%vlocity_namespace%__PreProcessorClass__c": "",
+    "%vlocity_namespace%__Priority__c": 2,
+    "%vlocity_namespace%__StartDateTime__c": "2021-05-13T16:55:25.000Z",
+    "%vlocity_namespace%__Variables__c": "",
+    "%vlocity_namespace%__VersionNumber__c": 2,
+    "Name": "CPAutobrokerEndorsementFee v2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/CPAutobrokerEndorsementFee"
+}

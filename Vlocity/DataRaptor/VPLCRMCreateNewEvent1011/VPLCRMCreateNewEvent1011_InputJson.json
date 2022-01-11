@@ -1,0 +1,22 @@
+{
+    "Event": {
+        "Duration": null,
+        "EndEvent": null,
+        "FormulaStartDateTimeCheck": null,
+        "Messaging Event": null,
+        "MessagingStartDateTime": null,
+        "WhatId": null,
+        "WhoId": null,
+        "eventDescription": null,
+        "eventIsAllDay": null,
+        "eventIsPrivate": null,
+        "eventLocation-Block": {
+            "eventLocation": null
+        },
+        "eventRemindBefore": null,
+        "eventSendReminder": null,
+        "eventStartDateTime": null,
+        "eventSubject": null,
+        "eventType": null
+    }
+}

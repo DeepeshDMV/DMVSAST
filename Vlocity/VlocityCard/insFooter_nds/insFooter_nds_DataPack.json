@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "insFooter_nds.json",
+    "%vlocity_namespace%__Description__c": "Desktop footer in a community",
+    "%vlocity_namespace%__GlobalKey__c": "insFooter_nds/Vlocity/1/1605746052143",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "insFooter/Vlocity/1/1603110479531",
+    "%vlocity_namespace%__SampleData__c": "",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\",\"styleObjects\":{\"Mobil Col Style\":{\"padding\":[{\"type\":\"left\",\"size\":\"small\",\"label\":\"left:small\"},{\"type\":\"vertical\",\"size\":\"x-large\",\"label\":\"vertical:x-large\"}],\"class\":\"nds-action_text nds-text-title_caps nds-text-color_inverse nds-border_bottom nds-p-left_small nds-p-vertical_x-large \",\"sizeClass\":\"nds-size_12-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"nds-action_text nds-text-title_caps nds-text-color_inverse\"},\"border\":{\"type\":\"border_bottom\",\"width\":\"\",\"color\":\"#cccccc\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"style\":\"     border-color:#cccccc;        \",\"selectedStyles\":\"Mobil Col Style\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "insFooter_nds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/insFooter_nds"
+}

@@ -1,0 +1,28 @@
+{
+    "StepAccount": {
+        "BusinessAccountDetails": {
+            "DealershipName": "DealerName",
+            "DealershipPhone": "1234111111",
+            "DealershipWebsite": "test.com"
+        },
+        "CompanyProfileInformation": {
+            "BusinessOperatingName": "True Owner",
+            "BusinessStructure": "LLC",
+            "BusinessTaxIdentifier": "998735221",
+            "YourrelationshiptothedealershipPicklist": "Dealer Owner"
+        },
+        "DealershipMainOfficeAddress": {
+            "AccountCity": "Avon",
+            "AccountState": "CT",
+            "AccountStreet": "5700 South Cicero Avenue",
+            "AccountZipCode": "06001"
+        }
+    },
+    "UserEmail": "mantss@deloitte.com",
+    "timeStamp": "2021-06-06T10:01:55.523Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000IwYvQAK",
+    "userName": "mantss@deloitte.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

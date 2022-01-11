@@ -1,0 +1,105 @@
+<template>
+  <div class="slds-m-vertical_small">
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-size_10-of-12">
+          <span class="slds-p-bottom_small dmv-business__accountIcon">
+            <lightning-icon
+              icon-name="standard:education"
+              alternative-text="account"
+              size="medium"
+              class="slds-current-color slds-m-right_medium"
+            ></lightning-icon>
+          </span>
+            <span class="dmv-businessFlows__CardHeader slds-size_10-of-12">
+              Schedule and Complete Your Dealer Training and Exam
+            </span>
+          </div>
+            <div class="slds-size_2-of-12" if:true={showStartButton}>
+              <lightning-button
+                variant="neutral"
+                label="Start"
+                class="slds-m-left_large"
+                data-sequence="2"
+                onclick={startFlow}
+              ></lightning-button>
+            </div>
+            <div class="slds-size_2-of-12" if:true={showRescheduleButton}>
+              <lightning-button
+                variant="neutral"
+                label="Reschedule"
+                class="slds-m-left_large"
+                data-sequence="2"
+                onclick={startFlow}
+              ></lightning-button>
+            </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <div class="slds-grid">
+            <div class="slds-size_10-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Upload Your Training Certificate </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                Complete a dealer education program to help you run your
+                dealership successfully. If you've already done the training,
+                upload your certificate of completion here.
+              </div>
+            </div>
+            <div class="slds-size_2-of-12">
+              <div class={cssClassTraining}></div>
+              <!-- UPLOAD FILES -->
+            </div>
+          </div>
+          <div class="slds-grid">
+            <div class="slds-size_10-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Schedule and Pass Your Dealer Exam </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                Take the dealer education program exam and pass before you submit 
+                your application. You'll see your results here and will receive a notification.
+              </div>
+              <div if:true={examType}>
+                <b>Exam Type:</b> {examType}
+              </div>
+                <div if:true={examDate} class="slds-p-bottom_medium">
+                  <b>Exam Date:</b> {examDate}
+                </div>
+            </div>
+            
+            <div class="slds-size_2-of-12">
+              <!-- <div if:true={showStartButton}>
+              <lightning-button
+                variant="neutral"
+                label="Start"
+                class="slds-align_absolute-center"
+                data-sequence="2"
+                onclick={startFlow}
+              ></lightning-button>
+              </div> -->
+              <div class={cssClassExamResult}></div>
+            </div>
+          </div>
+          <div class="slds-grid dmv-success" if:true={showSuccessMessage}>
+            Congratulations! You have successfully passed the exam.
+          </div>
+          <div class="slds-grid dmv-fail" if:true={showFailedMessage}>
+            Sorry! You have failed the exam.
+          </div>
+          <div class="dmv-scheduled" if:true={showScheduledMessage}>
+            Your exam has been scheduled.
+          </div>
+        </div>
+      </div>
+    </lightning-card>
+    <c-dmv-start-flow></c-dmv-start-flow>
+  </div>
+</template>

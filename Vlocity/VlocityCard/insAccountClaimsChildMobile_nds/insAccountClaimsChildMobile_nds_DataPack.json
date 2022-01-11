@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 3,
+                "name": "User.userAccountId",
+                "val": "0015w00002Cs9n6AAB"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "InsReadAccountPolicyClaims",
+            "inputMap": {
+                "Id": "{User.userAccountId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "insAccountClaimsChildMobile_nds.json",
+    "%vlocity_namespace%__Description__c": "Newport Account Claims Child for mobile",
+    "%vlocity_namespace%__GlobalKey__c": "insAccountClaimsChildMobile_nds/Vlocity/1/1605523329776",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "insAccountClaimsChildMobile/Vlocity/1/1604494569856",
+    "%vlocity_namespace%__SampleData__c": "[{\"TotalAmount\":0,\"ReportedDate\":\"2020-09-24\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"PrimaryOwnerPartyId\":\"a3h4W000003UklfQAC\",\"PrimaryOwnerName\":\"Ernie Newton\",\"OwnerId\":\"0054W00000BOZYZQA5\",\"Name\":\"VlocityClaims-000512\",\"LossType\":\"Flooding\",\"LossDate\":\"2020-09-23\",\"LossCause\":\"Flooding\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aMb5QAE\",\"ClaimStatus\":\"Draft\",\"ClaimName\":\"VlocityClaims-000512\",\"ClaimId\":\"a2b4W000007aMb5QAE\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"},{\"TotalAmount\":0,\"ReportedDate\":\"2020-09-24\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"OwnerId\":\"0054W00000BOZYrQAP\",\"Name\":\"VlocityClaims-000511\",\"LossType\":\"Flooding\",\"LossDate\":\"2020-09-23\",\"LossCause\":\"Flooding\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aMWsQAM\",\"ClaimStatus\":\"Draft\",\"ClaimName\":\"VlocityClaims-000511\",\"ClaimId\":\"a2b4W000007aMWsQAM\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"},{\"TotalAmount\":0,\"ReportedDate\":\"2020-09-24\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"OwnerId\":\"0054W00000BOZYrQAP\",\"Name\":\"VlocityClaims-000513\",\"LossType\":\"Collision\",\"LossDate\":\"2020-09-23\",\"LossCause\":\"Collision\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aMbAQAU\",\"ClaimStatus\":\"Draft\",\"ClaimName\":\"VlocityClaims-000513\",\"ClaimId\":\"a2b4W000007aMbAQAU\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"},{\"TotalAmount\":0,\"ReportedDate\":\"2020-09-23\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"OwnerId\":\"0054W00000BOZYrQAP\",\"Name\":\"VlocityClaims-000509\",\"LossType\":\"Collision\",\"LossDate\":\"2020-09-15\",\"LossCause\":\"Collision\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aLf2QAE\",\"ClaimStatus\":\"Draft\",\"ClaimName\":\"VlocityClaims-000509\",\"ClaimId\":\"a2b4W000007aLf2QAE\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"},{\"TotalAmount\":0,\"StatusImage\":\"open\",\"ReportedDate\":\"2020-09-22\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"OwnerId\":\"0054W00000BOZYrQAP\",\"Name\":\"VlocityClaims-000508\",\"LossType\":\"Collision\",\"LossDate\":\"2020-09-01\",\"LossCause\":\"Collision\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aLapQAE\",\"ClaimStatus\":\"Open\",\"ClaimName\":\"VlocityClaims-000508\",\"ClaimId\":\"a2b4W000007aLapQAE\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"},{\"TotalAmount\":0,\"ReportedDate\":\"2020-09-23\",\"PrimaryPolicyAssetId\":\"02i4W00000FBCawQAH\",\"OwnerId\":\"0054W00000BOZYrQAP\",\"Name\":\"VlocityClaims-000510\",\"LossType\":\"Collision\",\"LossDate\":\"2020-08-31\",\"LossCause\":\"Collision\",\"LiabilityPercentage\":0,\"IsSubrogatable\":false,\"IsChargeable\":false,\"Id\":\"a2b4W000007aLf7QAE\",\"ClaimStatus\":\"Draft\",\"ClaimName\":\"VlocityClaims-000510\",\"ClaimId\":\"a2b4W000007aLf7QAE\",\"Policy\":{\"Account\":{\"PrimaryContactId\":\"0034W00002DDfhKQAT\",\"Name\":\"Ernie Newton\"},\"PrimaryProducerId\":\"0034W00002DDfhLQAT\",\"Name\":\"Multi Auto\",\"AccountId\":\"0014W000024XcysQAC\"},\"LastModifiedDate\":\"2020-10-20T06:38:45.000Z\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "insAccountClaimsChildMobile_nds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/insAccountClaimsChildMobile_nds"
+}

@@ -1,0 +1,13 @@
+.dmv-header__container {
+  background-color: #0077c8;
+  padding-left: 32px;
+}
+
+.dmv-header_iconColor {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.dmv-header_signOut {
+  cursor: pointer;
+}

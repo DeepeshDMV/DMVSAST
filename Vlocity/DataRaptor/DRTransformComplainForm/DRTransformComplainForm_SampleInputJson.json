@@ -1,0 +1,16 @@
+{
+    "ReviewAndSubmit": {
+        "AddressLine1RS": "k",
+        "AddressLine2RS": "kl",
+        "Attestation": false,
+        "CADMVEmailRS": "xyz@gmail.com",
+        "CityRS": "k",
+        "DayPhoneRS": "4234234234",
+        "FirstNameRS": "d",
+        "Formula1": false,
+        "LastNameRS": "j",
+        "Messaging2": false,
+        "MobileNumberRS": "3242342342",
+        "StateRS": "k"
+    }
+}

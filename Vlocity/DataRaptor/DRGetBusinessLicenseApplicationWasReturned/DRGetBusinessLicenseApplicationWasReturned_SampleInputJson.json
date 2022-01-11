@@ -1,0 +1,71 @@
+{
+    "ApplicationInformation": {
+        "ApplicationCategory": null,
+        "AssociatedAccount": null,
+        "AssociatedAccountId": null,
+        "AuthorizationCategory": null,
+        "AuthorizationType": null,
+        "AuthorizationTypeId": null,
+        "BusinessActivity": null,
+        "BusinessActivityId": null,
+        "Industries": null,
+        "exprShowMinnesotaSalonLicenceApplication": false,
+        "isBusinessActivityFilled": false,
+        "isEditable": false,
+        "isIndustriesFilled": false,
+        "isNewApplication": false
+    },
+    "ApplicationStatus": "Submitted",
+    "Certification": {
+        "CertificationText": false,
+        "Signature": null
+    },
+    "ContactId": "003RM000006GmF9YAK",
+    "ContextId": "",
+    "EstablishmentInformation": {
+        "Address": null,
+        "BusinessDBAName": null,
+        "BusinessLegalName": null,
+        "City": null,
+        "ContactEmail": null,
+        "ContactName": "Dieggo John",
+        "Neighborhood": null,
+        "State": null,
+        "Street": null,
+        "TaxID": null,
+        "Zipcode": null
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": null,
+        "IndividualOwnership": null,
+        "OwnershipType": null,
+        "PartnershipOwnership": null,
+        "PriorEstablishmentDetails": null,
+        "PurchaseOrTakeOver": null
+    },
+    "PreConfirmationScreen": {
+        "BlaCreatedText": "0f0RM0000004CEmYAM"
+    },
+    "SalonInformation": {
+        "BusinessLocation": null,
+        "BusinessType": null,
+        "SalonInAResidence": null,
+        "SalonStartDate": null
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "id": "a3KRM000000005X2AQ",
+    "isBLASubmitted": true,
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a3JRM000000009i2AA",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-24T12:56:18.856Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

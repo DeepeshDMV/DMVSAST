@@ -1,0 +1,12 @@
+{
+    "BusinessLicenseApplication": {
+        "AccountId": "0013S000002eGv6QAE",
+        "Id": "0f03S000000004XQAQ"
+    },
+    "calculatedFees": [
+        {
+            "calculatedFeeAmount": "100",
+            "calculatedFeeName": "TestName"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state key={record.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678087369","type":"OmniScript","displayName":"Create Inspection Type From CSV","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionCSVLoader/English","Id":"a5y4x0000004PyrAAE","isLwcOs":true},"isLwcOS":true}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678184044","type":"OmniScript","displayName":"Export Inspection Type","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionTemplateExport/English","Id":"a5y4x0000004PyXAAU","isLwcOs":true},"isLwcOS":true,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678191570","type":"OmniScript","displayName":"Import Inspection Type","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionTemplateImport/English","Id":"a5y4x0000004PymAAE","isLwcOs":true},"isLwcOS":true}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678087369","type":"OmniScript","displayName":"Create Inspection Type From CSV","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionCSVLoader/English","Id":"a5y4x0000004PyrAAE","isLwcOs":true},"isLwcOS":true}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678184044","type":"OmniScript","displayName":"Export Inspection Type","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionTemplateExport/English","Id":"a5y4x0000004PyXAAU","isLwcOs":true},"isLwcOS":true,"vForcewithNsPrefix":"vlocity_ins__OmniScriptUniversalPage"}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col   slds-size_4-of-12  " style="             "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1616678191570","type":"OmniScript","displayName":"Import Inspection Type","vlocityIcon":"","openUrlIn":"Current Window","layoutType":"lightning","omniType":{"Name":"QuickBuild/InspectionTemplateImport/English","Id":"a5y4x0000004PymAAE","isLwcOs":true},"isLwcOS":true}'  icon-size="large"  styles='\{"label":{"fontSize":"24px","textAlign":"center"}}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>

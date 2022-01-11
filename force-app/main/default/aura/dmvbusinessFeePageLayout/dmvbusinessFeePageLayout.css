@@ -1,0 +1,9 @@
+.THIS .slds-tabs_default__link, .THIS .slds-tabs_default__link:hover {
+    color: rgb(8, 7, 7) !important;
+    font-size: 13px;
+    font-weight: bold !important;
+}
+
+.THIS .slds-tabs_default__item.slds-active:after, .THIS .slds-tabs_default__item.slds-is-active:after, .THIS .slds-tabs--default__item.slds-active:after, .THIS .slds-tabs--default__item.slds-is-active:after {
+    background-color: #1589ee !important;
+}

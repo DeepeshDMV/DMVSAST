@@ -1,0 +1,57 @@
+{
+    "Complaint": {
+        "AccountName": "Sarah Silvery",
+        "AddYourInformation": true,
+        "BusinessAddress": "Houston",
+        "Description": null,
+        "Email": null,
+        "FirstName": null,
+        "IncidentDate": "2020-06-05",
+        "LastName": null,
+        "MobileNumber": null
+    },
+    "ComplaintAttachment": {
+        "ProofImage": [
+            {
+                "$$hashKey": "object:230",
+                "data": "2c469636-f293-47d3-af61-7030c7d2de4a",
+                "filename": "BLA - Form.pdf",
+                "size": 25349
+            }
+        ]
+    },
+    "ContextId": "",
+    "Search": {
+        "SearchAccount1": null,
+        "searchType": "1"
+    },
+    "SelectedAccount": {
+        "AccountId": "001RM000004fmGNYAY",
+        "AccountName": "Sarah Silvery",
+        "City": "Houston",
+        "businessTypeName": "BT1",
+        "vlcSelected": true
+    },
+    "SelectedAccountNode": [
+        {
+            "AccountId": "001RM000004fmGNYAY",
+            "AccountName": "Sarah Silvery",
+            "City": "Houston",
+            "businessTypeName": "BT1",
+            "vlcSelected": true
+        }
+    ],
+    "id": "a3LRM000000000V2AQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-06-06T11:16:42.076Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B0000006jSRQIA2",
+    "userName": "admin228@q3lpivlocity.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

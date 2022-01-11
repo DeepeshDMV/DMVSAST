@@ -1,0 +1,74 @@
+{
+    "ApplicationInformation": {
+        "ApplicationCategory": "Basic",
+        "AssociatedAccount": "Act1",
+        "AssociatedAccountId": "001RM000004dRr6YAE",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "AuthorizationTypeId": "0ehRM0000004C9DYAU",
+        "BusinessActivity": "Act 1 BT",
+        "BusinessActivityId": "2gFRM0000004C9I2AU",
+        "Industries": "Healthcare",
+        "exprShowMinnesotaSalonLicenceApplication": true,
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "ApplicationStatus": "Submitted",
+    "Certification": {
+        "CertificationText": false,
+        "Signature": null
+    },
+    "ContactId": "003RM000006GHdyYAG",
+    "ContextId": "",
+    "CreatedPreliminaryApplicationRefId": "aAmRM00000000650AA",
+    "DRId_PreliminaryApplicationRef__c": "aAmRM00000000650AA",
+    "EstablishmentInformation": {
+        "Address": "Street -:  null City -: null State -: null Zipcode -: undefined",
+        "BusinessDBAName": null,
+        "BusinessLegalName": "Act1",
+        "City": null,
+        "ContactEmail": null,
+        "ContactName": "Act1 Contact",
+        "Neighborhood": null,
+        "State": null,
+        "Street": null,
+        "TaxID": null,
+        "Zipcode": null
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": null,
+        "IndividualOwnership": null,
+        "OwnershipType": null,
+        "PartnershipOwnership": null,
+        "PriorEstablishmentDetails": null,
+        "PurchaseOrTakeOver": null
+    },
+    "ReasonForNewLicenseApplication": {
+        "PreviousExpirationDate": null,
+        "SalonPrevLic": null,
+        "SalonPrevOwner": null,
+        "SalonRelocPrevAddr": null,
+        "SelectReasonforNewLicenseApplication": null
+    },
+    "SalonInformation": {
+        "BusinessLocation": null,
+        "BusinessType": null,
+        "SalonInAResidence": null,
+        "SalonStartDate": null
+    },
+    "SampleUser": "005RM0000024wK9YAI",
+    "id": "a80RM000000004JYAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a7zRM000000008uYAA",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-19T12:36:31.671Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B0000005gGB9IAM",
+    "userName": "lpi_226stmfa@lpi.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

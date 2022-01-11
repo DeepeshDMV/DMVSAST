@@ -1,0 +1,91 @@
+<template>
+  <div class="dmv-business_mainBodyPadding">
+    <!-- Dealer License Application -->
+    <c-dmv-dealer-license-application
+      if:true={showData}
+      uploaded-doc-status={uploadedDocStatus}
+    ></c-dmv-dealer-license-application>
+
+    <!-- Application Checklist -->
+    <div class="slds-m-vertical_small">
+      <div class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            dmv-business_applicationChecklistTitle
+            slds-align_absolute-center
+            slds-p-bottom_small
+          "
+        >
+          <lightning-icon
+            icon-name="utility:task"
+            alternative-text="task"
+            size="large"
+            class="slds-m-right_medium"
+          ></lightning-icon>
+          Your Application Checklist
+        </div>
+        <div
+          class="
+            dmv-business_applicationChecklistBody
+            slds-align_absolute-center
+          "
+        >
+          Make sure you have all the required documents listed here before you
+          start your application, then complete all the sections below, or let
+          us guide you through how to get them and you can upload when prompted
+          during the application.
+        </div>
+      </div>
+    </div>
+    <!-- Schedule you live scan -->
+    <c-dmv-schedule-live-scan
+      if:true={showData}
+      uploaded-doc-status={uploadedDocStatus}
+    ></c-dmv-schedule-live-scan>
+    <!-- Complete your owner and property details -->
+    <div class="slds-m-vertical_small">
+      <c-dmv-business-flows
+        if:true={showData}
+        uploaded-doc-status={uploadedDocStatus}
+      ></c-dmv-business-flows>
+    </div>
+    <!-- Schdule and complete your dealer training and exam -->
+    <c-dmv-dealer-training-exam
+      if:true={showData}
+      uploaded-doc-status={uploadedDocStatus}
+    ></c-dmv-dealer-training-exam>
+
+    <!-- Upload your required Documents -->
+
+    <c-dmv-upload-required-docs
+      if:true={showData}
+      uploaded-doc-status={uploadedDocStatus}
+    ></c-dmv-upload-required-docs>
+
+    <!-- Owner and Business Application -->
+
+    <c-dmv-owner-and-property-details></c-dmv-owner-and-property-details>
+    <!-- Hint Text -->
+    <div class="slds-m-vertical_small dmv-business_hintCard">
+      <div class="slds-grid">
+        <div class="slds-m-right_small">
+          <lightning-helptext size="large"></lightning-helptext>
+        </div>
+        <div>
+          On average the DMV takes approximately 4 weeks to complete the review
+           process for your application. If additional verifications are 
+           needed it may take longer to complete the review so it is important 
+           that you provide all of the required documents with your submission. 
+           You will receive notification when the review is completed and you 
+           will be required to schedule an inspection of your business location.
+          <!--The DMV takes 4 weeks on average to review each application.
+          Additional verification may increase your wait time to 8 weeks, so be
+          sure you have all the required documents! Once reviewed, You will need
+          to have your business premises inspected. You can schedule that
+          yourself after you receive notification of approval or the DMV
+          inspector will contact you to schedule it.-->
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <name>Case_Fields</name>
+        <label>Case Fields</label>
+        <locationX>176</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Case_Record.Live_Scan_Review1__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>picklist_LiveScanReview</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case_Records</targetReference>
+        </connector>
+    </assignments>
+    <description>This is used by the BLU - KDO as part of a checklist for processing a Business License Application.  It is used in the Actions &amp; Recommendations component on the Case page.</description>
+    <dynamicChoiceSets>
+        <name>picklist_BusinessEntityStatus</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Business_Entity_Status__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>picklist_LiveScanReview</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Live_Scan_Review1__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>picklist_PersonalHistoryReview</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Personal_History_Review__c</picklistField>
+        <picklistObject>Case</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Live Scan Review {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Live Scan Review</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_BLA_Record</name>
+        <label>Get BLA Record</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Review</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ApplicationCaseId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>BusinessLicenseApplication</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Case_Record</name>
+        <label>Get Case Record</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_BLA_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Case_Records</name>
+        <label>Update Case Records</label>
+        <locationX>176</locationX>
+        <locationY>758</locationY>
+        <inputReference>Get_Case_Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UpdateBLA</name>
+        <label>UpdateBLA</label>
+        <locationX>176</locationX>
+        <locationY>518</locationY>
+        <connector>
+            <targetReference>Case_Fields</targetReference>
+        </connector>
+        <inputReference>Get_BLA_Record</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>Review</name>
+        <label>Review</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>UpdateBLA</targetReference>
+        </connector>
+        <fields>
+            <name>What_do_you_need_to_do</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>HelpText</elementReference>
+            </defaultValue>
+            <fieldText>What do you need to do?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Live_Scan_Review</name>
+            <choiceReferences>picklist_LiveScanReview</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Live Scan Review</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <stages>
+        <name>Check_List</name>
+        <isActive>true</isActive>
+        <label>Check List</label>
+        <stageOrder>5</stageOrder>
+    </stages>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Case_Record</targetReference>
+        </connector>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>HelpText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Please check the Primary Owner&apos;s Live Scan for this Business License Application.  There are three results that you will get back.  No rap sheet, meaning the applicant has no known criminal history.  Yes, rap sheet, meaning the applicant has criminal history that needs to be evaluated using OL disciplinary guidelines to determine if there is an impact on approving the license.  Pending rap sheet means we need to hold until the rap sheet is completed.</text>
+    </textTemplates>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

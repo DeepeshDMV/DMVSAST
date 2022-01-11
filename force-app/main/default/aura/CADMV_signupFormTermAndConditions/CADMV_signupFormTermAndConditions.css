@@ -1,0 +1,12 @@
+.THIS .myCheckbox{
+  display: inline-block;
+  float: left;
+}
+
+.THIS .overridecss{
+    color: rgb(8,70, 173) !important;
+}
+
+.THIS.cCADMV_signupFormTermAndConditions{
+    color: rgb(8,70, 173) !important;
+}

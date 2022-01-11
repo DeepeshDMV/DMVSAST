@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Applicant will receive reminder email 1 day prior inspection scheduled date.</description>
+        <name>CADMV_ApplicantScheduleInspection1dayreminder</name>
+        <label>ApplicantScheduleInspection1dayreminder</label>
+        <locationX>459</locationX>
+        <locationY>601</locationY>
+        <actionName>Visit.CADMV_ApplicantScheduleInspection1dayreminder</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Applicant will get reminder of scheduled inspection before 7 days</description>
+        <name>CADMV_ApplicantScheduleInspection7dayreminder</name>
+        <label>ApplicantScheduleInspection7dayreminder</label>
+        <locationX>109</locationX>
+        <locationY>589</locationY>
+        <actionName>Visit.CADMV_ApplicantScheduleInspection7dayreminder</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <decisions>
+        <name>CADMV_VisitScheduledAfter1Day</name>
+        <label>Visit Scheduled After 1 Day</label>
+        <locationX>447</locationX>
+        <locationY>373</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CADMV_AppointmentScheduledAfter1Day</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>Todaydate</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>startDateMinus1</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CADMV_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Inspector Assignment</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CADMV_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CADMV_ApplicantScheduleInspection1dayreminder</targetReference>
+            </connector>
+            <label>Appointment scheduled after 1 day</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CADMV_VisitScheduledAfter7Days</name>
+        <label>Visit Scheduled After 7 Days</label>
+        <locationX>123</locationX>
+        <locationY>370</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CADMV_Appointmentscheduledafter7days</name>
+            <conditionLogic>1 AND ( 2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>Todaydate</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>startdateminus7</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CADMV_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Inspector Assignment</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CADMV_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CADMV_ApplicantScheduleInspection7dayreminder</targetReference>
+            </connector>
+            <label>Appointment scheduled after 7 days</label>
+        </rules>
+    </decisions>
+    <description>Applicant will received inspection reminder notifications before 7 days and before 1 day.</description>
+    <formulas>
+        <name>startDateMinus1</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.CADMV_PlannedStartDateForEmail__c}-1</expression>
+    </formulas>
+    <formulas>
+        <name>startdateminus7</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.CADMV_PlannedStartDateForEmail__c}-7</expression>
+    </formulas>
+    <formulas>
+        <name>Todaydate</name>
+        <dataType>Date</dataType>
+        <expression>today()</expression>
+    </formulas>
+    <interviewLabel>Applicant - Email Notification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Applicant - Email Notification</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>166</locationX>
+        <locationY>21</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Planned</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CADMV_ApplicantEmail__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Service_Appointment__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>PlannedVisitStartTime</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Visit</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>CADMV_Run7daysbeforeServiceAppointmentisscheduled</name>
+            <connector>
+                <targetReference>CADMV_VisitScheduledAfter7Days</targetReference>
+            </connector>
+            <label>Run 7 days before Visit is scheduled</label>
+            <offsetNumber>-7</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>PlannedVisitStartTime</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>CADMV_Run1daybeforeVisitisscheduled</name>
+            <connector>
+                <targetReference>CADMV_VisitScheduledAfter1Day</targetReference>
+            </connector>
+            <label>Run 1 day before Visit is scheduled</label>
+            <offsetNumber>-1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>PlannedVisitStartTime</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

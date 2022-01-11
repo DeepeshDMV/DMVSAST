@@ -1,0 +1,24 @@
+{
+    "ContextId": null,
+    "StepToCreateClientVisit": {
+        "ClientNotes": null,
+        "EndDateTime": null,
+        "EventSubject": null,
+        "StartDateTime": null
+    },
+    "ThankYou": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateClientVisit": null,
+        "DoneAction1": null,
+        "GetPrimaryContactDetails": null,
+        "StepToCreateClientVisit": null,
+        "ThankYou": null
+    }
+}

@@ -1,0 +1,81 @@
+<template>
+  <div class="dmv-business_bodyPadding">
+    <div class="dmv-business_bodyTitle">Your Businesses</div>
+    <lightning-layout multiple-rows="true" pull-to-boundary="small">
+      <template for:each={businesses} for:item="business">
+        <lightning-layout-item
+          key={business.Id}
+          size="12"
+          class="slds-var-p-around_x-small"
+          small-device-size="12"
+          medium-device-size="12"
+          large-device-size="4"
+        >
+          <lightning-card if:false={business.addCard} class="">
+            <div
+              class="
+                slds-var-p-horizontal_large
+                dmv-business_cardHeight
+                business-tile-body
+              "
+            >
+              <div class="slds-p-bottom_small dmv-business__accountIcon">
+                <lightning-icon
+                  icon-name="standard:account"
+                  alternative-text="account"
+                  size="medium"
+                  class="slds-current-color"
+                ></lightning-icon>
+              </div>
+              <div class="dmv-business__nameLabel slds-p-bottom_xx-small">
+                Business Name
+              </div>
+              <div class="dmv-business__name slds-p-bottom_medium">
+                {business.name}
+              </div>
+              <div
+                class="
+                  slds-p-bottom_medium
+                  slds-align_absolute-center
+                  dmv-bg-image
+                  slds-m-top_xx-large
+                "
+              ></div>
+              <div>
+                <lightning-button
+                  variant="brand"
+                  label="Manage Your Business"
+                  class="slds-align_absolute-center slds-m-top_xx-large"
+                  onclick={navigateNewUrl}
+                  name={business.Id}
+                ></lightning-button>
+              </div>
+            </div>
+          </lightning-card>
+          <lightning-card
+            if:true={business.addCard}
+            class="dmv-business_cardHeight"
+            onclick={launchFlow}
+          >
+            <div
+              class="
+                slds-var-p-horizontal_small
+                dmv-business_cardHeight dmv-business__addCardBody
+              "
+            >
+              <div class="slds-m-bottom_medium">
+                <lightning-icon
+                  icon-name="utility:add"
+                  alternative-text="Add"
+                  size="medium"
+                  class="slds-align_absolute-center slds-current-color"
+                ></lightning-icon>
+              </div>
+              <div class="slds-align_absolute-center">{business.name}</div>
+            </div>
+          </lightning-card>
+        </lightning-layout-item>
+      </template>
+    </lightning-layout>
+  </div>
+</template>

@@ -1,0 +1,4 @@
+<design:component>
+   <design:attribute name="scriptText" label="Show Terms and Conditions" 
+      description="show TnCs" />
+</design:component>

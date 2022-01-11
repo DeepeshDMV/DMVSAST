@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Client Visit",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "VPL-100-2_client-visit_English_Element_SetValues1.json",
+        "VPL-100-2_client-visit_English_Element_GetPrimaryContactDetails.json",
+        "VPL-100-2_client-visit_English_Element_StepToCreateClientVisit.json",
+        "VPL-100-2_client-visit_English_Element_EventSubject.json",
+        "VPL-100-2_client-visit_English_Element_StartDateTime.json",
+        "VPL-100-2_client-visit_English_Element_EndDateTime.json",
+        "VPL-100-2_client-visit_English_Element_ClientNotes.json",
+        "VPL-100-2_client-visit_English_Element_CreateClientVisit.json",
+        "VPL-100-2_client-visit_English_Element_ThankYou.json",
+        "VPL-100-2_client-visit_English_Element_TextBlock1.json",
+        "VPL-100-2_client-visit_English_Element_DoneAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "VPL-100-2_client-visit_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "client visit",
+    "%vlocity_namespace%__Type__c": "VPL 100-2",
+    "Name": "VPL-ClientVisit-100-2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 100-2/client visit/English"
+}

@@ -1,0 +1,103 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 06-12-2021
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+  Modifications Log 
+  Ver   Date         Author                               Modification
+  1.0   06-12-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
+-->
+<aura:component
+  implements="forceCommunity:layout,lightning:isUrlAddressable"
+  description="Home Page Layout"
+  access="global"
+>
+  <aura:attribute
+    name="dmvFlowTwo"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute
+    name="dmvFlowOne"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute
+    name="reviewSubmit"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+<aura:attribute
+    name="editSubmit"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+    
+  <aura:attribute name="firstFlow" type="Boolean" default="false" />
+  <aura:attribute name="secondFlow" type="Boolean" default="false" />
+  <aura:attribute name="isFlowActive" type="Boolean" default="false" />
+  <aura:attribute name="showReviewFlow" type="Boolean" default="false" />
+  <aura:attribute name="showEditFlow" type="Boolean" default="false" />
+  <div class="business-page-layout">
+    <div>
+      <div>
+        <div class="slds-m-top_x-large" style="padding: 0px 58px">
+          <div class="slds-card__body">
+            <lightning:flow
+              aura:id="flowId"
+              onstatuschange="{!c.statusChange}"
+            />
+          </div>
+          <!-- <aura:attribute name="firstFlow" type="Boolean" default="true" /> -->
+        </div>
+        <aura:if isTrue="{!v.isFlowActive}">
+          <aura:if isTrue="{!v.firstFlow}">
+            <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+              {!v.dmvFlowOne}
+            </div>
+          </aura:if>
+          <aura:if isTrue="{!v.secondFlow}">
+            <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+              {!v.dmvFlowTwo}
+            </div>
+          </aura:if>
+          <aura:if isTrue="{!v.showReviewFlow}">
+            <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+              <lightning:button variant="brand" label="Edit" onclick="{! c.handleClick }" />
+              {!v.reviewSubmit}
+            </div>
+          </aura:if>
+          <aura:if isTrue="{!v.showEditFlow}">
+            <div class="slds-m-horizontal_x-large slds-m-top_x-large">
+             {!v.editSubmit}
+            </div>
+          </aura:if>
+          <aura:set attribute="else">
+            <c:dmvApplicationHub
+              onhandlebuttonchange="{!c.handleButtonChange}"
+              onfilterchange="{!c.handleFilterChange}"
+              onstartlivescanflow="{!c.handleStartLiveScanFlow}"
+              onstartreviewandsubmit="{!c.handleReviewSubmitFlow}"
+            />
+          </aura:set>
+        </aura:if>
+      </div>
+      <c:dmvFlowEventHelper onhandlecloseflow="{!c.handleCloseFlow}" />
+    </div>
+  </div>
+
+  <!-- 
+  <div class="slds-col">
+    <div class="slds-grid slds-wrap">
+      <div class="slds-size_1-of-1">
+        <aura:if isTrue="{!v.firstFlow}">
+          <c:dmvApplicationHub
+            onhandlebuttonchange="{!c.handleButtonChange}"
+            onfilterchange="{!c.handleFilterChange}"
+          />
+        </aura:if>
+      </div>
+    </div>
+  </div> -->
+</aura:component>

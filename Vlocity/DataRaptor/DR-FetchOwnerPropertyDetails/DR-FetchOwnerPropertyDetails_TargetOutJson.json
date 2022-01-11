@@ -1,0 +1,32 @@
+{
+    "bundleName": "DR-PostOwnerPropertyDetails",
+    "objectList": {
+        "PropertyAddressandStatus": {
+            "LeaseRentalEndDate": "2021-06-30",
+            "LeaseRentalStartDate": "2021-06-01",
+            "MeetsPropertyUseRequirements": "true",
+            "PropertyStatus": "Leased",
+            "SiteCity": "Atlanta",
+            "SitePostalCode": "30324",
+            "SiteState": "GA",
+            "SiteStreet": "477 Lindbergh Place Northeast"
+        },
+        "PropertyArea": {
+            "BuildingArea": 66,
+            "DisplayArea": 77,
+            "Number1": 55
+        },
+        "PropertyOwnerNameandAddress": {
+            "PropOwnerCity": "Toronto",
+            "PropOwnerState": "ON",
+            "PropOwnerStree": "70 Temperance Street  Unit 3916",
+            "PropOwnerZip": "M5H 0B1"
+        },
+        "timeStamp": "2021-06-10T18:50:27.240Z",
+        "userCurrencyCode": "USD",
+        "userId": "0053S000000J43OQAS",
+        "userName": "mshankarbangalore@deloitte.com.cadxp",
+        "userProfile": "System Administrator",
+        "userTimeZone": "-420"
+    }
+}

@@ -1,0 +1,680 @@
+{
+    "DeserializedFileContent": {
+        "ActionPlanTemplate": {
+            "ActionPlanTemplateVersion": {
+                "ActionPlanTemplateItem": [
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "AAA"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "AAA"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AAA"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "BBB"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "BBB"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "BBB"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "CCC"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "CCC"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "CCC"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "DDD"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "DDD"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "DDD"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "EEE"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "EEE"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "EEE"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "FFF"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "FFF"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "FFF"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "GGG"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "GGG"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "GGG"
+                    },
+                    {
+                        "ActionPlanTemplateItemValue": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.Name",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "Name",
+                            "ValueLiteral": "HHH"
+                        },
+                        "ActionPlanTemplateItemValue2": {
+                            "IsActive": true,
+                            "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                            "ItemEntityType": "AssessmentTask",
+                            "Name": "AssessmentTaskDefinitionId",
+                            "ValueLiteralLookup": "HHH"
+                        },
+                        "IsActive": true,
+                        "IsRequired": false,
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "HHH"
+                    }
+                ],
+                "Name": "Here Goes Nothing"
+            },
+            "ActionPlanType": "Retail",
+            "Name": "Here Goes Nothing",
+            "TargetEntityType": "Visit"
+        },
+        "AssessmentIndicatorDefinition": [
+            {
+                "DataType": "Boolean",
+                "Name": "AAA"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "AAA111"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "AAA222"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "BBB"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "CCC"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "DDD"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "DDD111"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "EEE"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "EEE111"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "FFF"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "FFF111"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "AAA333"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "GGG"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "GGG111"
+            },
+            {
+                "DataType": "Boolean",
+                "Name": "HHH"
+            }
+        ],
+        "AssessmentTaskDefinition": [
+            {
+                "Name": "AAA",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "BBB",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "CCC",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "DDD",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "EEE",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "FFF",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "GGG",
+                "TaskType": "InspectionChecklist"
+            },
+            {
+                "Name": "HHH",
+                "TaskType": "InspectionChecklist"
+            }
+        ],
+        "AssessmentTaskIndDefinition": [
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA111",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA222",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA333",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "BBB",
+                "AssessmentTaskDefinitionName": "BBB"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "CCC",
+                "AssessmentTaskDefinitionName": "CCC"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "DDD",
+                "AssessmentTaskDefinitionName": "DDD"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "DDD111",
+                "AssessmentTaskDefinitionName": "DDD"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "EEE",
+                "AssessmentTaskDefinitionName": "EEE"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "EEE111",
+                "AssessmentTaskDefinitionName": "EEE"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "FFF",
+                "AssessmentTaskDefinitionName": "FFF"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "FFF111",
+                "AssessmentTaskDefinitionName": "FFF"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "GGG",
+                "AssessmentTaskDefinitionName": "GGG"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "GGG111",
+                "AssessmentTaskDefinitionName": "GGG"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "HHH",
+                "AssessmentTaskDefinitionName": "HHH"
+            }
+        ],
+        "InspectionType": {
+            "Name": "Here Goes Nothing"
+        },
+        "RegulatoryAuthority": [
+            {
+                "Name": "AAA"
+            },
+            {
+                "Name": "BBB"
+            },
+            {
+                "Name": "CCC"
+            },
+            {
+                "Name": "DDD"
+            },
+            {
+                "Name": "EEE"
+            },
+            {
+                "Name": "FFF"
+            },
+            {
+                "Name": "GGG"
+            },
+            {
+                "Name": "HHH"
+            }
+        ],
+        "RegulatoryCode": [
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "AAA",
+                "RegulatoryAuthorityName": "AAA",
+                "Subject": "AAA"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "BBB",
+                "RegulatoryAuthorityName": "BBB",
+                "Subject": "BBB"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "CCC",
+                "RegulatoryAuthorityName": "CCC",
+                "Subject": "CCC"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "DDD",
+                "RegulatoryAuthorityName": "DDD",
+                "Subject": "DDD"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "EEE",
+                "RegulatoryAuthorityName": "EEE",
+                "Subject": "EEE"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "FFF",
+                "RegulatoryAuthorityName": "FFF",
+                "Subject": "FFF"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "GGG",
+                "RegulatoryAuthorityName": "GGG",
+                "Subject": "GGG"
+            },
+            {
+                "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+                "EffectiveTo": "2025-12-31T00:00:00.000Z",
+                "Name": "HHH",
+                "RegulatoryAuthorityName": "HHH",
+                "Subject": "HHH"
+            }
+        ],
+        "RegulatoryCodeAssessmentInd": [
+            {
+                "AssessmentIndDefinitionName": "AAA",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA222",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "BBB",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "BBB"
+            },
+            {
+                "AssessmentIndDefinitionName": "CCC",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "CCC"
+            },
+            {
+                "AssessmentIndDefinitionName": "DDD",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "DDD"
+            },
+            {
+                "AssessmentIndDefinitionName": "DDD111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "DDD"
+            },
+            {
+                "AssessmentIndDefinitionName": "EEE",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "EEE"
+            },
+            {
+                "AssessmentIndDefinitionName": "EEE111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "EEE"
+            },
+            {
+                "AssessmentIndDefinitionName": "FFF",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "FFF"
+            },
+            {
+                "AssessmentIndDefinitionName": "FFF111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "FFF"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA333",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA333",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "GGG",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "GGG"
+            },
+            {
+                "AssessmentIndDefinitionName": "GGG111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "GGG"
+            },
+            {
+                "AssessmentIndDefinitionName": "HHH",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "HHH"
+            }
+        ]
+    },
+    "FilteredList": {
+        "AssessmentIndDefinitionsToInsert": [
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA111",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA222",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "AAA333",
+                "AssessmentTaskDefinitionName": "AAA"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "BBB",
+                "AssessmentTaskDefinitionName": "BBB"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "CCC",
+                "AssessmentTaskDefinitionName": "CCC"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "DDD",
+                "AssessmentTaskDefinitionName": "DDD"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "DDD111",
+                "AssessmentTaskDefinitionName": "DDD"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "EEE",
+                "AssessmentTaskDefinitionName": "EEE"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "EEE111",
+                "AssessmentTaskDefinitionName": "EEE"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "FFF",
+                "AssessmentTaskDefinitionName": "FFF"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "FFF111",
+                "AssessmentTaskDefinitionName": "FFF"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "GGG",
+                "AssessmentTaskDefinitionName": "GGG"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "GGG111",
+                "AssessmentTaskDefinitionName": "GGG"
+            },
+            {
+                "AssessTaskIndDefinitionName": "",
+                "AssessmentIndDefinitionName": "HHH",
+                "AssessmentTaskDefinitionName": "HHH"
+            }
+        ]
+    },
+    "FilteredList2": {
+        "RegCodeAssementIndToInsert": [
+            {
+                "AssessmentIndDefinitionName": "AAA",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA222",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "BBB",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "BBB"
+            },
+            {
+                "AssessmentIndDefinitionName": "CCC",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "CCC"
+            },
+            {
+                "AssessmentIndDefinitionName": "DDD",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "DDD"
+            },
+            {
+                "AssessmentIndDefinitionName": "DDD111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "DDD"
+            },
+            {
+                "AssessmentIndDefinitionName": "EEE",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "EEE"
+            },
+            {
+                "AssessmentIndDefinitionName": "EEE111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "EEE"
+            },
+            {
+                "AssessmentIndDefinitionName": "FFF",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "FFF"
+            },
+            {
+                "AssessmentIndDefinitionName": "FFF111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "FFF"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA333",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "AAA333",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "AAA"
+            },
+            {
+                "AssessmentIndDefinitionName": "GGG",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "GGG"
+            },
+            {
+                "AssessmentIndDefinitionName": "GGG111",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "GGG"
+            },
+            {
+                "AssessmentIndDefinitionName": "HHH",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeName": "HHH"
+            }
+        ]
+    },
+    "HasSignature": false
+}

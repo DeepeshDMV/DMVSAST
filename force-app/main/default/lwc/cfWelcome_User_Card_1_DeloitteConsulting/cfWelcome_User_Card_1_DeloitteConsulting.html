@@ -1,0 +1,76 @@
+<template>
+            <div class="nds-grid nds-wrap nds-is-relative">
+            <div if:false={cardLoaded} class="nds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="small"
+      theme="nds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state key={record.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="nds-grid nds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-size_12-of-12  " style="             "><vlocity_ins-output-field     card={card}  record={record}  placeholder=""  field-name=""  label="\Welcome {Name}"  type="text"  styles='\{"label":{"fontFamily":"SalesforceSans","color":"#080707","fontSize":"24px","textDecoration":""},"value":{"color":"#080707","fontFamily":"SalesforceSans Semibold","textAlign":"left"}}'  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col   slds-size_3-of-12  " style=""><vlocity_ins-flex-img   card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/068M0000000RXmcIAG","alternativeText":"Image description"}'  img-width="57px"  img-height="55px"  theme="nds"  ></vlocity_ins-flex-img>
+      </div><div class="nds-col   nds-p-around_x-small nds-size_3-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="slds-col   nds-size_12-of-12  " style="         height:20px;    "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367520564","type":"Custom","displayName":"Edit Personal Profile","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"https://lpidev-deloittepoc.cs7.force.com/CADMV/s/profile/home"}}'  icon-only="false"  hide-action-icon="true"  display-as-button="false"  button-variant="text-destructive"  styles='\{"label":{"color":"#006dcc","fontFamily":"SalesforceSans","fontSize":"13px","textAlign":"left"}}'  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_3-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="slds-col   nds-size_11-of-12  " style="         height:66px;    "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3ECompany:%20%7BCompanyName%7D%3C/div%3E%0A%3Cdiv%3EAddress:%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col   nds-size_12-of-12  " style="         height:20px;    "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367539556","type":"Custom","displayName":"Edit Company Profile","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{}}'  icon-only="false"  hide-action-icon="true"  display-as-button="false"  button-variant="text-destructive"  styles='\{"label":{"color":"#006dcc","fontFamily":"SalesforceSans","fontSize":"13px","textAlign":"left"}}'  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   nds-size_5-of-12  " style="         height:66px;    "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3ETitle:%20%7BTitle%7D%3C/div%3E%0A%3Cdiv%3EPhone%20Number:%7BPhone%7D%3C/div%3E%0A%3Cdiv%20class=%22slds-text-body_regular%22%3EEmail:%20%7BEmail%7D%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="nds-col   nds-size_6-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1621873362789","type":"Custom","displayName":"Action","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'  icon-only="false"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="nds-grid nds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-size_12-of-12  " style="             "><vlocity_ins-output-field     card={card}  record={record}  placeholder=""  field-name=""  label="\Welcome {Name}"  type="text"  styles='\{"label":{"fontFamily":"SalesforceSans","color":"#080707","fontSize":"24px","textDecoration":""},"value":{"color":"#080707","fontFamily":"SalesforceSans Semibold","textAlign":"left"}}'  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col   slds-size_3-of-12  " style=""><vlocity_ins-flex-img   card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/068M0000000RXmcIAG","alternativeText":"Image description"}'  img-width="57px"  img-height="55px"  theme="nds"  ></vlocity_ins-flex-img>
+      </div><div class="nds-col   nds-p-around_x-small nds-size_3-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="slds-col   nds-size_12-of-12  " style="         height:20px;    "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367520564","type":"Custom","displayName":"Edit Personal Profile","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"https://lpidev-deloittepoc.cs7.force.com/CADMV/s/profile/home"}}'  icon-only="false"  hide-action-icon="true"  display-as-button="false"  button-variant="text-destructive"  styles='\{"label":{"color":"#006dcc","fontFamily":"SalesforceSans","fontSize":"13px","textAlign":"left"}}'  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="nds-col   nds-p-around_x-small nds-size_3-of-12  " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="nds" ><div class="nds-grid nds-wrap">
+          <div class="slds-col   nds-size_11-of-12  " style="         height:66px;    "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3ECompany:%20%7BCompanyName%7D%3C/div%3E%0A%3Cdiv%3EAddress:%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col   nds-size_12-of-12  " style="         height:20px;    "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1620367539556","type":"Custom","displayName":"Edit Company Profile","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{}}'  icon-only="false"  hide-action-icon="true"  display-as-button="false"  button-variant="text-destructive"  styles='\{"label":{"color":"#006dcc","fontFamily":"SalesforceSans","fontSize":"13px","textAlign":"left"}}'  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   nds-size_5-of-12  " style="         height:66px;    "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%3ETitle:%20%7BTitle%7D%3C/div%3E%0A%3Cdiv%3EPhone%20Number:%7BPhone%7D%3C/div%3E%0A%3Cdiv%20class=%22slds-text-body_regular%22%3EEmail:%20%7BEmail%7D%3C/div%3E"  theme="nds"  ></vlocity_ins-output-field>
+      </div><div class="nds-col   nds-size_6-of-12  " style=""><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1621873362789","type":"Custom","displayName":"Action","vlocityIcon":"standard-default","targetType":"Web Page","openUrlIn":"Current Window","Web Page":{"targetName":"/apex"}}'  icon-only="false"  display-as-button="true"  button-variant="neutral"  theme="nds" ></vlocity_ins-action>
+      </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>

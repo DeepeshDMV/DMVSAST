@@ -1,0 +1,54 @@
+{
+    "ReviewAndSubmit": {
+        "ComplainantInformation": {
+            "AddressLine1RS": "T",
+            "BeAnonymousRS": true,
+            "CADMVEmailRS": "t@t.com",
+            "CityRS": "T",
+            "FirstNameRS": "F",
+            "FullAddress": "TnullTAA12345",
+            "LastNameRS": "Test",
+            "MobileNumberRS": "1234567788",
+            "StateRS": "AA",
+            "ZipCodeRS": "12345"
+        },
+        "ComplaintInformationA": {
+            "BusinessAddressLine1RS": "T",
+            "BusinessCityRS": "T",
+            "BusinessEmailRS": "B@e.com",
+            "BusinessFullAddress": "TnullTAK12345",
+            "BusinessLicenseNumberRS": "2423324235",
+            "BusinessNameRS": "BN",
+            "BusinessOnlineOnlyRS": "Yes",
+            "BusinessPhoneRS": "1234567788",
+            "BusinessStateRS": "AK",
+            "BusinessZipCodeRS": "12345",
+            "DescriptionRS": "afsfsdg",
+            "IncidentDateRS": "2021-11-03",
+            "WebAddress1RS": "T"
+        },
+        "ElectronicallySign": {
+            "Attestation": false,
+            "Formula1": false,
+            "Formula2": false,
+            "Messaging2": false,
+            "Messaging3": false,
+            "Signature": "F L"
+        },
+        "IndividualFullAddress": "dawdaAA12345",
+        "IndividualInformationRS": {
+            "IndividualCityRS": "T",
+            "IndividualComplaintDescriptionRS": "dg",
+            "IndividualEmailRS": "sgds@vdx.com",
+            "IndividualFirstNameRS": "ccd",
+            "IndividualLastNameRS": "Test",
+            "IndividualLicenseNumberRS": "sg",
+            "IndividualNumberRS": "1234567788",
+            "IndividualStateRS": "AA",
+            "IndividualStreetAddressRS": "T",
+            "IndividualZipCodeRS": "12345"
+        },
+        "ModalityRS": "Classroom",
+        "TypeRS": "Driver Training School"
+    }
+}

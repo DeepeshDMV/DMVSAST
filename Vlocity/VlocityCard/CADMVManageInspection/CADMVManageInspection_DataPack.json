@@ -1,0 +1,46 @@
+{
+    "%vlocity_namespace%__Author__c": "CaliforniaDMV",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "userId",
+                "val": "0053d000000aobC"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "DRGetBLAManageInspection",
+            "dsDelay": 0,
+            "inputMap": {
+                "UserId": "{userId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "CADMVManageInspection.json",
+    "%vlocity_namespace%__Description__c": "This is used on the portal to manage inspections.",
+    "%vlocity_namespace%__GlobalKey__c": "CADMVManageInspection/CaliforniaDMV/16/1635906068096",
+    "%vlocity_namespace%__IsChildCard__c": false,
+    "%vlocity_namespace%__ParentID__c": "CADMVBusinessLicenseApplication/CaliforniaDMVDeloitteGovCloudPlus/2/1634848871968",
+    "%vlocity_namespace%__SampleData__c": "[{\"BLALicenseTypeName\":\"Dealer - Retail New\",\"VisitLicenseType\":\"Dealer - Retail New\",\"VisitPlannedEndTime\":\"2021-11-05T18:30:00.000Z\",\"VisitPlannedStartTime\":\"2021-11-05T15:30:00.000Z\",\"VisitStatus\":\"Cancelled\",\"VisitName\":\"00000303\",\"VisitId\":\"0Z53S00000000y1SAA\",\"AccountId\":\"0013S0000037o04QAA\",\"AccountName\":\"Jobes Chevrolet\",\"BLAStatus\":\"Inspection Phase\",\"BLAAppDate\":\"10/16/2021\",\"BLAId\":\"0f03S00000001DBQAY\",\"BLAName\":\"BLA-0000000002\",\"UserId\":\"0053d000000aobCAAQ\"},{\"BLALicenseTypeName\":\"Dealer - Retail New\",\"VisitLicenseType\":\"Dealer - Retail New\",\"VisitPlannedEndTime\":\"2021-11-04T23:30:00.000Z\",\"VisitPlannedStartTime\":\"2021-11-04T20:30:00.000Z\",\"VisitStatus\":\"Scheduled\",\"VisitName\":\"00000304\",\"VisitId\":\"0Z53S00000000y6SAA\",\"AccountId\":\"0013S0000037oMZQAY\",\"AccountName\":\"Jobes Volvo\",\"BLAStatus\":\"Inspection Phase\",\"BLAAppDate\":\"10/01/2021\",\"BLAId\":\"0f03S00000001DQQAY\",\"BLAName\":\"BLA-0000000003\",\"UserId\":\"0053d000000aobCAAQ\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 16,
+    "%vlocity_namespace%__GlobalKey__c": "CADMVManageInspection/CaliforniaDMV/18/1636424996163",
+    "%vlocity_namespace%__IsChildCard__c": false,
+    "%vlocity_namespace%__ParentID__c": "CADMVBusinessLicenseApplication/CaliforniaDMVDeloitteGovCloudPlus/2/1634848871968",
+    "%vlocity_namespace%__SampleData__c": "[{\"BLALicenseTypeName\":\"Dealer - Retail New\",\"VisitLicenseType\":\"Dealer - Retail New\",\"VisitPlannedEndTime\":\"2021-11-04T23:30:00.000Z\",\"VisitPlannedStartTime\":\"2021-11-04T20:30:00.000Z\",\"VisitStatus\":\"Scheduled\",\"VisitName\":\"00000304\",\"VisitId\":\"0Z53S00000000y6SAA\",\"AccountId\":\"0013S0000037oMZQAY\",\"AccountName\":\"Jobes Volvo\",\"BLAStatus\":\"Inspection Phase\",\"BLAAppDate\":\"10/01/2021\",\"BLAId\":\"0f03S00000001DQQAY\",\"BLAName\":\"BLA-0000000003\",\"UserId\":\"0053d000000aobCAAQ\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 18,
+    "Name": "CADMVManageInspection",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/CADMVManageInspection"
+}

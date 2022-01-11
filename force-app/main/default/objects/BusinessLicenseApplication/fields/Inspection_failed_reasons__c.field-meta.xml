@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inspection_failed_reasons__c</fullName>
+    <description>Reason need to added for  if inspection failed</description>
+    <externalId>false</externalId>
+    <label>Inspection failed reasons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Place of Business requirements not met</fullName>
+                <default>false</default>
+                <label>Place of Business requirements not met</label>
+            </value>
+            <value>
+                <fullName>Signs or devices on established Place of Business requirements not met</fullName>
+                <default>false</default>
+                <label>Signs or devices on established Place of Business requirements not met</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

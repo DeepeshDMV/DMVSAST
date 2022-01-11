@@ -1,0 +1,228 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "CMMotorcycleStateFeePerPlate",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPMotorcyclePlateFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPMotorcyclePlateFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "db7481",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "AuthorizationCategory"
+            },
+            {
+                "columnKey": "dc92b4",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "AuthorizationType"
+            },
+            {
+                "columnKey": "c8b844",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "ApplicationType"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "a0de55",
+                "dataType": "Currency",
+                "label": null,
+                "listValues": null,
+                "name": "MotorcyleStateFeePerPlate"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"MotorcyleStateFeePerPlate\":\"CMMotorcycleStateFeePerPlate__MotorcyleStateFeePerPlate\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "CMCountyFeePerPlate",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/CMCountyFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPMotorcyclePlateFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPMotorcyclePlateFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "23ca01",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "County"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "9abf72",
+                "dataType": "Currency",
+                "label": null,
+                "listValues": null,
+                "name": "CountyFeePerPlate"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"CountyFeePerPlate\":\"CMCountyFeePerPlate__CountyFeePerPlate\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "( CMMotorcycleStateFeePerPlate__MotorcyleStateFeePerPlate + CMCountyFeePerPlate__CountyFeePerPlate ) * NumberOfMotorcylePlates",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "CMMotorcycleStateFeePerPlate__MotorcyleStateFeePerPlate",
+                "dataType": "Currency",
+                "text": "MotorcyleStateFeePerPlate ( CMMotorcycleStateFeePerPlate )",
+                "userDefined": false
+            },
+            {
+                "alias": "+",
+                "text": "+"
+            },
+            {
+                "alias": "CMCountyFeePerPlate__CountyFeePerPlate",
+                "dataType": "Currency",
+                "text": "CountyFeePerPlate ( CMCountyFeePerPlate )",
+                "userDefined": false
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "NumberOfMotorcylePlates",
+                "dataType": "Number",
+                "text": "NumberOfMotorcylePlates",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPMotorcyclePlateFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPMotorcyclePlateFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "NumberOfMotorcylePlates"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "calculatedFeeAmount",
+            "dataType": "Currency",
+            "name": "calculatedFeeAmount"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"calculatedFeeAmount\":\"calculatedFeeAmount\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "calculatedFeeName",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "calculatedFeeName",
+                "dataType": "Text",
+                "text": "calculatedFeeName",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPMotorcyclePlateFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPMotorcyclePlateFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPMotorcyclePlateFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Text",
+                "name": "calculatedFeeName"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "calculatedFeeName",
+            "dataType": "Text",
+            "name": "calculatedFeeName"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"calculatedFeeName\":\"calculatedFeeName\"}",
+        "%vlocity_namespace%__Sequence__c": 4,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

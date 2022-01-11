@@ -1,0 +1,53 @@
+<template>
+  <div class="slds-m-vertical_small">
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-p-bottom_small dmv-business__accountIcon">
+            <lightning-icon
+              icon-name="standard:goals"
+              alternative-text="account"
+              size="medium"
+              class="slds-current-color slds-m-right_medium"
+            ></lightning-icon>
+          </div>
+          <div class="dmv-businessFlows__CardHeader">
+            Review and Certify Your Application
+          </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <div class="slds-grid">
+            <div class="slds-size_9-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Review and Certify Your Application </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                Carefully review your application before certifying and
+                submitting your application. Fees due are revealed after you
+                submit your application. We will send you a link to pay the fees
+                after we review and approve your application. The amount is
+                based on the selections you made.
+              </div>
+            </div>
+            <div class="slds-size_3-of-12">
+              <div class="slds-p-horizontal_small slds-p-vertical_xx-small">
+                <lightning-button
+                  variant="brand"
+                  label="Review and Submit"
+                  class="slds-align_absolute-center"
+                  onclick={startReviewSubmit}
+                ></lightning-button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+</template>

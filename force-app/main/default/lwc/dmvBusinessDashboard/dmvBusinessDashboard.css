@@ -1,0 +1,17 @@
+.dmv-businessDashboard_checklist {
+  color: rgb(43, 40, 38);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.22px;
+  margin-bottom: 18px;
+  margin-top: 53px;
+}
+
+.dmv-businessDashboard {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.dmv-businessDashboard_license {
+  margin-top: 2.25rem;
+}

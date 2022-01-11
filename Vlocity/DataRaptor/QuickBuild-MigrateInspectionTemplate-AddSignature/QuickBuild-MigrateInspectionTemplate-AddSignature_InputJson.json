@@ -1,0 +1,187 @@
+{
+    "ActionPlanTemplate": {
+        "ActionPlanTemplateVersion": {
+            "ActionPlanTemplateItem": [
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.Name",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Open Door"
+                    },
+                    "ActionPlanTemplateItemValue2": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AssessmentTaskDefinitionId",
+                        "ValueLiteralLookup": "Open Door"
+                    },
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "AssessmentTask",
+                    "Name": "Open Door"
+                },
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.Name",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Open Window"
+                    },
+                    "ActionPlanTemplateItemValue2": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AssessmentTaskDefinitionId",
+                        "ValueLiteralLookup": "Open Window"
+                    },
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "AssessmentTask",
+                    "Name": "Open Window"
+                },
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.Name",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Open Attic"
+                    },
+                    "ActionPlanTemplateItemValue2": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AssessmentTaskDefinitionId",
+                        "ValueLiteralLookup": "Open Attic"
+                    },
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "AssessmentTask",
+                    "Name": "Open Attic"
+                }
+            ],
+            "ActionPlanTemplateItemSignature": [
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "SignatureTask.Name",
+                        "ItemEntityType": "SignatureTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Customer"
+                    },
+                    "DisplayOrder": 2,
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "SignatureTask",
+                    "Name": "Customer"
+                },
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "SignatureTask.Name",
+                        "ItemEntityType": "SignatureTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Inspector"
+                    },
+                    "DisplayOrder": 1,
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "SignatureTask",
+                    "Name": "Inspector"
+                }
+            ],
+            "Name": "Test12"
+        },
+        "ActionPlanType": "Retail",
+        "Description": "Test12",
+        "Name": "Test12",
+        "TargetEntityType": "Visit"
+    },
+    "AssessmentIndicatorDefinition": [
+        {
+            "DataType": "Boolean",
+            "Name": "Confirm Door"
+        },
+        {
+            "DataType": "Boolean",
+            "Name": "Confirm Window"
+        },
+        {
+            "DataType": "Boolean",
+            "Name": "Confirm Sky"
+        },
+        {
+            "DataType": "Boolean",
+            "Name": "Confirm Clouds"
+        }
+    ],
+    "AssessmentTaskDefinition": [
+        {
+            "Name": "Open Door",
+            "TaskType": "InspectionChecklist"
+        },
+        {
+            "Name": "Open Window",
+            "TaskType": "InspectionChecklist"
+        },
+        {
+            "Name": "Open Attic",
+            "TaskType": "InspectionChecklist"
+        }
+    ],
+    "AssessmentTaskIndDefinition": [
+        {
+            "AssessmentIndDefinitionName": "Confirm Door",
+            "AssessmentTaskDefinitionName": "Open Door"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Window",
+            "AssessmentTaskDefinitionName": "Open Window"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Sky",
+            "AssessmentTaskDefinitionName": "Open Window"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Clouds",
+            "AssessmentTaskDefinitionName": "Open Attic"
+        }
+    ],
+    "InspectionType": {
+        "Name": "Test 12 Inspection"
+    },
+    "RegulatoryAuthority": {
+        "Name": "Coding Location"
+    },
+    "RegulatoryCode": [
+        {
+            "Name": "Code1",
+            "RegulatoryAuthorityName": "Coding Location"
+        },
+        {
+            "Name": "Code2",
+            "RegulatoryAuthorityName": "Coding Location"
+        }
+    ],
+    "RegulatoryCodeAssessmentInd": [
+        {
+            "AssessmentIndDefinitionName": "Confirm Door",
+            "RegulatoryCodeName": "Code1"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Window",
+            "RegulatoryCodeName": "Code1"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Sky",
+            "RegulatoryCodeName": "Code2"
+        },
+        {
+            "AssessmentIndDefinitionName": "Confirm Clouds",
+            "RegulatoryCodeName": "Code2"
+        }
+    ]
+}

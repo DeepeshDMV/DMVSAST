@@ -1,0 +1,45 @@
+<aura:component
+  implements="forceCommunity:layout"
+  description="Business Dashboard Layout"
+  access="global"
+  controller="CADMV_TestThrowError"
+>
+  <aura:attribute
+    name="dmvBusinessCard"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute
+    name="dmvFlowOne"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute name="showErrorModal" type="Boolean" default="false" />
+  <aura:attribute name="firstFlow" type="Boolean" default="false" />
+  <aura:attribute name="errorId" type="String" />
+  <aura:attribute name="isFlowActive" type="Boolean" default="false" />
+  <!--<aura:handler name="init" value="{!this}" action="{!c.init}"/>-->
+  <div class="business-page-layout"> 
+    <!--<button variant="base" label="Trigger Error" title="Trigger Error" onclick = "{!c.exceptionTrigger}">Trigger Error</button>-->
+    <!--<aura:if isTrue="{!v.showErrorModal}">
+      <c:cADMV_LoggingAndErrorHandlingModal errorId="{!v.errorId}" />
+    </aura:if>-->
+    <!--<c:cadmv_LWCErrorLogging/>-->
+    <div>
+      <div>{!v.dmvBusinessCard}</div>
+      <div>
+        <aura:if isTrue="{!v.isFlowActive}">
+          <aura:if isTrue="{!v.firstFlow}">
+            <div>{!v.dmvFlowOne}</div>
+          </aura:if>
+          <aura:set attribute="else">
+            <c:dmvBusinessCards
+              onhandlebuttonchange="{!c.handleButtonChange}"
+            />
+          </aura:set>
+        </aura:if>
+      </div>
+      <c:dmvFlowEventHelper onhandlecloseflow="{!c.handleCloseFlow}" />
+    </div>
+  </div>
+</aura:component>

@@ -1,0 +1,19 @@
+{
+    "ContextId": "0013S000002l2WVQAY",
+    "Email": "kashshah43+1@gmail.com",
+    "Salesperson License": {
+        "Block1": {
+            "Name": null,
+            "driversLicenseNumber": "S1234567890",
+            "firstName": "kash_test",
+            "lastName": "kash_test",
+            "phone": "9876543210"
+        }
+    },
+    "timeStamp": "2021-06-23T16:02:19.697Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000JEzuQAG",
+    "userName": "kashish.shah@salesforce.com.cadxp",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

@@ -1,0 +1,29 @@
+.dmv-businessProfile__cardHeader {
+  color: rgb(8, 7, 7);
+  font-size: 1.875rem;
+  font-weight: bold;
+  letter-spacing: 0rem;
+  line-height: 1.5rem;
+}
+
+.dmv-businessProfile__cardPadding {
+  margin-top: 2.6875rem;
+  margin-bottom: 4.75rem;
+}
+
+.dmv-businessProfile__columnTitle {
+  color: rgb(62, 62, 60);
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0rem;
+  line-height: 1.125rem;
+}
+
+.dmv-businessProfile__columnBody {
+  color: rgb(8, 7, 7);
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0rem;
+  line-height: 1.875rem;
+  width: 9.3125rem;
+}

@@ -1,0 +1,70 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-p-around_x-small slds-m-bottom_x-small " style="background-color:#E7F3FD;     : #ccc 1px solid; 
+      min-height:180px;   ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%22%3EWelcome!%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-body_regular%22%3EThis%20is%20your%20dashboard.%20You'll%20find%20personalized%20information,%20services,%20and%20action%20items%20-%20all%20in%20one%20place.%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-flex-img data-style-id="state0element1block_element0_child"     card={card}  record={record}  size=""  extraclass=""  state-img='\{"imgsrc":"https://cadxp--cadxpuat--c.documentforce.com/file-asset-public/greencar1?oid=00D3S0000008dy3","alternativeText":"Image description"}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-p-around_x-small slds-m-bottom_x-small " style="background-color:#E7F3FD;     : #ccc 1px solid; 
+      min-height:180px;   ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element0block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%22%3EWelcome!%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-body_regular%22%3EThis%20is%20your%20dashboard.%20You'll%20find%20personalized%20information,%20services,%20and%20action%20items%20-%20all%20in%20one%20place.%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-flex-img data-style-id="state0element1block_element0_child"     card={card}  record={record}  size=""  extraclass=""  state-img='\{"imgsrc":"https://cadxp--cadxpuat--c.documentforce.com/file-asset-public/greencar1?oid=00D3S0000008dy3","alternativeText":"Image description"}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>

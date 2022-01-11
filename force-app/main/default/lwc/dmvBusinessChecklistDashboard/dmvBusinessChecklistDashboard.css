@@ -1,0 +1,27 @@
+.dmv-businessChecklist__title {
+  color: rgb(43, 40, 38);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.0112rem;
+}
+
+.dmv-businessChecklist__body {
+  color: rgb(43, 40, 38);
+  font-size: 0.8125rem;
+  font-weight: normal;
+  letter-spacing: 0.0088rem;
+}
+
+.dmv-businessChecklist__cardWidth {
+  width: 27.5rem;
+}
+
+.dmv-businessChecklist__oval {
+  background: rgb(240, 249, 255);
+  height: 4.25rem;
+  width: 6.25rem;
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  border-radius: 50%;
+  display: inline-block;
+}

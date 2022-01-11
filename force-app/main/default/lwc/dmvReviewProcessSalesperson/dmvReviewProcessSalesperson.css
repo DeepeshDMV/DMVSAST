@@ -1,0 +1,113 @@
+.dmv-business__nameLabel {
+    font-size: 12px;
+  }
+  
+  .dmv-business__name {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+  
+  .dmv-center {
+    margin:auto;
+  }
+
+  .dmv-deniedMessage {
+    color: #ff0505;
+  font-weight: bold;
+  font-size: 16px;
+  }
+
+  .dmv-business_bodyTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .dmv-businessFlows__mainCardHeader {
+    color: rgb(62, 62, 60);
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 18px;
+    padding-bottom: 6px;
+  }
+  
+  .dmv-businessFlows__mainCardTitle {
+    color: rgb(8, 7, 7);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 24px;
+  }
+  
+  /* .dmv-businessFlows__pill {
+    background: rgb(255, 183, 93);
+    border-radius: 100px;
+    color: rgb(8, 7, 7);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    width:fit-content;
+  } */
+  .dmv-business__addCardBody {
+    color: rgb(19, 127, 198);
+    padding: 81px;
+  }
+  
+  .dmv-business_bodyPadding {
+    padding-left: 58px;
+  }
+  
+  .dmv-business__accountIcon {
+    color: #fff;
+  }
+  .dmv-business_mainBodyPadding {
+    padding: 0px 58px;
+  }
+  
+  .dmv-businessFlows__CardHeader {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+  
+  .dmv-business_hintCard {
+    background-color: rgb(243, 242, 242);
+    color: rgb(8, 7, 7);
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 20px;
+    padding-left: 12px;
+    padding-right: 134px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+  }
+  
+  .dmv-business_applicationChecklistTitle {
+    color: rgb(43, 40, 38);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+  }
+  
+  .dmv-businessFlows__pill {
+    background: rgb(255, 183, 93);
+    border-radius: 100px;
+    color: rgb(8, 7, 7);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    width:fit-content;
+  }
+  
+  .dmv-business_applicationChecklistBody {
+    color: rgb(62, 62, 60);
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    width: 580px;
+  }

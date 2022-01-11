@@ -1,0 +1,27 @@
+.dmv-title {
+  border-bottom: 1px solid #dddbda;
+  color: rgb(43, 40, 38);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 0 12px 0;
+}
+
+.dmv-subheading {
+  color: rgb(43, 40, 38);
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.33px;
+}
+
+.dmv-fee-container {
+  padding: 2rem 0;
+}
+
+.dmv-fee-table {
+  padding-top: 43px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}

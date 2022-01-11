@@ -1,0 +1,258 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2c8e72",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ApplicationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "54e83b",
+            "dataType": "Currency",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AutobrokerEndorsementFee"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "884d76",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AuthorizationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dc5b6d",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AuthorizationCategory"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "4c9f876ffe3f0475440a4092eaaf6e26",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail Used"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "c839480e6a08f5a3c9cf5445979e5d40",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "0f647495693c52a385a64ef8e4f46b72",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-14T17:02:02.000Z",
+        "Name": "0f647495693c52a385a64ef8e4f46b72",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 75
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "b004f8b0661b536a31efe13f17d3235e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail Used"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 75
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "1e3ed80d1e66a443be080d1e023b5539",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 75
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-12T17:02:02.000Z",
+        "Name": "7d3b740476935e7feecdd32bbb6e8560",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMAutobrokerEndorsementFee",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/CMAutobrokerEndorsementFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "AutobrokerEndorsementFee": 75
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-14T17:02:02.000Z",
+        "Name": "7d3b740476935e7feecdd32bbb6e8560",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

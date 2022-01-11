@@ -1,0 +1,58 @@
+{
+    "ContextId": null,
+    "InsuranceInformation": {
+        "ProfessionalLiabilityInsurance": {
+            "ProfessionalLiabilityInsuranceInformation": {
+                "NameInsuranceCo": null,
+                "NameOfInsuranceAgent": null,
+                "ProLiabilityPolicyNo": null
+            }
+        },
+        "WorkersCompensationInsurance": {
+            "QQSalonHasEmployees": null,
+            "WorkersCompensationBlock": {
+                "WCInsAgentPhone": null,
+                "WCNameOfInsAgent": null,
+                "WCompNameOfInsCo": null,
+                "WCompPolicyNo": null
+            }
+        }
+    },
+    "Intro": {
+        "ApplicationFeesBlock": {
+            "ApplicationFees": null
+        }
+    },
+    "ReasonForNewLicenseApplication": {
+        "PreviousExpirationDate": null,
+        "SalonPrevLic": null,
+        "SalonPrevOwner": null,
+        "SalonRelocPrevAddr": null,
+        "SelectReasonforNewLicenseApplication": null
+    },
+    "SalonInformation": {
+        "Block2": {
+            "CityStateZipCode": null,
+            "MNTaxIDNumber": null,
+            "SalonDBAName": null,
+            "SalonLegalName": null,
+            "SalonStreetAddress": null
+        },
+        "PhoneNumber": null,
+        "QQSalonInAResidence": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DoneAction1": null,
+        "InsuranceInformation": null,
+        "Intro": null,
+        "ReasonForNewLicenseApplication": null,
+        "SalonInformation": null
+    }
+}

@@ -1,0 +1,216 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a0de55",
+            "dataType": "Currency",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0u3S0000004DbhQAE",
+            "listValues": null,
+            "name": "MotorcyleStateFeePerPlate"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "c8b844",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0u3S0000004DbgQAE",
+            "listValues": null,
+            "name": "ApplicationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "db7481",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0u3S0000004DbeQAE",
+            "listValues": null,
+            "name": "AuthorizationCategory"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dc92b4",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0u3S0000004DbfQAE",
+            "listValues": null,
+            "name": "AuthorizationType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "4c9f876ffe3f0475440a4092eaaf6e26",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail Used"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "c839480e6a08f5a3c9cf5445979e5d40",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Original",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "0f647495693c52a385a64ef8e4f46b72",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail New"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "b004f8b0661b536a31efe13f17d3235e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealer - Retail Used"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "1e3ed80d1e66a443be080d1e023b5539",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "CMMotorcycleStateFeePerPlate",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/CMMotorcycleStateFeePerPlate",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "ApplicationType": "Renewal",
+            "AuthorizationCategory": "License",
+            "AuthorizationType": "Dealership - Wholesale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MotorcyleStateFeePerPlate": 90
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-05-13T05:49:54.000Z",
+        "Name": "7d3b740476935e7feecdd32bbb6e8560",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

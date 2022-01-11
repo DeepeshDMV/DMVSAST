@@ -1,0 +1,99 @@
+{
+    "ApplicationAttachments": {
+        "EINProof": null,
+        "IdentificationProof": [
+            {
+                "$$hashKey": "object:1071",
+                "data": "0eff9f5b-9894-42cf-8ebe-ec81f99a68cc",
+                "filename": "2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf",
+                "size": 36531
+            }
+        ],
+        "PropertyProof": [
+            {
+                "$$hashKey": "object:1076",
+                "data": "5303c26b-3539-4d95-904a-d53fb469393a",
+                "filename": "2- Creating a DataRaptor Interface to Map an OmniScript to a PDF.pdf",
+                "size": 36531
+            }
+        ]
+    },
+    "ApplicationInformation": {
+        "ApplicationCategory": "Basic",
+        "AssociatedAccount": "Act1",
+        "AssociatedAccountId": "001B000001KWbzVIAT",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "AuthorizationTypeId": "0ehRM0000004C9DYAU",
+        "BusinessActivity": "Act 1 BT",
+        "BusinessActivityId": "2gFRM0000004C9I2AU",
+        "Industries": "Healthcare",
+        "exprShowMinnesotaSalonLicenceApplication": true,
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "ApplicationStatus": "Submitted",
+    "Certification": {
+        "CertificationText": true,
+        "Signature": "zcv"
+    },
+    "ContactId": "003RM000006GHdyYAG",
+    "ContextId": "",
+    "CreatedApplicationId": "BLA-0000000023",
+    "CreatedPreliminaryApplicationRefId": "aAmRM000000005M0AQ",
+    "DRId_BusinessLicenseApplication": "0f0RM0000004CAzYAM",
+    "DRId_Case": "500RM000002hqBKYAY",
+    "DRId_PreliminaryApplicationRef__c": "aAmRM000000005M0AQ",
+    "EstablishmentInformation": {
+        "Address": "Street -:  null City -: null State -: null Zipcode -: undefined",
+        "BusinessDBAName": "sdf",
+        "BusinessLegalName": "Act1",
+        "City": null,
+        "ContactEmail": null,
+        "ContactName": "Act1 Contact",
+        "Neighborhood": null,
+        "State": null,
+        "Street": null,
+        "TaxID": null,
+        "Zipcode": null
+    },
+    "OwnershipInformation": {
+        "CorporationOrLLCOwnership": null,
+        "IndividualOwnership": {
+            "IndividualFirstName": "adf",
+            "IndividualLastName": "adf"
+        },
+        "OwnershipType": "Individual",
+        "PartnershipOwnership": null,
+        "PriorEstablishmentDetails": null,
+        "PurchaseOrTakeOver": "Purchasing"
+    },
+    "ReasonForNewLicenseApplication": {
+        "PreviousExpirationDate": null,
+        "SalonPrevLic": null,
+        "SalonPrevOwner": null,
+        "SalonRelocPrevAddr": null,
+        "SelectReasonforNewLicenseApplication": "new"
+    },
+    "SalonInformation": {
+        "BusinessLocation": "No",
+        "BusinessType": null,
+        "SalonInAResidence": "No",
+        "SalonStartDate": "2020-03-17"
+    },
+    "SampleUser": "005RM0000024wK9YAI",
+    "id": "a80RM000000004JYAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a7zRM000000008GYAQ",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-18T18:10:09.137Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B0000005gGB9IAM",
+    "userName": "lpi_226stmfa@lpi.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,84 @@
+<template>
+  <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+    <div
+      class="
+        slds-var-p-horizontal_small
+        dmv-business_cardHeight
+        business-tile-body
+      "
+    >
+      <div class="slds-grid slds-m-bottom_large">
+        <div class="slds-size_10-of-12">
+          <span class="slds-p-bottom_small dmv-business__accountIcon">
+            <lightning-icon
+              icon-name="standard:employee_contact"
+              alternative-text="account"
+              size="medium"
+              class="slds-current-color slds-m-right_medium"
+            ></lightning-icon>
+          </span>
+          <span class="dmv-businessFlows__CardHeader"> Review Process </span>
+        </div>
+        <div class="slds-size_2-of-12 dmv-text-center">
+          <!-- <lightning-button
+            variant="neutral"
+            label="Start"
+            class="slds-m-left_large"
+            data-sequence="2"
+            onclick={startFlow}
+          ></lightning-button> -->
+        </div>
+      </div>
+      <div class="dmv-business_bodyPadding">
+        <div class="slds-grid">
+          <div class="slds-size_9-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Review Process </b>
+            </div>
+            <div class="slds-p-bottom_medium">
+              We have started the review process of your application.  You may receive email from us if we need any additional information or have questions.  Once review is completed, you will receive notice that you can schedule your inspection.
+              <!--200 characters tousled chartreuse asymmetrical godard tattooed
+              8-bit typewriter blue bottle church-key. Organic VHS hammock,
+              seitan gochujang shaman vegan normcore. Cray umami flexitarian
+              anim yuccie tattooed gastropub.-->
+            </div>
+          </div>
+          <div class="slds-size_3-of-12" if:true={progressStatus}>
+            <div
+              class="
+                Review_Process__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+                dmv-center
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="slds-m-top_small slds-p-bottom_medium">
+          <!-- <lightning-progress-indicator
+            current-step="step-3"
+            type="path"
+            variant="base"
+          >
+            <template for:each={steps} for:item="step">
+              <lightning-progress-step
+                label={step.label}
+                value={step.value}
+                key={step.label}
+              ></lightning-progress-step>
+            </template>
+          </lightning-progress-indicator> -->
+        </div>
+
+        <!-- Show Denied Error message-->
+        <template if:true={boolCaseStatusDenied}>        
+          <div class="dmv-deniedMessage">
+            Application denied. Please check your email 
+            for details on submitting a hearing request.
+          </div>
+        </template>
+
+      </div>
+    </div>
+  </lightning-card>
+</template>

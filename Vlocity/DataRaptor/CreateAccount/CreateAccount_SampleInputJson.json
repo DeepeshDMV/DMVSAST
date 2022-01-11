@@ -1,0 +1,24 @@
+{
+    "AccountID": "0013S000002cv2mQAA",
+    "ContextId": "0013S000002cv2mQAA",
+    "StepAccount": {
+        "AddressInformationBlock": {
+            "AccountCity": "Chicago",
+            "AccountState": "IL",
+            "AccountStreet": "5700 South Cicero Avenue",
+            "AccountZipCode": "60629"
+        },
+        "BasicInformation": {
+            "AccountName": "TestBusiness",
+            "AccountPhone": "1234567899",
+            "AccountWebsite": "testcompany.com"
+        }
+    },
+    "UserEmail": "mantss@deloitte.com",
+    "timeStamp": "2021-05-18T11:15:13.981Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000IwYvQAK",
+    "userName": "mantss@deloitte.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

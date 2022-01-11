@@ -1,0 +1,22 @@
+{
+    "StepAccount": {
+        "AddressInformationBlock": {
+            "AccountCity": "Bengaluru",
+            "AccountState": "KA",
+            "AccountStreet": "Deloitte",
+            "AccountZipCode": "560037"
+        },
+        "BasicInformation": {
+            "AccountName": "Test Omniscipt Flow",
+            "AccountPhone": "1234567899",
+            "AccountWebsite": "Tewstemail.com"
+        }
+    },
+    "UserEmail": "mantss@deloitte.com",
+    "timeStamp": "2021-05-18T14:05:40.803Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053S000000IwYvQAK",
+    "userName": "mantss@deloitte.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "-420"
+}

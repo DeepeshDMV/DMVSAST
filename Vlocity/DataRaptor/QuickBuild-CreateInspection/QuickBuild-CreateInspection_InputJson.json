@@ -1,0 +1,290 @@
+{
+    "ContextId": "",
+    "Details": {
+        "Description": null,
+        "Name": "Test 1 billion",
+        "RequireSignatures": false
+    },
+    "FilteredList": {
+        "AssessmentIndDefinitionsToInsert": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "EEE",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "EEE",
+                "RegulatoryCodeName": "EEE",
+                "RegulatoryCodeSubject": "EEE",
+                "TaskDefinition": "EEE"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG111",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "HHH",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "HHH",
+                "RegulatoryCodeName": "HHH",
+                "RegulatoryCodeSubject": "HHH",
+                "TaskDefinition": "HHH"
+            }
+        ]
+    },
+    "FilteredList2": {
+        "RegCodeAssementIndToInsert": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "EEE",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "EEE",
+                "RegulatoryCodeName": "EEE",
+                "RegulatoryCodeSubject": "EEE",
+                "TaskDefinition": "EEE"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG111",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "HHH",
+                "AssessmentIndicatorType": "Boolean",
+                "AssessmentTaskIndDefinitionName": "",
+                "ItemEntity": "AssessmentTask",
+                "RegCodeAssessmentInd": "",
+                "RegulatoryCodeAuthority": "HHH",
+                "RegulatoryCodeName": "HHH",
+                "RegulatoryCodeSubject": "HHH",
+                "TaskDefinition": "HHH"
+            }
+        ]
+    },
+    "Items": {
+        "FileCount": 1,
+        "InspectionComponents": [
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA222",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "BBB",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "BBB",
+                "RegulatoryCodeName": "BBB",
+                "RegulatoryCodeSubject": "BBB",
+                "TaskDefinition": "BBB"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "CCC",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "CCC",
+                "RegulatoryCodeName": "CCC",
+                "RegulatoryCodeSubject": "CCC",
+                "TaskDefinition": "CCC"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "DDD",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "DDD",
+                "RegulatoryCodeName": "DDD",
+                "RegulatoryCodeSubject": "DDD",
+                "TaskDefinition": "DDD"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "DDD111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "DDD",
+                "RegulatoryCodeName": "DDD",
+                "RegulatoryCodeSubject": "DDD",
+                "TaskDefinition": "DDD"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "EEE",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "EEE",
+                "RegulatoryCodeName": "EEE",
+                "RegulatoryCodeSubject": "EEE",
+                "TaskDefinition": "EEE"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "EEE111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "EEE",
+                "RegulatoryCodeName": "EEE",
+                "RegulatoryCodeSubject": "EEE",
+                "TaskDefinition": "EEE"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "FFF",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "FFF",
+                "RegulatoryCodeName": "FFF",
+                "RegulatoryCodeSubject": "FFF",
+                "TaskDefinition": "FFF"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "FFF111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "FFF",
+                "RegulatoryCodeName": "FFF",
+                "RegulatoryCodeSubject": "FFF",
+                "TaskDefinition": "FFF"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "AAA333",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "AAA",
+                "RegulatoryCodeName": "AAA",
+                "RegulatoryCodeSubject": "AAA",
+                "TaskDefinition": "AAA"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "GGG111",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "GGG",
+                "RegulatoryCodeName": "GGG",
+                "RegulatoryCodeSubject": "GGG",
+                "TaskDefinition": "GGG"
+            },
+            {
+                "AssessmentIndicatorDefinedValues": null,
+                "AssessmentIndicatorName": "HHH",
+                "AssessmentIndicatorType": "Boolean",
+                "ItemEntity": "AssessmentTask",
+                "RegulatoryCodeAuthority": "HHH",
+                "RegulatoryCodeName": "HHH",
+                "RegulatoryCodeSubject": "HHH",
+                "TaskDefinition": "HHH"
+            }
+        ],
+        "InspectionFile": [
+            {
+                "$$hashKey": "object:155",
+                "contentDocumentId": "0694x000000e5x1AAA",
+                "data": "e3218ed1-4338-4aa2-9d59-d237704ed322",
+                "filename": "Test28Inspection.csv",
+                "size": 607,
+                "vId": "0684x000000eBe1AAE"
+            }
+        ]
+    },
+    "id": "a5y4x0000004Pz1AAE",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://rentassist-20210129-demo--vlocity-ins.visualforce.com",
+    "timeStamp": "2021-03-25T17:38:45.784Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054x000003dns8AAA",
+    "userName": "jblankenship@rentassistance01292021.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

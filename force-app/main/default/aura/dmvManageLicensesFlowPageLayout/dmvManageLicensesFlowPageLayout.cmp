@@ -1,0 +1,52 @@
+<aura:component
+  implements="forceCommunity:layout"
+  description="Business Dashboard Layout"
+  access="global"
+>
+  <aura:attribute
+    name="dmvBusinessLicense"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+  <aura:attribute
+    name="dmvFlowOne"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+    <aura:attribute
+    name="dmvFlowTwo"
+    type="Aura.Component[]"
+    required="false"
+  ></aura:attribute>
+
+  <aura:attribute name="firstFlow" type="Boolean" default="false" />
+  <aura:attribute name="secondFlow" type="Boolean" default="false" />
+  <aura:attribute name="isFlowActive" type="Boolean" default="false" />
+  <div class="business-page-layout">
+    <div>
+      <div>
+        <aura:if isTrue="{!v.isFlowActive}">
+          <aura:if isTrue="{!v.firstFlow}">
+            <div class="slds-p-horizontal_x-large">{!v.dmvFlowOne}</div>
+          </aura:if>
+          <aura:if isTrue="{!v.secondFlow}">
+            <div class="slds-p-horizontal_x-large">{!v.dmvFlowTwo}</div>
+          </aura:if>
+          <aura:set attribute="else">
+            <!-- <div class="slds-m-bottom_x-large">
+              <c:dmvBusinessLicenses
+                onhandlebuttonchange="{!c.handleButtonChange}"
+              />
+            </div> -->
+            <div class="slds-m-top_large">
+              <c:dmvProfessionalLicenses
+                onhandlebuttonchange="{!c.handleButtonChange}"
+              />
+            </div>
+          </aura:set>
+        </aura:if>
+      </div>
+      <c:dmvFlowEventHelper onhandlecloseflow="{!c.handleCloseFlow}" />
+    </div>
+  </div>
+</aura:component>

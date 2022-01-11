@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="accessKey" type="string" label="accessKey" description=""/>
+            <property name="checked" type="boolean" label="checked" description="is checked (used for radio box)"/>
+            <property name="conditionalClass" type="string" label="conditionalClass" description=""/>
+            <property name="disabled" type="boolean" label="disabled" description=""/>
+            <property name="formatter" type="string" label="formatter" description="Regex"/>
+            <property name="label" type="string" label="label" description="Regex"/>
+            <property name="max" type="integer" label="max" description=""/>
+            <property name="maxLength" type="integer" label="maxLength" description=""/>
+            <property name="messageToggleActive" type="string" label="messageToggleActive" description=""/>
+            <property name="messageToggleInactive" type="string" label="messageToggleActive" description=""/>
+            <property name="messageWhenBadInput" type="string" label="messageToggleActive" description=""/>
+            <property name="messageWhenPatternMismatch" type="string" label="messageWhenPatternMismatch" description=""/>
+            <property name="messageWhenRangeOverflow" type="string" label="messageWhenRangeOverflow" description=""/>
+            <property name="messageWhenRangeUnderflow" type="string" label="messageWhenRangeUnderflow" description=""/>
+            <property name="messageWhenStepMismatch" type="string" label="messageWhenStepMismatch" description=""/>
+            <property name="messageWhenTooLong" type="string" label="messageWhenTooLong" description=""/>
+            <property name="messageWhenTooShort" type="string" label="messageWhenTooShort" description=""/>
+            <property name="messageWhenTypeMismatch" type="string" label="messageWhenTypeMismatch" description=""/>
+            <property name="messageWhenValueMissing" type="string" label="messageWhenValueMissing" description=""/>
+            <property name="min" type="integer" label="min" description=""/>
+            <property name="minLength" type="integer" label="minLength" description=""/>
+            <property name="multiple" type="boolean" label="multiple" description=""/>
+            <property name="name" type="string" label="name" description=""/>
+            <!--property name="pattern" type="string" label="pattern" description=""/>-->
+            <!--property name="placeholder" type="string" label="placeholder" description=""/>-->
+            <property name="readonly" type="boolean" label="readonly" description=""/>
+            <property name="required" type="boolean" label="required" description=""/>
+            <property name="step" type="integer" label="step" description=""/>
+            <property name="title" type="string" label="title" description=""/>
+            <!--property name="type" type="string" label="type" description=""/>-->
+            <property name="value" type="string" label="value" description=""/>
+            <property name="variant" type="string" label="variant" description=""/>
+            <property name="fieldlLevelHelp" type="string" label="fieldlLevelHelp" description=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

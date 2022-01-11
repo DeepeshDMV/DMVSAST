@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Submit and Review Application For Salesperson",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Application/SalespersonLicenseSubmitAndReview/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Submit and Review Application For Salesperson",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Application/SalespersonLicenseSubmitAndReview/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SubmissionConfirmation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Application/SalespersonLicenseSubmitAndReview/English/SubmissionConfirmation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SubmissionConfirmation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "documentNames": [
+            "CACBAGAIA158f9c1bec934220970b66b33ac1ad58"
+        ],
+        "label": "TextBlock9",
+        "sanitize": false,
+        "show": null,
+        "text": "<p style=\"text-align: center;\"><span style=\"background-color: #ecf0f1;\"><img src=\"/servlet/servlet.ImageServer?id=0153S0000009F4WQAU&amp;docName=CACBAGAIA158f9c1bec934220970b66b33ac1ad58&amp;oid=00D3S0000008dAbUAI\" alt=\"\" width=\"20\" height=\"20\" /><em>Your application will not be reviewed until you pay your New Dealer Occupational License Application fees.</em></span></p>\n<p style=\"text-align: center;\"><span style=\"background-color: #ecf0f1;\"><em>If you choose to pay later, you will have until %appSubPayDeadline% to submit your payment. If you do not submit your payment by this date, you will have to restart your application.</em></span></p>\n<p style=\"text-align: left;\"></p>\n<p><strong>What's Next:</strong></p>\n<ul>\n<li><strong>Wait Time:</strong>&nbsp;Please wait 1-2 months for a decision to be made on your application.</li>\n<li><strong>Inspection:</strong>&nbsp;Your license requires an inspection. If approved, you will receive a written notice of your application approval.&nbsp;Please return to your application in the Portal to schedule an inspection.</li>\n</ul>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlock9",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Application/SalespersonLicenseSubmitAndReview/English/TextBlock9"
+}

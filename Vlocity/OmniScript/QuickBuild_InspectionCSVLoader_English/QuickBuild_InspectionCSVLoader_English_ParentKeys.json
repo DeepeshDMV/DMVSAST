@@ -1,0 +1,8 @@
+[
+    "DataRaptor/QuickBuild-AddSignature",
+    "DataRaptor/QuickBuild-CSVUploadTransformFilterOnlyNewJunctions",
+    "DataRaptor/QuickBuild-CreateInspection",
+    "DataRaptor/QuickBuild-CreateInspection-AddAssessmentTaskAssmentInd",
+    "DataRaptor/QuickBuild-CreateInspection-AddRegulatoryAssmentInd",
+    "DataRaptor/QuickBuild-FinalizeTemplateVersion"
+]

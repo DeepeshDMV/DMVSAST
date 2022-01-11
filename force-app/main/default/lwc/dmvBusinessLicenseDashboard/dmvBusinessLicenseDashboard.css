@@ -1,0 +1,41 @@
+.dmv-business__nameLabel {
+  font-size: 0.75rem;
+}
+
+.dmv-business__name {
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 1.375rem;
+}
+
+.dmv-business_bodyTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.dmv-business__addCardBody {
+  color: rgb(19, 127, 198);
+  padding: 8rem 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dmv-business_bodyPadding {
+  padding: 0px 0px;
+}
+
+.dmv-business_cardHeight {
+  height: 25rem;
+}
+
+.dmv-business__accountIcon {
+  color: #fff;
+}
+.dmv-bg-image{
+  background-image : url(/resource/1621823445000/dmvAssets/Illustrations/businessIllustration.PNG);
+  height: 8rem;
+  background: url(/resource/1621823445000/dmvAssets/Illustrations/businessIllustration.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

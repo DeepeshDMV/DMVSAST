@@ -1,0 +1,23 @@
+{
+    "ContextId": "a0Qf40000013jK0",
+    "PrimaryContactId": "003f400000DyjTl",
+    "StepToCreateClientVisit": {
+        "ClientNotes": null,
+        "EndDateTime": null,
+        "EventSubject": null,
+        "StartDateTime": null
+    },
+    "id": "a17f4000000JUT6AAO",
+    "layout": "lightning",
+    "timeStamp": "2018-02-08T12:55:19.846Z",
+    "userId": "005f4000000Z2TXAA0",
+    "userName": "sp@ps-demo.demo",
+    "userProfile": "Vlocity Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetPrimaryContactDetails": 571,
+        "OmniScriptSessionToken": "e0f76a11-8ffb-43ce-8d57-c722a6fb6403",
+        "SetValues1": 16
+    }
+}

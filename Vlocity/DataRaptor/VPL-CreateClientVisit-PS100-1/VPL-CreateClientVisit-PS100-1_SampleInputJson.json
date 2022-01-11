@@ -1,0 +1,68 @@
+{
+    "Benefit Case": {
+        "Case Number": 1231,
+        "Dateopened": "2018-01-24T18:30:00.000Z",
+        "Name": "testing case",
+        "bcDescription": "asdsdadsd",
+        "bcStatus": "Open",
+        "bcstage": "Assessment"
+    },
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__BenefitCaseServicePlan__c": "a0E1N00000Fyw2qUAB",
+    "DRId_%vlocity_namespace%__Case__c": "a0Q1N00000JqSroUAF",
+    "DRId_%vlocity_namespace%__ProgramEnrollment__c": "a1R1N000004RWjVUAW",
+    "DRId_%vlocity_namespace%__PublicProgram__c": "a1U1N00000BLIxFUAX",
+    "Program": {
+        "EnactedDate": "2018-01-18T18:30:00.000Z",
+        "EndDate": "2018-01-25T18:30:00.000Z",
+        "ProgramName": "testing program",
+        "StartDate": "2018-01-03T18:30:00.000Z",
+        "Status": "Open",
+        "Type": "Child Care"
+    },
+    "Program Enrollment": {
+        "ProgramEnrollmentName": "testing enrollment",
+        "ProgramEnrollmentStage": "Enrolled",
+        "ProgramEnrollmentStatus": "Enrolled"
+    },
+    "Referral": {
+        "Outcome": null,
+        "Reason": null,
+        "ReferralCompletionDate": "2018-01-02T18:30:00.000Z",
+        "ReferralDate": null,
+        "ReferralName": "adsdsad",
+        "ReferralNumberofUnits": null,
+        "ReferralServiceProvider": "0011N00001Cc1m3QAB",
+        "ToCompleteByDate": null,
+        "stage": null,
+        "status": null,
+        "type": null
+    },
+    "Service Plan": {
+        "spname": "asdasd",
+        "spprogress": 12,
+        "spstartdate": "2018-01-11T18:30:00.000Z",
+        "spstatus": "Planning",
+        "sptargetendate": "2018-01-30T18:30:00.000Z"
+    },
+    "id": "a171N000002ipYEQAY",
+    "layout": "lightning",
+    "timeStamp": "2018-01-12T08:49:47.156Z",
+    "userId": "0051N000005LdXKQA0",
+    "userName": "smalla@ps.dev.com",
+    "userProfile": "Vlocity Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicantDetails": 391,
+        "Benefit Case": 13279,
+        "CreateProgram": 563,
+        "CreateprogramEnrollment": 662,
+        "OmniScriptSessionToken": "841b7d17-79bd-4614-9358-5a62244f9e07",
+        "Program": 19576,
+        "Program Enrollment": 10797,
+        "Service Plan": 10143,
+        "benifitcasecreation": 912,
+        "createserviceplan": 781
+    }
+}

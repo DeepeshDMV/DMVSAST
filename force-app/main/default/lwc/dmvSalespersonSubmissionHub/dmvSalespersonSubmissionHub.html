@@ -1,0 +1,229 @@
+<template>
+  <div class="dmv-business_mainBodyPadding">
+    <!-- Dealer License Application -->
+    <c-dmv-dealer-license-application
+      if:true={showData}
+      hide-progress-bar="true"
+    ></c-dmv-dealer-license-application>
+
+    <!-- Application Checklist -->
+    <div class="slds-m-vertical_small">
+      <div class="slds-m-right_x-large slds-m-left_x-large">
+        <div
+          class="
+            dmv-business_applicationChecklistTitle
+            slds-align_absolute-center
+            slds-p-bottom_small
+          "
+        >
+          <lightning-icon
+            icon-name="utility:task"
+            alternative-text="task"
+            size="large"
+            class="slds-m-right_medium"
+          ></lightning-icon>
+          Your Submitted Application
+        </div>
+        <div
+          class="
+            dmv-business_applicationChecklistBody
+            slds-align_absolute-center
+          "
+        >
+          Your application has been received. Please monitor for any recommended
+          actions below.
+        </div>
+      </div>
+    </div>
+    <!-- Your Application Fees -->
+    <c-dmv-your-application-fees-salesperson
+      if:true={showData}
+      progress-status={progressStatus}
+    ></c-dmv-your-application-fees-salesperson>
+    <!-- Review Process -->
+    <c-dmv-review-process-salesperson
+      if:true={showData}
+      progress-status={progressStatus}
+    ></c-dmv-review-process-salesperson>
+
+    <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-size_9-of-12">
+            <span class="slds-p-bottom_small dmv-business__accountIcon">
+              <lightning-icon
+                icon-name="standard:employee_contact"
+                alternative-text="account"
+                size="medium"
+                class="slds-current-color slds-m-right_medium"
+              ></lightning-icon>
+            </span>
+            <span class="dmv-businessFlows__CardHeader">
+              Print Your Temporary License
+            </span>
+          </div>
+          <div class="slds-size_3-of-12 dmv-text-center">
+            <!-- <c-cadmv-download-license></c-cadmv-download-license> -->
+
+            <!-- REMOVE ONCE BUTTON IS CREATED -->
+            <!--<a class="slds-button slds-button_neutral" href={content} target="_blank">Print Your License</a><br/>-->
+            <lightning-button
+              variant="neutral"
+              label="Print Your License"
+              class="slds-m-left_large"
+              data-sequence="2"
+              onclick={downloadFile}
+              disabled={dbDisable}
+            ></lightning-button>
+          </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <div class="slds-grid">
+            <div class="slds-size_9-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Print Your License </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                After you receive notification that your application has been
+                approved, you will be able to print your temporary license here.
+              </div>
+            </div>
+            <div class="slds-size_3-of-12" if:true={progressStatus}>
+              <div
+                class="
+                  Inspection_Scheduled_Status__c
+                  slds-p-horizontal_small
+                  slds-p-vertical_xx-small
+                  dmv-center
+                "
+              ></div>
+            </div>
+          </div>
+          <!-- Hint Text -->
+        </div>
+      </div>
+    </lightning-card>
+    <lightning-card
+      class="slds-m-right_x-large slds-m-left_x-large"
+      if:true={showApplyForHearing}
+    >
+      <div
+        class="
+          slds-var-p-horizontal_small
+          dmv-business_cardHeight
+          business-tile-body
+        "
+      >
+        <div class="slds-grid slds-m-bottom_large">
+          <div class="slds-size_9-of-12">
+            <span class="slds-p-bottom_small dmv-business__accountIcon">
+              <lightning-icon
+                icon-name="standard:employee_contact"
+                alternative-text="account"
+                size="medium"
+                class="slds-current-color slds-m-right_medium"
+              ></lightning-icon>
+            </span>
+            <span class="dmv-businessFlows__CardHeader"> Hearing Request </span>
+          </div>
+          <div class="slds-size_3-of-12 dmv-text-center">
+            <!-- <c-cadmv-download-license></c-cadmv-download-license> -->
+
+            <!-- REMOVE ONCE BUTTON IS CREATED -->
+            <!--<a class="slds-button slds-button_neutral" href={content} target="_blank">Print Your License</a><br/>-->
+            <lightning-button
+              variant="neutral"
+              label="Request for Hearing"
+              class="slds-m-left_large"
+              data-sequence="2"
+              onclick={handleHearingRequest}
+              disabled={disableHearingBtn}
+            ></lightning-button>
+          </div>
+        </div>
+        <div class="dmv-business_bodyPadding">
+          <div class="slds-grid">
+            <div class="slds-size_9-of-12">
+              <div class="slds-p-bottom_xx-small">
+                <b> Hearing Request </b>
+              </div>
+              <div class="slds-p-bottom_medium">
+                Your Application has been denied. You have the right to appeal
+                the decision by creating a hearing request.
+              </div>
+            </div>
+          </div>
+          <!-- Hint Text -->
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+  <template if:true={bShowModal}>
+    <section
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="modal-heading-01"
+      aria-modal="true"
+      aria-describedby="modal-content-id-1"
+      class="slds-modal slds-fade-in-open"
+    >
+      <div class="slds-modal__container">
+        <!-- modal header start -->
+        <header class="slds-modal__header">
+          <button
+            class="
+              slds-button slds-button_icon
+              slds-modal__close
+              slds-button_icon-inverse
+            "
+            title="Close"
+            onclick={closeModal}
+          >
+            <lightning-icon
+              icon-name="utility:close"
+              alternative-text="close"
+              variant="inverse"
+              size="small"
+            ></lightning-icon>
+            <span class="slds-assistive-text">Close</span>
+          </button>
+          <h2
+            id="modal-heading-01"
+            class="slds-text-heading_medium slds-hyphenate"
+          >
+            Warning!
+          </h2>
+        </header>
+        <!-- modal body start -->
+        <div
+          class="
+            slds-modal__content
+            slds-p-around_medium
+            slds-notify slds-notify_alert
+            slds-alert_warning
+          "
+          id="modal-content-id-1"
+        >
+          <p>
+            Note: in order to prevent fraud, you are only able to print a
+            license once. You’ve printed this license previously, so please call
+            support in order to print again.
+          </p>
+        </div>
+        <!-- modal footer start-->
+        <footer class="slds-modal__footer">
+          <button class="slds-button slds-button_neutral" onclick={closeModal}>
+            Cancel
+          </button>
+        </footer>
+      </div>
+    </section>
+    <div class="slds-backdrop slds-backdrop_open"></div>
+  </template>
+</template>

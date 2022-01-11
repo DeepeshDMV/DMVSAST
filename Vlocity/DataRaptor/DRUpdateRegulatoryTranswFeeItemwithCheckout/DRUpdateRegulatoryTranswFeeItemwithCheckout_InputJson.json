@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "Step1": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CANCEL": null,
+        "DRGetFeeForReview": null,
+        "DRGetUserforreview": null,
+        "DataRaptorPostAction1": null,
+        "DataRaptorPostAction2": null,
+        "PayYourFeeRemoteAction": null,
+        "SVRedirectToLWC": null,
+        "SetTheSuccessAndFailureUrl": null,
+        "SetTheUserContact": null,
+        "SetUrlFromService": null,
+        "SetValues1": null,
+        "Step1": null
+    }
+}

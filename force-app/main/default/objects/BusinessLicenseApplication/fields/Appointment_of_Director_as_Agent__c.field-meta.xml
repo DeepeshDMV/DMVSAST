@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_of_Director_as_Agent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Appointment of Director as Agent</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

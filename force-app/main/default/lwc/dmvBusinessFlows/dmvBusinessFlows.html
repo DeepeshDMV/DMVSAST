@@ -1,0 +1,105 @@
+<template>
+  <lightning-card class="slds-m-right_x-large slds-m-left_x-large">
+    <div
+      class="
+        slds-var-p-horizontal_small
+        dmv-business_cardHeight
+        business-tile-body
+      "
+    >
+      <div class="slds-grid slds-m-bottom_large">
+        <div
+          class="
+            slds-p-bottom_small
+            dmv-business__accountIcon
+            slds-size_10-of-12
+          "
+        >
+        <span>
+          <lightning-icon
+            icon-name="standard:account"
+            alternative-text="account"
+            size="medium"
+            class="slds-current-color slds-m-right_medium"
+          ></lightning-icon>
+        </span>
+          <span class="dmv-businessFlows__CardHeader">
+            Complete Your Property Details
+          </span>
+        </div>
+        <div class="slds-size_2-of-12">
+          <lightning-button
+            variant="neutral"
+            label="Start"
+            class="slds-m-left_large"
+            onclick={launchFlow}
+            data-sequence="2"
+          ></lightning-button>
+        </div>
+      </div>
+      <div class="dmv-business_bodyPadding">
+        <div class="slds-grid">
+          <div class="slds-size_10-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Property Address and Status </b>
+            </div>
+            <div class="slds-p-bottom_medium">Application Step Description</div>
+          </div>
+          <div class="slds-size_2-of-12">
+            <div
+              class="
+              Owner_Background_Information__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+              "
+            >
+            </div>
+          </div>
+        </div>
+        <div class="slds-grid">
+          <div class="slds-size_10-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Property Details </b>
+            </div>
+            <div class="slds-p-bottom_medium">Application Step Description</div>
+          </div>
+          <div class="slds-size_2-of-12">
+            <div
+              class="
+              Property_Details__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+              "
+            >
+            </div>
+          </div>
+        </div>
+        <div class="slds-grid">
+          <div class="slds-size_10-of-12">
+            <div class="slds-p-bottom_xx-small">
+              <b> Property Owner Name and Address </b>
+            </div>
+            <div class="slds-p-bottom_medium">Application Step Description</div>
+          </div>
+          <div class="slds-size_2-of-12">
+            <!-- <lightning-button
+              variant="neutral"
+              label="Start"
+              class="slds-align_absolute-center"
+              onclick={launchFlow}
+              data-sequence="3"
+            ></lightning-button> -->
+            <div
+              class="
+              Business_Account_Information__c
+                slds-p-horizontal_small
+                slds-p-vertical_xx-small
+              "
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>

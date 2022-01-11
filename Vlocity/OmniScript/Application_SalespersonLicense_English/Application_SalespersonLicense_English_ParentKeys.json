@@ -1,0 +1,9 @@
+[
+    "DataRaptor/DRE_fetchDealerships",
+    "DataRaptor/DRE_fetchIndividualApplication",
+    "DataRaptor/DRE_fetchSalesPersonInfo",
+    "DataRaptor/DRL-updateSPLiveScanStatus",
+    "DataRaptor/DRL_CreateCaseForSalesApplication",
+    "DataRaptor/DRL_updateSalespersonAccountInfo",
+    "DataRaptor/DRL_updateSalespersonAccountInfo_1"
+]

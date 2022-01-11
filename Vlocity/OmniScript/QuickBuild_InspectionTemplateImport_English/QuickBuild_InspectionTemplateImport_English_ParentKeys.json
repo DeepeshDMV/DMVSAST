@@ -1,0 +1,9 @@
+[
+    "DataRaptor/QuickBuild-DeserializeJSONImport",
+    "DataRaptor/QuickBuild-FinalizeTemplateVersion",
+    "DataRaptor/QuickBuild-MigrateInspectionTemplate",
+    "DataRaptor/QuickBuild-MigrateInspectionTemplate-AddAssessmentTaskIndJunction",
+    "DataRaptor/QuickBuild-MigrateInspectionTemplate-AddRegAssessmentIndJunction",
+    "DataRaptor/QuickBuild-MigrateInspectionTemplate-AddSignature",
+    "DataRaptor/QuickBuild-MigrationGetJunctionObjectsToAdd"
+]

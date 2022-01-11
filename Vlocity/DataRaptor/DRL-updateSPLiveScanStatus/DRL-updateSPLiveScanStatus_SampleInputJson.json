@@ -1,0 +1,92 @@
+{
+    "ContextId": null,
+    "Salesperson License": {
+        "Block1": {
+            "Dealership-Block": {
+                "BusinessAccountId": null,
+                "Dealership": null
+            },
+            "city": null,
+            "diffName": null,
+            "differentName": null,
+            "dob": null,
+            "driversLicenseNumber": null,
+            "expirationsDate": null,
+            "eyeColor": null,
+            "firstName": null,
+            "hairColor": null,
+            "height": null,
+            "lastName": null,
+            "middleName": null,
+            "phone": null,
+            "sex": null,
+            "socialSecurityNumber": null,
+            "state": null,
+            "streetAddress": null,
+            "weight": null,
+            "zip": null
+        },
+        "applyingForBlock": {
+            "applyingFor": null
+        }
+    },
+    "Step1": {
+        "Block3": {
+            "Block4": {
+            },
+            "Block5": {
+                "amountFined": null,
+                "convictedOf": null,
+                "convictionDate": null,
+                "courtOfJurisdiction": null,
+                "dateReleased": null,
+                "jailorPrisonTerm": null,
+                "termofProbation": null
+            },
+            "Text2": null,
+            "Text4": null,
+            "Text5": null,
+            "Text6": null,
+            "Text7": null,
+            "Text8": null,
+            "backgroundInfo1": null,
+            "backgroundInfo2": null,
+            "backgroundInfo3": null,
+            "backgroundInfo3_1": null,
+            "backgroundInfo4": null,
+            "backgroundInfo5": null,
+            "backgroundInfo6": null
+        }
+    },
+    "duplicateSsnMsg": {
+    },
+    "liveScanReceiptStep": {
+        "FileUpload": null,
+        "LiveScanReceiptNumber": null,
+        "liveScanReceipt": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CANCEL": null,
+        "DRL_updateSalespersonAccountInfo": null,
+        "DataRaptorExtractAction1": null,
+        "DataRaptorExtractAction3": null,
+        "DataRaptorPostAction2": null,
+        "RemoteActionLiveScanStatus": null,
+        "SVRedirectPubSub": null,
+        "Salesperson License": null,
+        "SetValues1": null,
+        "SetValues2": null,
+        "Step1": null,
+        "UpdateSPLiveScanStatus": null,
+        "checkDuplicateSP": null,
+        "duplicateSsnMsg": null,
+        "liveScanReceiptStep": null
+    }
+}

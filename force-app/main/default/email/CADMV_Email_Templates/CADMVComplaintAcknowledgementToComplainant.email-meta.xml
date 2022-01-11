@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CADMV_Letterhead</letterhead>
+    <name>CADMVComplaintAcknowledgementToComplainant</name>
+    <style>formalLetter</style>
+    <subject>Complaint Acknowledgement</subject>
+    <textOnly>Complaint Submission
+
+Hi {!PublicComplaint.FirstName} {!PublicComplaint.LastName},
+
+
+
+This notice confirms the successful submission of complaint number {!PublicComplaint.Name}. We appreciate your concern and will contact you if additional information is needed.
+
+If you have any questions, please contact the compliance office at DMVLODOLOCOMPLAINTS@dmv.ca.gov.
+
+
+
+This email was sent from an unattended mailbox. Please do not respond using the &quot;Reply&quot; button.
+
+
+Sincerely,
+
+Occupational Licensing Branch
+
+CA Department of Motor Vehicles</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

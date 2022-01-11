@@ -1,0 +1,16 @@
+{
+    "checkout": {
+        "RegulatoryTrxnFees": [
+            {
+                "Id": "0kx3S000000004cQAA"
+            },
+            {
+                "Id": "0kx3S000000004hQAA"
+            }
+        ],
+        "accountId": "0013S000002eGv6QAE",
+        "contactId": "0033S000001mPVxQAM",
+        "intakeMethod": "Portal",
+        "status": "Pending"
+    }
+}

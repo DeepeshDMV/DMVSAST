@@ -1,0 +1,119 @@
+{
+    "ActionPlanTemplate": {
+        "ActionPlanTemplateVersion": {
+            "ActionPlanTemplateItem": [
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.Name",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Tree Condition"
+                    },
+                    "ActionPlanTemplateItemValue2": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AssessmentTaskDefinitionId",
+                        "ValueLiteralLookup": "Tree Condition"
+                    },
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "AssessmentTask",
+                    "Name": "Tree Condition"
+                },
+                {
+                    "ActionPlanTemplateItemValue": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.Name",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "Name",
+                        "ValueLiteral": "Surrounding Area"
+                    },
+                    "ActionPlanTemplateItemValue2": {
+                        "IsActive": true,
+                        "ItemEntityFieldName": "AssessmentTask.AssessmentTaskDefinitionId",
+                        "ItemEntityType": "AssessmentTask",
+                        "Name": "AssessmentTaskDefinitionId",
+                        "ValueLiteralLookup": "Surrounding Area"
+                    },
+                    "IsActive": true,
+                    "IsRequired": false,
+                    "ItemEntityType": "AssessmentTask",
+                    "Name": "Surrounding Area"
+                }
+            ],
+            "ActionPlanTemplateItemSignature": {
+                "ActionPlanTemplateItemValue": {
+                    "IsActive": true,
+                    "ItemEntityFieldName": "AssessmentTask.Name",
+                    "ItemEntityType": "SignatureTask",
+                    "Name": "Name",
+                    "ValueLiteral": "Inspector"
+                },
+                "IsActive": true,
+                "IsRequired": false,
+                "ItemEntityType": "SignatureTask",
+                "Name": "Inspector"
+            },
+            "Name": "NYC Parks Tree Inspection"
+        },
+        "ActionPlanType": "Retail",
+        "Description": "NYC Parks Tree Inspection",
+        "Name": "NYC Parks Tree Inspection",
+        "TargetEntityType": "Visit"
+    },
+    "AssessmentIndicatorDefinition": [
+        {
+            "DataType": "Boolean",
+            "Name": "Can Tree be cut down?"
+        },
+        {
+            "DataType": "Boolean",
+            "Name": "Is Surrounding Area Clear of obstructions?"
+        }
+    ],
+    "AssessmentTaskDefinition": [
+        {
+            "Name": "Tree Condition",
+            "TaskType": "InspectionChecklist"
+        },
+        {
+            "Name": "Surrounding Area",
+            "TaskType": "InspectionChecklist"
+        }
+    ],
+    "AssessmentTaskIndDefinition": [
+        {
+            "AssessmentIndDefinitionName": "Can Tree be cut down?",
+            "AssessmentTaskDefinitionName": "Tree Condition"
+        },
+        {
+            "AssessmentIndDefinitionName": "Is Surrounding Area Clear of obstructions?",
+            "AssessmentTaskDefinitionName": "Surrounding Area"
+        }
+    ],
+    "InspectionType": {
+        "Name": "NYC Parks Tree Inspection"
+    },
+    "RegulatoryAuthority": {
+        "Name": "NYC Parks"
+    },
+    "RegulatoryCode": {
+        "EffectiveFrom": "2021-01-02T00:00:00.000Z",
+        "EffectiveTo": "2025-12-31T00:00:00.000Z",
+        "Name": "NYC Trees",
+        "RegulatoryAuthorityName": "NYC Parks",
+        "Subject": "NYC Tree"
+    },
+    "RegulatoryCodeAssessmentInd": [
+        {
+            "AssessmentIndDefinitionName": "Can Tree be cut down?",
+            "RegulatoryCodeName": "NYC Trees"
+        },
+        {
+            "AssessmentIndDefinitionName": "Is Surrounding Area Clear of obstructions?",
+            "RegulatoryCodeName": "NYC Trees"
+        }
+    ]
+}

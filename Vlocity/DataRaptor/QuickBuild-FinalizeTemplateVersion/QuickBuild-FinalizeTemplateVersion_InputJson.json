@@ -1,0 +1,50 @@
+{
+    "ContextId": null,
+    "Details": {
+        "Description": null,
+        "Name": null,
+        "RequireSignatures": null
+    },
+    "Items": {
+        "FileCount": null,
+        "InspectionComponents": {
+            "AssessmentIndicatorDefinedValues": null,
+            "AssessmentIndicatorName": null,
+            "AssessmentIndicatorType": null,
+            "ItemEntity": null,
+            "RegulatoryCodeAuthority": null,
+            "RegulatoryCodeName": null,
+            "RegulatoryCodeSubject": null,
+            "TaskDefinition": null
+        },
+        "InspectionFile": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "SignatureTasks": {
+        "Signatures": {
+            "Order": null,
+            "SignatureName": null,
+            "SignatureRequired": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRAddSignatures": null,
+        "DRCreateInspection": null,
+        "DRUpdateTemplateVersionFinal": null,
+        "Details": null,
+        "Items": null,
+        "SignatureTasks": null
+    }
+}

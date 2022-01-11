@@ -1,0 +1,162 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "CMadm1316FingerprintCardFeePerCard",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/CMadm1316FingerprintCardFeePerCard",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPadm1316FingerprintCardFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPadm1316FingerprintCardFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "e78afc",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "AuthorizationCategory"
+            },
+            {
+                "columnKey": "21bbb0",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "AuthorizationType"
+            },
+            {
+                "columnKey": "3d1f8e",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "ApplicationType"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "8278be",
+                "dataType": "Currency",
+                "label": null,
+                "listValues": null,
+                "name": "ADM 1316 Fingerprint Card Fee per Card"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"ADM 1316 Fingerprint Card Fee per Card\":\"CMadm1316FingerprintCardFeePerCard__ADM1316FingerprintCardFeeperCard\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "CMadm1316FingerprintCardFeePerCard__ADM1316FingerprintCardFeeperCard * NumberOfFingerprintCards",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "CMadm1316FingerprintCardFeePerCard__ADM1316FingerprintCardFeeperCard",
+                "dataType": "Currency",
+                "text": "ADM 1316 Fingerprint Card Fee per Card ( CMadm1316FingerprintCardFeePerCard )",
+                "userDefined": false
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "NumberOfFingerprintCards",
+                "dataType": "Number",
+                "text": "NumberOfFingerprintCards",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPadm1316FingerprintCardFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPadm1316FingerprintCardFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Number",
+                "name": "NumberOfFingerprintCards"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "calculatedFeeAmount",
+            "dataType": "Currency",
+            "name": "calculatedFeeAmount"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"calculatedFeeAmount\":\"calculatedFeeAmount\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "calculatedFeeName",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "calculatedFeeName",
+                "dataType": "Text",
+                "text": "calculatedFeeName",
+                "userDefined": true
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "CPadm1316FingerprintCardFee",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "CPadm1316FingerprintCardFee",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/CPadm1316FingerprintCardFee",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Text",
+                "name": "calculatedFeeName"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "calculatedFeeName",
+            "dataType": "Text",
+            "name": "calculatedFeeName"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"calculatedFeeName\":\"calculatedFeeName\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

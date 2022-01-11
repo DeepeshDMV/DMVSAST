@@ -1,0 +1,17 @@
+{
+    "Body": "File_PortalInspectionImage.png",
+    "BodyLength": 7381,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "PortalInspectionImage",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "PortalInspectionImage",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/PortalInspectionImage"
+}

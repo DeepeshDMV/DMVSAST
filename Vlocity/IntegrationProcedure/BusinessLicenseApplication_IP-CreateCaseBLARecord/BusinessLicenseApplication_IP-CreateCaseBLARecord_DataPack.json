@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "BusinessLicenseApplication_IP-CreateCaseBLARecord_Element_DRCaseCreate.json",
+        "BusinessLicenseApplication_IP-CreateCaseBLARecord_Element_DR_BLAUpsert.json",
+        "BusinessLicenseApplication_IP-CreateCaseBLARecord_Element_ResponseAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "BusinessLicenseApplication_IP-CreateCaseBLARecord",
+    "%vlocity_namespace%__PropertySet__c": "BusinessLicenseApplication_IP-CreateCaseBLARecord_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "IP-CreateCaseBLARecord",
+    "%vlocity_namespace%__Type__c": "BusinessLicenseApplication",
+    "Name": "IP-CreateCaseBLARecord",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/BusinessLicenseApplication/IP-CreateCaseBLARecord/Procedure"
+}

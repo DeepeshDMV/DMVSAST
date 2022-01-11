@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IF_CORP_LLC_Statement_Of_Information_SOS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>IF CORP/LLC-Statement Of Information-SOS</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

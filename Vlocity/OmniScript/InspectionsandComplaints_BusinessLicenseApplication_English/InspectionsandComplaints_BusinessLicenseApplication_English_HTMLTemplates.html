@@ -1,0 +1,105 @@
+<style>
+.via-slds.via-omni .step-step section.slds-page-header.vlc-slds-page--header,
+.via-slds.via-omni .step-step form.slds-grid {
+   padding-left: 0;
+}
+
+.via-slds .slds-col--padded.slds-cleafix {
+    display: none !important;
+}
+
+.step-sibling {
+    padding-left: 1.3rem;
+    position: relative;
+    bottom: 30px;
+    font-style: italic;
+}
+.via-slds.via-omni .list-group.vertical-steps .list-group-item.completed.active:before {
+    background-color: #016868;
+}
+
+.via-slds.via-omni .list-group.vertical-steps .list-group-item.completed {
+    border-left: 3px solid #016868;
+}
+
+.via-slds.via-omni .list-group.vertical-steps .list-group-item.completed:before, .via-slds.via-omni .list-group.vertical-steps .list-group-item.invalid:before {
+    background-color: #016868;
+    color: #fff;
+}
+
+.via-slds.via-omni .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box, .via-slds.via-omni .vlc-slds-remote-action_button .vlc-control-wrapper .slds-box{
+background: #016868;
+border-radius: 4px;
+    border-color: rgba(10, 50, 198, 0);
+}
+.via-slds.via-omni .list-group.vertical-steps .list-group-item.active:before {
+    background-color: #016868;
+    color: #fff;
+}
+
+.slds-form-element.vlc-flex input:disabled{
+    border: 1px solid #50e3c2 !important;
+}
+
+.slds-form-element__label.via-slds-auto_save_for_later {
+    display: none !importent;
+    font-size: 0px;
+}
+
+auto-saveforlater-msg {
+ font-size: 0px;
+ display: none!important;
+}
+.os-button{
+      background-color: #016868 !important;
+      color: white !important;
+}
+</style>
+
+<script type="text/ng-template" id="saveForLaterConfirm2.html">
+<div class='slds-col'>
+    <div class="slds-grid slds-box vlc-slds-save_for_later">
+        <div class="slds-col" ng-if="response.error==='OK'">
+            <figure class="vlc-slds-figure">
+                <span class="slds-icon_container slds-icon-action-check slds-icon_container--circle">
+                    <slds-svg-icon aria-hidden="true"
+                                   sprite="'utility'"
+                                   icon="'check'"
+                                   size="'small'"
+                                   extra-classes="''">
+                    </slds-svg-icon>
+                </span>
+                <div>
+                    <figcaption class="slds-form-element__label">{{::customLabels.OmniResume}}</figcaption>
+                </div>
+            </figure>
+            <label class="slds-form-element__label">{{::customLabels.OmniResume}}
+                <a href='https://pscom.stmpb.stm.force.com/s/resume-application?OmniScriptInstanceId={{response.instanceId}}' target="_blank"> {{::customLabels.OmniLink}}</a>․
+            </label>
+            <br/>
+            <button class='vlc-omni-copy vlc-slds-button--link slds-button' ng-click="copyToClipboard(customLabels.OmniCopyToClipBoard, 'https://pscom.stmpb.stm.force.com/s/resume-application?OmniScriptInstanceId='+response.instanceId);$event.preventDefault()">{{::customLabels.OmniCopyLink}}</button> or
+            <a href="mailto:?&subject=&body={{::customLabels.OmniResumeLink}} %0Dhttps://pscom.stmpb.stm.force.com/s/resume-application?OmniScriptInstanceId={0}{{response.instanceId}}%0D%0D{{::customLabels.OmniSaveEmailBody}}">{{::customLabels.OmniEmailMe}}</a>
+        </div>
+        <div class="slds-col slds-col__error" ng-if="response.error!=='OK'">
+            <figure class="vlc-slds-figure">
+                <span class="slds-icon_container slds-icon-action-check slds-icon_container--circle">
+                    <slds-svg-icon aria-hidden="true"
+                                   sprite="'utility'"
+                                   icon="'remove'"
+                                   size="'small'"
+                                   extra-classes="''">
+                    </slds-svg-icon>
+                </span>
+                <figcaption class="slds-form-element__label">{{::customLabels.OmniError}}</figcaption>
+            </figure>
+            <label class="slds-form-element__label">{{response.error}}</label>
+        </div>
+    </div>
+</div>
+</script>
+
+<script>
+function redirectToHome() {
+  $response.sendRedirect("$YOUR_NEW_URL");
+}
+</script>

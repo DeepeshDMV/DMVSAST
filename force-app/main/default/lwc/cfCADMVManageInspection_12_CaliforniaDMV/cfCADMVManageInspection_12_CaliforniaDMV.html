@@ -1,0 +1,150 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_large slds-m-around_large " style="     : #ccc 1px solid; 
+         ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style=""><vlocity_ins-flex-img data-style-id="state0element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0683S0000003a4WQAQ","alternativeText":"Image description","document":{"label":"scheduleinspection (Version:1)","value":"/sfc/servlet.shepherd/version/download/0683S0000003a4WQAQ","title":"scheduleinspection","Id":"0683S0000003a4WQAQ","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element1block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-align_left%22%3E%3Cspan%20style=%22font-size:%2018pt;%22%3E%7BAccountName%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element2" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element2block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EBusiness%20License%20Application%20Information%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element1_child"     card={card}  record={record}  placeholder=""  type="text"  label="Business License Application Number"  field-name="BLAName"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element2" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element2_child"     card={card}  record={record}  placeholder=""  type="date"  label="Application Date"  format="M/D/YYYY"  field-name="BLAAppDate"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element3" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element3_child"     card={card}  record={record}  placeholder=""  type="text"  label="Application Status"  field-name="BLAStatus"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element4" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element4_child"     card={card}  record={record}  placeholder=""  type="text"  label="License Type"  field-name="VisitLicenseType"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element3" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-125","field":"VisitId","operator":"!=","value":"undefined","type":"custom"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element3block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EInspection%20Information%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element1_child"     card={card}  record={record}  placeholder=""  type="text"  label="Inspection Number"  field-name="VisitName"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element2" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element2_child"     card={card}  record={record}  placeholder=""  type="text"  field-name="VisitStatus"  label="Inspection Status"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element3" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element3_child"     card={card}  record={record}  placeholder=""  type="datetime"  label="Planned Start Time"  format="M/D/YYYY, h:mm a"  field-name="VisitPlannedStartTime"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element4" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element4_child"     card={card}  record={record}  placeholder=""  type="datetime"  label="Planned End Time"  format="M/D/YYYY, h:mm a"  field-name="VisitPlannedEndTime"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element4" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element4_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-116","field":"VisitId","operator":"==","value":"undefined","type":"custom"},{"id":"state-new-condition-134","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom","logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element4block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element4block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element4block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element4block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635076081874","type":"Custom","displayName":"Schedule Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Schedule_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Schedule","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element5" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element5_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-147","field":"VisitStatus","operator":"==","value":"Cancelled","type":"custom"},{"id":"state-new-condition-104","field":"VisitStatus","operator":"==","value":"Rescheduled","type":"custom","logicalOperator":"||"},{"id":"state-new-group-121","group":[{"id":"state-new-condition-120","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom"}],"logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element5block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element5block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element5block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element5block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635076063168","type":"Custom","displayName":"Reschedule Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Schedule_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Reschedule","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element6" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element6_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-156","field":"VisitStatus","operator":"==","value":"Scheduled","type":"custom"},{"id":"state-new-condition-165","field":"VisitStatus","operator":"==","value":"Pending Inspector Assignment","type":"custom","logicalOperator":"||"},{"id":"state-new-group-159","group":[{"id":"state-new-condition-158","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom"}],"logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element6block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element6block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element6block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element6block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635121506483","type":"Custom","displayName":"Cancel Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Cancel_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Cancel","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_large slds-m-around_large " style="     : #ccc 1px solid; 
+         ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style=""><vlocity_ins-flex-img data-style-id="state0element0_child"     card={card}  record={record}  size=""  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0683S0000003a4WQAQ","alternativeText":"Image description","document":{"label":"scheduleinspection (Version:1)","value":"/sfc/servlet.shepherd/version/download/0683S0000003a4WQAQ","title":"scheduleinspection","Id":"0683S0000003a4WQAQ","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div><div data-style-id="state0element1" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element1block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element1block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-align_left%22%3E%3Cspan%20style=%22font-size:%2018pt;%22%3E%7BAccountName%7D%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element2" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element2_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element2block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EBusiness%20License%20Application%20Information%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element1_child"     card={card}  record={record}  placeholder=""  type="text"  label="Business License Application Number"  field-name="BLAName"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element2" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element2_child"     card={card}  record={record}  placeholder=""  type="date"  label="Application Date"  format="M/D/YYYY"  field-name="BLAAppDate"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element3" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element3_child"     card={card}  record={record}  placeholder=""  type="text"  label="Application Status"  field-name="BLAStatus"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element2block_element4" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element2block_element4_child"     card={card}  record={record}  placeholder=""  type="text"  label="License Type"  field-name="VisitLicenseType"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element3" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element3_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-125","field":"VisitId","operator":"!=","value":"undefined","type":"custom"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element3block_element0" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element0_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EInspection%20Information%3C/span%3E%3C/div%3E%0A%3Cdiv%3E&nbsp;%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element1_child"     card={card}  record={record}  placeholder=""  type="text"  label="Inspection Number"  field-name="VisitName"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element2" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element2_child"     card={card}  record={record}  placeholder=""  type="text"  field-name="VisitStatus"  label="Inspection Status"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element3" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element3_child"     card={card}  record={record}  placeholder=""  type="datetime"  label="Planned Start Time"  format="M/D/YYYY, h:mm a"  field-name="VisitPlannedStartTime"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div data-style-id="state0element3block_element4" class="" data-rindex={rindex} style=""><vlocity_ins-output-field data-style-id="state0element3block_element4_child"     card={card}  record={record}  placeholder=""  type="datetime"  label="Planned End Time"  format="M/D/YYYY, h:mm a"  field-name="VisitPlannedEndTime"  theme="slds"  ></vlocity_ins-output-field>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element4" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element4_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-116","field":"VisitId","operator":"==","value":"undefined","type":"custom"},{"id":"state-new-condition-134","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom","logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element4block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element4block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element4block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element4block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635076081874","type":"Custom","displayName":"Schedule Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Schedule_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Schedule","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element5" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element5_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-147","field":"VisitStatus","operator":"==","value":"Cancelled","type":"custom"},{"id":"state-new-condition-104","field":"VisitStatus","operator":"==","value":"Rescheduled","type":"custom","logicalOperator":"||"},{"id":"state-new-group-121","group":[{"id":"state-new-condition-120","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom"}],"logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element5block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element5block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element5block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element5block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635076063168","type":"Custom","displayName":"Reschedule Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Schedule_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Reschedule","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element6" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element6_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-156","field":"VisitStatus","operator":"==","value":"Scheduled","type":"custom"},{"id":"state-new-condition-165","field":"VisitStatus","operator":"==","value":"Pending Inspector Assignment","type":"custom","logicalOperator":"||"},{"id":"state-new-group-159","group":[{"id":"state-new-condition-158","field":"BLAStatus","operator":"==","value":"Inspection Phase","type":"custom"}],"logicalOperator":"&&"}]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element6block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_ins-block data-style-id="state0element6block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          
+        </div></vlocity_ins-block>
+    </div><div data-style-id="state0element6block_element1" class="" data-rindex={rindex} style=""><vlocity_ins-action data-style-id="state0element6block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1635121506483","type":"Custom","displayName":"Cancel Inspection","vlocityIcon":"","targetType":"Community Named Page","openUrlIn":"Current Window","Community Named Page":{"targetName":"Cancel_Inspection__c"},"hasExtraParams":true,"targetParams":{"BLAId":"{BLAId}","ButtonStatus":"Cancel","UserId":"{UserId}"}}'  display-as-button="true"  button-variant="brand"  styles='\{"label":{"textAlign":"center"}}'  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ></vlocity_ins-action>
+      </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>
